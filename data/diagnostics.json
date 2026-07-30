@@ -1,13 +1,1 @@
-{
-  "schema_version": 1,
-  "updated_at": "2026-07-30",
-  "flows": [
-    {
-      "id": "sound_no_output",
-      "title_ja": "音が出ない",
-      "title_en": "No Sound",
-      "source": "Manual + Verified Support",
-      "status": "active"
-    }
-  ]
-}
+[]

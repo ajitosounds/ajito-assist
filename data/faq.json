@@ -1,1556 +1,2334 @@
-{
-  "schema_version": 1,
-  "updated_at": "2026-07-30",
-  "product": "Groove Activator",
-  "items": [
-    {
-      "id": "SYS-001",
-      "category": "動作環境",
-      "q_ja": "どのMacで使えますか？",
-      "a_ja": "macOS 11（Big Sur）以降に対応しています。Apple Silicon（M1／M2／M3／M4）とIntel Macの両方で動作するUniversal Binaryです。",
-      "q_en": "Which Macs are supported?",
-      "a_en": "Groove Activator supports macOS 11 (Big Sur) or later and runs on both Apple Silicon (M1/M2/M3/M4) and Intel Macs as a Universal Binary.",
-      "keywords": [
-        "mac",
-        "macos",
-        "対応",
-        "動作環境",
-        "m1",
-        "m2",
-        "m3",
-        "m4",
-        "intel",
-        "system requirements"
-      ],
-      "source": "JP Manual Ch.03 p.5 / EN Manual Ch.03 p.6",
-      "chapter": null,
-      "source_type": "Manual"
-    },
-    {
-      "id": "SYS-002",
-      "category": "動作環境",
-      "q_ja": "Windowsで使えますか？",
-      "a_ja": "現在のGroove Activator v1.0.2 Queen EditionはMac用です。Windowsは対応環境に含まれていません。",
-      "q_en": "Does it work on Windows?",
-      "a_en": "Groove Activator v1.0.2 Queen Edition is currently for Mac. Windows is not listed as a supported platform.",
-      "keywords": [
-        "windows",
-        "win",
-        "pc",
-        "ウィンドウズ"
-      ],
-      "source": "JP Manual Ch.03 p.5 / EN Manual Ch.03 p.6",
-      "chapter": null,
-      "source_type": "Manual"
-    },
-    {
-      "id": "SYS-003",
-      "category": "動作環境",
-      "q_ja": "どのプラグイン形式に対応していますか？",
-      "a_ja": "AU、VST3、AAX、Standaloneに対応しています。AAXはPro Tools 2023.6以降が必要です。",
-      "q_en": "Which plugin formats are supported?",
-      "a_en": "AU, VST3, AAX and Standalone are supported. AAX requires Pro Tools 2023.6 or later.",
-      "keywords": [
-        "au",
-        "vst3",
-        "aax",
-        "standalone",
-        "形式",
-        "フォーマット",
-        "plugin format"
-      ],
-      "source": "JP Manual Ch.03 p.5 / EN Manual Ch.03 p.6",
-      "chapter": null,
-      "source_type": "Manual"
-    },
-    {
-      "id": "SYS-004",
-      "category": "動作環境",
-      "q_ja": "必要なメモリと空き容量は？",
-      "a_ja": "RAMは8GB以上、16GB以上を推奨します。ストレージはキットを含めて2GB以上の空き容量が必要です。",
-      "q_en": "How much RAM and storage do I need?",
-      "a_en": "8 GB RAM is required and 16 GB or more is recommended. At least 2 GB of free storage is required, including kits.",
-      "keywords": [
-        "ram",
-        "メモリ",
-        "容量",
-        "storage",
-        "空き",
-        "2gb",
-        "8gb",
-        "16gb"
-      ],
-      "source": "JP Manual Ch.03 p.5 / EN Manual Ch.03 p.6",
-      "chapter": null,
-      "source_type": "Manual"
-    },
-    {
-      "id": "INS-001",
-      "category": "インストール",
-      "q_ja": "どうやってインストールしますか？",
-      "a_ja": "購入後にShopifyから届くリンクでPKGインストーラーをダウンロードし、ダブルクリックして画面の案内に従ってください。",
-      "q_en": "How do I install Groove Activator?",
-      "a_en": "Download the PKG installer from the Shopify link sent after purchase, double-click it, and follow the on-screen instructions.",
-      "keywords": [
-        "インストール",
-        "install",
-        "pkg",
-        "ダウンロード",
-        "download",
-        "shopify"
-      ],
-      "source": "JP Manual Ch.04 p.5–9 / EN Manual Ch.04 p.7–10",
-      "chapter": null,
-      "source_type": "Manual"
-    },
-    {
-      "id": "INS-002",
-      "category": "インストール",
-      "q_ja": "インストールしたのにLogic Proに表示されません。",
-      "a_ja": "まずLogic Proを再起動してください。次にプラグインマネージャでGroove Activatorの検証状態を確認します。ソフトウェア音源トラックのAU Instruments → AJITO SOUNDS → Groove Activatorから開きます。表示されない場合は、マニュアル第24章のAU Cacheクリアを確認してください。",
-      "q_en": "Groove Activator does not appear in Logic Pro.",
-      "a_en": "Restart Logic Pro first, then check Groove Activator in Plug-in Manager. Open it from AU Instruments → AJITO SOUNDS → Groove Activator. If it still does not appear, follow the AU Cache clearing steps in Chapter 24.",
-      "keywords": [
-        "logic",
-        "logic pro",
-        "表示されない",
-        "見つからない",
-        "プラグインマネージャ",
-        "au cache",
-        "not appear",
-        "missing"
-      ],
-      "source": "JP Manual Ch.04 p.9 + Ch.24 p.41 / EN Manual Ch.04 p.11 + Ch.24",
-      "chapter": null,
-      "source_type": "Manual"
-    },
-    {
-      "id": "INS-003",
-      "category": "インストール",
-      "q_ja": "プラグインはどこにインストールされますか？",
-      "a_ja": "Standaloneは/Applications/Groove Activator.app、AUは/Library/Audio/Plug-Ins/Components/、VST3は/Library/Audio/Plug-Ins/VST3/、AAXは/Library/Application Support/Avid/Audio/Plug-Ins/に配置されます。",
-      "q_en": "Where are the plugin files installed?",
-      "a_en": "Standalone: /Applications/Groove Activator.app. AU: /Library/Audio/Plug-Ins/Components/. VST3: /Library/Audio/Plug-Ins/VST3/. AAX: /Library/Application Support/Avid/Audio/Plug-Ins/.",
-      "keywords": [
-        "インストール先",
-        "場所",
-        "component",
-        "vst3",
-        "aax",
-        "applications",
-        "install location"
-      ],
-      "source": "JP Manual Ch.04 p.9 / EN Manual Ch.04 p.10",
-      "chapter": null,
-      "source_type": "Manual"
-    },
-    {
-      "id": "INS-004",
-      "category": "インストール",
-      "q_ja": "アンインストールすると自作キットも消えますか？",
-      "a_ja": "同梱のUninstall Groove Activator.appは本体とプラグインだけを削除します。自作キット、設定、ライセンスなどのユーザーデータは残ります。",
-      "q_en": "Will uninstalling delete my custom kits?",
-      "a_en": "No. Uninstall Groove Activator.app removes only the application and plugin formats. Your custom kits, settings and license data are preserved.",
-      "keywords": [
-        "アンインストール",
-        "削除",
-        "自作キット",
-        "消える",
-        "uninstall",
-        "custom kits",
-        "user data"
-      ],
-      "source": "JP Manual Ch.04 p.9 / EN Manual Ch.04 p.11",
-      "chapter": null,
-      "source_type": "Manual"
-    },
-    {
-      "id": "LIC-001",
-      "category": "ライセンス",
-      "q_ja": "ライセンス認証はどうしますか？",
-      "a_ja": "初回起動時に表示されるLicense Activation画面へ、購入後のメールに記載されたシリアル番号を入力します。一度認証すれば、その後はオフラインで継続して使用できます。",
-      "q_en": "How do I activate my license?",
-      "a_en": "On first launch, enter the serial number from your purchase email in the License Activation screen. Once activated, Groove Activator can continue to run offline.",
-      "keywords": [
-        "ライセンス",
-        "認証",
-        "activation",
-        "activate",
-        "serial",
-        "シリアル",
-        "offline"
-      ],
-      "source": "JP Manual Ch.05 p.10–11 / EN Manual Ch.05 p.11–12",
-      "chapter": null,
-      "source_type": "Manual"
-    },
-    {
-      "id": "LIC-002",
-      "category": "ライセンス",
-      "q_ja": "ライセンス認証に失敗します。",
-      "a_ja": "まずメールからシリアル番号をコピー＆ペーストし、前後に余分な空白が入っていないか確認してください。認証時はインターネット接続も確認します。それでも認証できない場合は、購入情報と表示されたエラー内容を添えてサポートへ連絡してください。",
-      "q_en": "License activation failed.",
-      "a_en": "Copy and paste the serial number from your purchase email and make sure there are no extra spaces. Check your internet connection during activation. If it still fails, contact support with your purchase details and the exact error message.",
-      "keywords": [
-        "認証失敗",
-        "アクティベーション",
-        "エラー",
-        "serial invalid",
-        "activation failed",
-        "license error"
-      ],
-      "source": "Manual Ch.05 + Gota support workflow",
-      "chapter": null,
-      "source_type": "Manual + Verified Support"
-    },
-    {
-      "id": "LIC-003",
-      "category": "ライセンス",
-      "q_ja": "何台のコンピュータで使えますか？",
-      "a_ja": "1人のライセンス所有者が、2台のコンピュータで使用できます。別の人とライセンスを共有することはできません。",
-      "q_en": "How many computers can I use?",
-      "a_en": "One licensed user may use Groove Activator on up to two computers. The license may not be shared with another person.",
-      "keywords": [
-        "何台",
-        "2台",
-        "二台",
-        "computers",
-        "license share",
-        "共有"
-      ],
-      "source": "Manual license terms / EULA",
-      "chapter": null,
-      "source_type": "Manual"
-    },
-    {
-      "id": "AUD-001",
-      "category": "音が出ない",
-      "q_ja": "音が出ません。",
-      "a_ja": "まずGroove Activator画面のパッドを直接クリックしてください。パッドが反応するか、Masterメーターが動くか、Muteが有効になっていないかを確認します。次にDAW側のトラックと出力メーターを確認してください。",
-      "q_en": "There is no sound.",
-      "a_en": "Click a pad directly in Groove Activator. Check whether the pad responds, whether the Master meter moves, and whether Mute is enabled. Then check the DAW track and output meters.",
-      "keywords": [
-        "音が出ない",
-        "無音",
-        "no sound",
-        "silent",
-        "meter",
-        "メーター",
-        "mute"
-      ],
-      "source": "Gota support workflow / Manual Ch.07, Ch.12, Ch.24",
-      "chapter": null,
-      "source_type": "Manual + Verified Support"
-    },
-    {
-      "id": "AUD-002",
-      "category": "音が出ない",
-      "q_ja": "Pro Toolsで音が出ません。",
-      "a_ja": "まず別のソフト音源が鳴るか確認し、Pro Toolsのオーディオ設定とトラック出力を切り分けます。その後Groove Activatorのパッドを直接クリックし、パッド反応、Masterメーター、Mute、Pro Tools側のメーターを順に確認してください。",
-      "q_en": "There is no sound in Pro Tools.",
-      "a_en": "First confirm that another software instrument plays correctly to isolate the Pro Tools audio setup. Then click a Groove Activator pad directly and check the pad response, Master meter, Mute state and Pro Tools track meters.",
-      "keywords": [
-        "pro tools",
-        "プロツールス",
-        "音が出ない",
-        "no sound",
-        "aax"
-      ],
-      "source": "Gota support workflow / Manual Ch.24",
-      "chapter": null,
-      "source_type": "Manual + Verified Support"
-    },
-    {
-      "id": "VAR-001",
-      "category": "バリエーション",
-      "q_ja": "毎回同じサンプルが鳴ります。",
-      "a_ja": "プリセット001「LM 400G」で確認し、LayersとVariation（V1／V2／V3）が設定されているか見てください。Variationを自動で切り替えるにはAUTOを有効にします。プリセットによっては意図的に同じ音だけを使う場合もあります。",
-      "q_en": "The same sample plays on every hit.",
-      "a_en": "Test with preset 001 “LM 400G” and check that Layers and Variations (V1/V2/V3) are assigned. Enable AUTO for automatic variation switching. Some presets may intentionally use only one sample.",
-      "keywords": [
-        "同じサンプル",
-        "毎回同じ",
-        "variation",
-        "auto",
-        "v1",
-        "v2",
-        "v3",
-        "round robin"
-      ],
-      "source": "Manual Ch.10–11 + Gota's Tip",
-      "chapter": null,
-      "source_type": "Manual + Verified Support"
-    },
-    {
-      "id": "PER-001",
-      "category": "パフォーマンス",
-      "q_ja": "CPU使用率が高いです。",
-      "a_ja": "MasterのQuality設定をStudioからEcoへ下げてください。次にDAWのI/O Buffer Sizeを大きくします。録音時は小さめ、ミックス時は大きめのバッファが基本です。",
-      "q_en": "CPU usage is high.",
-      "a_en": "Lower the Master Quality setting from Studio to Eco, then increase the DAW I/O Buffer Size. A smaller buffer is useful while recording; a larger buffer is usually better while mixing.",
-      "keywords": [
-        "cpu",
-        "重い",
-        "遅い",
-        "overload",
-        "quality",
-        "eco",
-        "studio",
-        "buffer",
-        "バッファ"
-      ],
-      "source": "Manual Ch.15/24 + Gota's Tip",
-      "chapter": null,
-      "source_type": "Manual + Verified Support"
-    },
-    {
-      "id": "PER-002",
-      "category": "パフォーマンス",
-      "q_ja": "演奏にレイテンシーがあります。",
-      "a_ja": "Logic Proではオーディオ設定のI/O Buffer Sizeを小さくしてください。StandaloneではOptions → Audio MIDI SettingsからBuffer Sizeを小さくします。小さくしすぎるとCPU負荷や音切れが起きるため、安定する範囲で調整してください。",
-      "q_en": "There is noticeable latency.",
-      "a_en": "In Logic Pro, reduce the I/O Buffer Size in Audio settings. In Standalone, open Options → Audio MIDI Settings and reduce the Buffer Size. Very small buffers can cause high CPU load or dropouts, so choose the lowest stable value.",
-      "keywords": [
-        "レイテンシー",
-        "遅延",
-        "latency",
-        "buffer",
-        "バッファ",
-        "audio midi settings"
-      ],
-      "source": "Gota support workflow / Manual Ch.24",
-      "chapter": null,
-      "source_type": "Manual + Verified Support"
-    },
-    {
-      "id": "MID-001",
-      "category": "MIDI",
-      "q_ja": "Logic ProからMIDIファイルを書き出すには？",
-      "a_ja": "Logic Proで対象のMIDIリージョンを選択し、MIDIファイルとして書き出してください。Groove Activator自体からのドラッグ＆ドロップではありません。",
-      "q_en": "How do I export a MIDI file from Logic Pro?",
-      "a_en": "Select the MIDI region in Logic Pro and export it as a MIDI file. This is not done by dragging MIDI out of Groove Activator.",
-      "keywords": [
-        "midi 書き出し",
-        "midi export",
-        "logic",
-        "ドラッグ",
-        "drag"
-      ],
-      "source": "Gota's verified workflow",
-      "chapter": null,
-      "source_type": "Manual + Verified Support"
-    },
-    {
-      "id": "KIT-001",
-      "category": "キット管理",
-      "q_ja": "自分で作ったキットを保存するには？",
-      "a_ja": "BrowserからKit Saveを選び、空いているスロットを選択し、名前を付けて保存します。読み込むときはKit Loadを開き、対象のプリセットをダブルクリックします。",
-      "q_en": "How do I save a custom kit?",
-      "a_en": "In the Browser, choose Kit Save, select an empty slot, name the kit and save it. To load it, open Kit Load and double-click the desired preset.",
-      "keywords": [
-        "キット保存",
-        "kit save",
-        "custom kit",
-        "自作キット",
-        "kit load",
-        "読み込み"
-      ],
-      "source": "Manual Ch.20 + Gota's verified workflow",
-      "chapter": null,
-      "source_type": "Manual + Verified Support"
-    },
-    {
-      "id": "BKP-001",
-      "chapter": null,
-      "category": "バックアップ",
-      "q_ja": "アップデート前に何をバックアップすればいいですか？",
-      "a_ja": "File → Save Set → All 18 Padsを使って、18パッド全体のセットを保存してください。自作キットや設定のバックアップについてはマニュアル第23章も確認してください。",
-      "q_en": "What should I back up before updating?",
-      "a_en": "Use File → Save Set → All 18 Pads to save the complete 18-pad set. Also review Chapter 23 for backup and recovery information.",
-      "keywords": [
-        "バックアップ",
-        "アップデート",
-        "save set",
-        "all 18 pads",
-        "backup",
-        "update"
-      ],
-      "source": "Manual Ch.23 + Gota's verified workflow",
-      "source_type": "Manual + Verified Support"
-    },
-    {
-      "id": "KIT-002",
-      "category": "キット管理",
-      "q_ja": "最初はどのプリセットを選べばいいですか？",
-      "a_ja": "デモMIDIを読み込み、ループ再生しながらプリセットを順番に切り替えて、耳で合うものを選んでください。ジャンル名よりも、曲に必要な音のキャラクターで選ぶのがおすすめです。",
-      "q_en": "Which preset should I start with?",
-      "a_en": "Load the demo MIDI, loop it, and switch through presets while listening. Choose by the sound character your track needs rather than by genre name.",
-      "keywords": [
-        "おすすめプリセット",
-        "どのプリセット",
-        "preset",
-        "demo midi",
-        "ジャンル",
-        "genre"
-      ],
-      "source": "Gota's Tip",
-      "chapter": null,
-      "source_type": "Manual + Verified Support"
-    },
-    {
-      "id": "KIT-003",
-      "category": "キット管理",
-      "q_ja": "キットは全部作り直した方がいいですか？",
-      "a_ja": "最初に欲しい音の方向を決めて、必要な部分だけ編集してください。最初から全パラメータを触る必要はありません。気になるパッドだけ試聴し、必要ならダブルクリックで音を入れ替えます。",
-      "q_en": "Should I rebuild the whole kit?",
-      "a_en": "First decide the sound you want, then edit only what needs changing. You do not need to adjust every parameter. Audition individual pads and replace only the sounds that need it.",
-      "keywords": [
-        "全部編集",
-        "キット作り",
-        "customize",
-        "replace pad",
-        "音を入れ替え"
-      ],
-      "source": "Gota's Philosophy / Gota's Tip",
-      "chapter": null,
-      "source_type": "Manual + Verified Support"
-    },
-    {
-      "id": "OUT-001",
-      "category": "マルチアウト",
-      "q_ja": "Logic Proでマルチアウトを使うには？",
-      "a_ja": "ソフトウェア音源としてGroove Activatorを作成するときに「Multi Output (17xStereo)」を選んでください。Inspectorの「＋」でAuxを追加します。Out 16が必要な場合はMixer → Options → Create New Auxiliary Channel StripからAuxを作り、入力をOut 16に設定します。",
-      "q_en": "How do I use multi-output in Logic Pro?",
-      "a_en": "Create Groove Activator as “Multi Output (17xStereo)”, then add Aux channels using the “+” button in the Inspector. For Out 16, create a new Auxiliary Channel Strip from Mixer → Options and set its input to Out 16.",
-      "keywords": [
-        "マルチアウト",
-        "multi output",
-        "17xstereo",
-        "out 16",
-        "aux",
-        "logic"
-      ],
-      "source": "JP Manual Ch.21 p.38 / EN Manual Ch.21 p.54",
-      "chapter": null,
-      "source_type": "Manual"
-    },
-    {
-      "id": "OUT-002",
-      "category": "マルチアウト",
-      "q_ja": "マルチアウトにするとMaster Instant Activatorが効きません。",
-      "a_ja": "Out 1〜16へルーティングしたパッド、マイク、AA Voiceが1つでもあると、位相を揃えるためMaster Instant Activatorは自動的に無効になります。これは仕様です。Masterのサチュレーション／リミッターを使いたい音はMainに残してください。",
-      "q_en": "Master Instant Activator turns off when I use multi-output.",
-      "a_en": "If any pad, mic or AA voice is routed to Out 1–16, Master Instant Activator is automatically disabled to keep all outputs phase-aligned. This is intended behavior. Keep sounds on Main if you want master saturation and limiting.",
-      "keywords": [
-        "instant activator",
-        "無効",
-        "効かない",
-        "multi output",
-        "phase",
-        "位相",
-        "limiter"
-      ],
-      "source": "JP/EN Manual Ch.21",
-      "chapter": null,
-      "source_type": "Manual"
-    },
-    {
-      "id": "VOL-001",
-      "category": "音量",
-      "q_ja": "出力音量が小さいです。",
-      "a_ja": "Groove ActivatorのMaster出力、各パッド／ミキサーのレベル、DAWトラックのフェーダー、Stereo Outに挿しているプラグインの順に確認してください。Master Limiterや入出力ゲインの設定も確認します。",
-      "q_en": "The output level is too low.",
-      "a_en": "Check Groove Activator’s Master output, pad and mixer levels, the DAW track fader, and any plugins inserted on Stereo Out. Also review the Master Limiter and input/output gain settings.",
-      "keywords": [
-        "音量小さい",
-        "小さい",
-        "low volume",
-        "quiet",
-        "master",
-        "limiter",
-        "gain"
-      ],
-      "source": "Manual Ch.12/15 + Gota support workflow",
-      "chapter": null,
-      "source_type": "Manual + Verified Support"
-    },
-    {
-      "id": "UPD-001",
-      "category": "アップデート",
-      "q_ja": "アップデートはどうやって知ることができますか？",
-      "a_ja": "現在は購入者向けのメールでアップデート情報を案内します。案内メールの手順と対象バージョンを確認してから更新してください。",
-      "q_en": "How will I know when an update is available?",
-      "a_en": "Update information is currently sent to customers by email. Check the instructions and applicable version in the update email before installing.",
-      "keywords": [
-        "アップデート通知",
-        "update notification",
-        "新しいバージョン",
-        "email"
-      ],
-      "source": "Current support policy",
-      "chapter": null,
-      "source_type": "Manual"
-    },
-    {
-      "id": "WEL-001",
-      "chapter": 1,
-      "category": "製品について",
-      "q_ja": "Groove Activatorはどのような背景から生まれましたか？",
-      "a_ja": "屋敷豪太が1980年代から追求してきた、生演奏のグルーヴと機械ならではのグルーヴの融合を受け継ぎ、1995年のサンプリングCDを現代のDAW環境向けドラムプラグインとして再設計した製品です。",
-      "q_en": "What is the story behind Groove Activator?",
-      "a_en": "It carries forward Gota Yashiki’s long pursuit of combining human performance with machine-created groove, evolving the 1995 sampling CD into a modern DAW drum plugin.",
-      "keywords": [
-        "背景",
-        "歴史",
-        "1995",
-        "屋敷豪太",
-        "story",
-        "history"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.01 p.3 / EN Manual Ch.01 p.4"
-    },
-    {
-      "id": "OVR-001",
-      "chapter": 2,
-      "category": "製品について",
-      "q_ja": "Groove Activatorとは何ですか？",
-      "a_ja": "生ドラムの表現、アナログドラムマシンの存在感、オーディオループを使ったビートメイクを、ひとつのプラグインで組み合わせられるMac用ドラムサンプラーです。",
-      "q_en": "What is Groove Activator?",
-      "a_en": "It is a Mac drum sampler plugin combining expressive acoustic drums, analog drum-machine character, and audio-loop beat making in one environment.",
-      "keywords": [
-        "何",
-        "概要",
-        "ドラムサンプラー",
-        "what is",
-        "overview"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.02 p.4 / EN Manual Ch.02 p.4"
-    },
-    {
-      "id": "OVR-002",
-      "chapter": 2,
-      "category": "製品について",
-      "q_ja": "3つのコアモジュールは何ですか？",
-      "a_ja": "18パッドのPad Sampler、14種類の音源を備えたAnalog Activator、オーディオループをスライスして演奏できるSlice Activatorです。単独でも組み合わせても使用できます。",
-      "q_en": "What are the three core modules?",
-      "a_en": "They are the 18-pad Pad Sampler, the 14-section Analog Activator, and the loop-based Slice Activator. They can be used separately or combined.",
-      "keywords": [
-        "3つ",
-        "コアモジュール",
-        "pad sampler",
-        "analog activator",
-        "slice activator"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.02 p.4 / EN Manual Ch.02 p.4"
-    },
-    {
-      "id": "OVR-003",
-      "chapter": 2,
-      "category": "製品について",
-      "q_ja": "SIMPLEモードとADVANCEDモードの違いは？",
-      "a_ja": "SIMPLEモードはすぐにグルーヴ作りを始められるよう主要機能を分かりやすくまとめた表示です。ADVANCEDモードでは、より詳細な編集パラメータを使用できます。",
-      "q_en": "What is the difference between SIMPLE and ADVANCED modes?",
-      "a_en": "SIMPLE mode presents the main controls for quick groove creation. ADVANCED mode exposes the deeper editing parameters.",
-      "keywords": [
-        "simple",
-        "advanced",
-        "モード",
-        "違い"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.02 p.4 / EN Manual Ch.02 p.5"
-    },
-    {
-      "id": "SYS-005",
-      "chapter": 3,
-      "category": "動作環境",
-      "q_ja": "必要なディスプレイ解像度は？",
-      "a_ja": "1440×900以上のディスプレイを推奨環境としています。",
-      "q_en": "What display resolution is required?",
-      "a_en": "A display resolution of 1440 × 900 or higher is required.",
-      "keywords": [
-        "ディスプレイ",
-        "解像度",
-        "1440",
-        "900",
-        "display"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.03 p.5 / EN Manual Ch.03 p.6"
-    },
-    {
-      "id": "SYS-006",
-      "chapter": 3,
-      "category": "動作環境",
-      "q_ja": "動作確認済みDAWは？",
-      "a_ja": "Logic Pro 11以降、Pro Tools 2024以降、Ableton Live 12、Cubase 13、Studio One 6です。",
-      "q_en": "Which DAWs have been tested?",
-      "a_en": "Logic Pro 11 or later, Pro Tools 2024 or later, Ableton Live 12, Cubase 13, and Studio One 6.",
-      "keywords": [
-        "daw",
-        "logic",
-        "pro tools",
-        "ableton",
-        "cubase",
-        "studio one"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.03 p.5 / EN Manual Ch.03 p.6"
-    },
-    {
-      "id": "INS-005",
-      "chapter": 4,
-      "category": "インストール",
-      "q_ja": "インストーラーはAppleの公証を受けていますか？",
-      "a_ja": "はい。PKGインストーラーはAppleによる署名・公証済みです。",
-      "q_en": "Is the installer signed and notarized by Apple?",
-      "a_en": "Yes. The PKG installer is signed and notarized by Apple.",
-      "keywords": [
-        "公証",
-        "署名",
-        "notarized",
-        "gatekeeper"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.04 p.5 / EN Manual Ch.04 p.7"
-    },
-    {
-      "id": "INS-006",
-      "chapter": 4,
-      "category": "インストール",
-      "q_ja": "インストール容量はどのくらいですか？",
-      "a_ja": "標準インストールでは約1.13GBです。十分な空き容量を確保してから実行してください。",
-      "q_en": "How large is the installation?",
-      "a_en": "The standard installation is approximately 1.13 GB. Make sure sufficient free space is available.",
-      "keywords": [
-        "容量",
-        "1.13",
-        "installation size"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.04 p.8 / EN Manual Ch.04 p.9"
-    },
-    {
-      "id": "INS-007",
-      "chapter": 4,
-      "category": "インストール",
-      "q_ja": "ユーザーデータはどこに保存されますか？",
-      "a_ja": "ユーザーデータは ~/Library/Application Support/GOTARecords/GrooveActivator/ に保存されます。Kits、Pads、Presets、Recordings、Settings、license.jsonが含まれます。",
-      "q_en": "Where is user data stored?",
-      "a_en": "User data is stored in ~/Library/Application Support/GOTARecords/GrooveActivator/, including Kits, Pads, Presets, Recordings, Settings, and license.json.",
-      "keywords": [
-        "ユーザーデータ",
-        "library",
-        "kits",
-        "recordings",
-        "license.json"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.04 p.9 / EN Manual Ch.04 p.11"
-    },
-    {
-      "id": "INS-008",
-      "chapter": 4,
-      "category": "インストール",
-      "q_ja": "完全に削除するにはどうすればいいですか？",
-      "a_ja": "アンインストーラーで本体とプラグインを削除した後、必要な場合だけFinderで ~/Library/Application Support/GOTARecords/GrooveActivator/ を削除します。削除前に必要なキットを必ずバックアップしてください。",
-      "q_en": "How do I completely remove Groove Activator?",
-      "a_en": "After running the uninstaller, delete ~/Library/Application Support/GOTARecords/GrooveActivator/ in Finder only if you also want to remove all user data. Back up any kits you need first.",
-      "keywords": [
-        "完全削除",
-        "手動削除",
-        "remove everything",
-        "finder"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.04 p.9 / EN Manual Ch.04 p.11"
-    },
-    {
-      "id": "LIC-004",
-      "chapter": 5,
-      "category": "ライセンス",
-      "q_ja": "認証後もインターネット接続が必要ですか？",
-      "a_ja": "いいえ。初回認証が完了した後は、オフラインで継続して使用できます。",
-      "q_en": "Do I need an internet connection after activation?",
-      "a_en": "No. After the initial activation is complete, Groove Activator continues to work offline.",
-      "keywords": [
-        "オフライン",
-        "インターネット",
-        "offline",
-        "internet"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.05 p.10 / EN Manual Ch.05 p.11"
-    },
-    {
-      "id": "LIC-005",
-      "chapter": 5,
-      "category": "ライセンス",
-      "q_ja": "シリアル番号はどこにありますか？",
-      "a_ja": "購入後に送信されるメールに記載されています。形式はXXXXX-XXXXX-XXXXXです。",
-      "q_en": "Where can I find my serial number?",
-      "a_en": "It is included in the email sent after purchase and has the format XXXXX-XXXXX-XXXXX.",
-      "keywords": [
-        "シリアル",
-        "メール",
-        "serial number",
-        "purchase email"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.05 p.10 / EN Manual Ch.05 p.11"
-    },
-    {
-      "id": "LIC-006",
-      "chapter": 5,
-      "category": "ライセンス",
-      "q_ja": "ライセンスファイルはどこに保存されますか？",
-      "a_ja": "ユーザーデータフォルダ内の license.json に保存されます。",
-      "q_en": "Where is the license file stored?",
-      "a_en": "It is stored as license.json inside the Groove Activator user-data folder.",
-      "keywords": [
-        "license.json",
-        "ライセンスファイル",
-        "stored"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.05 p.11 / EN Manual Ch.05 p.11"
-    },
-    {
-      "id": "QST-001",
-      "chapter": 6,
-      "category": "クイックスタート",
-      "q_ja": "初回起動後、最初に何をすればいいですか？",
-      "a_ja": "ライセンス認証後、ファクトリーキットまたはプリセットを読み込み、画面上のパッドまたはMIDIキーボードから演奏してください。まず音が出ることを確認してから編集を始めます。",
-      "q_en": "What should I do after the first launch?",
-      "a_en": "After activation, load a factory kit or preset and play it from the on-screen pads or a MIDI keyboard. Confirm that audio is working before editing.",
-      "keywords": [
-        "初回起動",
-        "最初",
-        "quick start",
-        "first launch"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.06 p.12 / EN Manual Ch.06 p.13"
-    },
-    {
-      "id": "QST-002",
-      "chapter": 6,
-      "category": "クイックスタート",
-      "q_ja": "MIDIキーボードがなくても音を確認できますか？",
-      "a_ja": "はい。画面上の18パッドをクリックして音を確認できます。",
-      "q_en": "Can I test sounds without a MIDI keyboard?",
-      "a_en": "Yes. Click the 18 on-screen pads to audition the sounds.",
-      "keywords": [
-        "midiキーボードなし",
-        "画面パッド",
-        "on-screen pads"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.06 p.12 / EN Manual Ch.06 p.13"
-    },
-    {
-      "id": "UI-001",
-      "chapter": 7,
-      "category": "インターフェイス",
-      "q_ja": "画面の主なエリアは何ですか？",
-      "a_ja": "主にパッドエリア、エディットエリア、ミキサー／モジュール、ブラウザー、マスター／グローバル設定で構成されています。",
-      "q_en": "What are the main areas of the interface?",
-      "a_en": "The interface is organized around the pads, edit section, mixer/modules, browser, and master/global controls.",
-      "keywords": [
-        "画面",
-        "エリア",
-        "interface",
-        "overview"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.07 p.13 / EN Manual Ch.07 p.17"
-    },
-    {
-      "id": "UI-002",
-      "chapter": 7,
-      "category": "インターフェイス",
-      "q_ja": "詳細なパラメータが表示されません。",
-      "a_ja": "SIMPLEモードになっている可能性があります。ADVANCEDモードへ切り替えると、詳細な編集パラメータが表示されます。",
-      "q_en": "I cannot see the detailed parameters.",
-      "a_en": "You may be in SIMPLE mode. Switch to ADVANCED mode to expose the detailed editing controls.",
-      "keywords": [
-        "詳細",
-        "表示されない",
-        "advanced",
-        "simple"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.07 p.13 / EN Manual Ch.07 p.17"
-    },
-    {
-      "id": "PAD-001",
-      "chapter": 8,
-      "category": "パッド",
-      "q_ja": "パッドはいくつありますか？",
-      "a_ja": "Pad Samplerには18個のパッドがあります。各パッドはMIDIノートから演奏できます。",
-      "q_en": "How many pads are available?",
-      "a_en": "The Pad Sampler has 18 pads, each playable from a MIDI note.",
-      "keywords": [
-        "18",
-        "パッド数",
-        "pads"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.08 p.16 / EN Manual Ch.08 p.21"
-    },
-    {
-      "id": "PAD-002",
-      "chapter": 8,
-      "category": "パッド",
-      "q_ja": "パッドを選択・編集するには？",
-      "a_ja": "編集したいパッドをクリックして選択します。選択中のパッドに対して、サンプル、レイヤー、バリエーション、ミキサーなどの編集を行います。",
-      "q_en": "How do I select and edit a pad?",
-      "a_en": "Click the pad you want to edit. The sample, layer, variation, and mixer controls then apply to the selected pad.",
-      "keywords": [
-        "選択",
-        "編集",
-        "selected pad",
-        "click pad"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.08 p.16 / EN Manual Ch.08 p.21"
-    },
-    {
-      "id": "PAD-003",
-      "chapter": 8,
-      "category": "パッド",
-      "q_ja": "パッドをクリックすると何が開きますか？",
-      "a_ja": "選択したパッドの簡易エディットが開き、現在の音や主な設定を確認・調整できます。",
-      "q_en": "What opens when I click a pad?",
-      "a_en": "A quick-edit view opens for the selected pad, allowing you to inspect and adjust its main settings.",
-      "keywords": [
-        "簡易エディット",
-        "quick edit",
-        "pad click"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.08 p.18 / EN Manual Ch.08 p.23"
-    },
-    {
-      "id": "SMP-001",
-      "chapter": 9,
-      "category": "サンプル編集",
-      "q_ja": "サンプルの開始位置と終了位置を変更できますか？",
-      "a_ja": "はい。Start PointとEnd Pointを、波形ディスプレイのハンドルまたは数値で設定できます。",
-      "q_en": "Can I change the sample start and end points?",
-      "a_en": "Yes. Set Start Point and End Point using the waveform handles or numeric values.",
-      "keywords": [
-        "start point",
-        "end point",
-        "開始位置",
-        "終了位置"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.09 p.18 / EN Manual Ch.09 p.24"
-    },
-    {
-      "id": "SMP-002",
-      "chapter": 9,
-      "category": "サンプル編集",
-      "q_ja": "サンプルをループ再生できますか？",
-      "a_ja": "はい。LoopをONにすると、End Pointへ到達した後にLoop Pointから再生を続けます。",
-      "q_en": "Can a sample be looped?",
-      "a_en": "Yes. When Loop is enabled, playback continues from the Loop Point after reaching the End Point.",
-      "keywords": [
-        "loop",
-        "loop point",
-        "ループ"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.09 p.18 / EN Manual Ch.09 p.24"
-    },
-    {
-      "id": "SMP-003",
-      "chapter": 9,
-      "category": "サンプル編集",
-      "q_ja": "ピッチはどこまで変更できますか？",
-      "a_ja": "Pitch（Tune）は±24セミトーンの範囲で調整できます。",
-      "q_en": "What is the pitch range?",
-      "a_en": "Pitch (Tune) can be adjusted over a range of ±24 semitones.",
-      "keywords": [
-        "pitch",
-        "tune",
-        "24",
-        "ピッチ",
-        "セミトーン"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.09 p.18 / EN Manual Ch.09 p.24"
-    },
-    {
-      "id": "SMP-004",
-      "chapter": 9,
-      "category": "サンプル編集",
-      "q_ja": "フィルターとエンベロープはありますか？",
-      "a_ja": "Low-PassとHigh-Passの2段フィルター、Attack／Decay／Releaseのエンベロープがあります。",
-      "q_en": "Are filter and envelope controls available?",
-      "a_en": "Yes. There are Low-Pass and High-Pass filters plus an Attack/Decay/Release envelope.",
-      "keywords": [
-        "filter",
-        "envelope",
-        "attack",
-        "decay",
-        "release",
-        "フィルター"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.09 p.18 / EN Manual Ch.09 p.24"
-    },
-    {
-      "id": "SMP-005",
-      "chapter": 9,
-      "category": "サンプル編集",
-      "q_ja": "波形編集は全レイヤーへ一括適用されますか？",
-      "a_ja": "いいえ。波形編集タブのパラメータは、選択中のPad／Layer／Micだけに作用します。ALL LAYERやALL CHは適用されません。",
-      "q_en": "Do waveform edits apply to all layers?",
-      "a_en": "No. Waveform-edit controls affect only the selected Pad/Layer/Mic. ALL LAYER and ALL CH do not apply there.",
-      "keywords": [
-        "all layer",
-        "all ch",
-        "波形編集",
-        "selected layer"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.09 p.18 / EN Manual Ch.09 p.24"
-    },
-    {
-      "id": "VEL-001",
-      "chapter": 10,
-      "category": "ベロシティレイヤー",
-      "q_ja": "ベロシティレイヤーとは何ですか？",
-      "a_ja": "演奏の強さに応じて異なるサンプルを鳴らす仕組みです。弱く叩いた音から強く叩いた音まで、自然なダイナミクスを作れます。",
-      "q_en": "What are velocity layers?",
-      "a_en": "Velocity layers trigger different samples according to playing strength, creating natural dynamics from soft to hard hits.",
-      "keywords": [
-        "velocity",
-        "layer",
-        "強弱",
-        "ベロシティ"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.10 p.20 / EN Manual Ch.10 p.27"
-    },
-    {
-      "id": "VEL-002",
-      "chapter": 10,
-      "category": "ベロシティレイヤー",
-      "q_ja": "レイヤーとバリエーションの違いは？",
-      "a_ja": "レイヤーは主にベロシティの強弱で切り替わります。バリエーションは同じ強さの演奏でも異なるサンプルを鳴らし、繰り返し感を減らします。",
-      "q_en": "What is the difference between layers and variations?",
-      "a_en": "Layers respond mainly to velocity ranges. Variations alternate samples within a similar playing strength to reduce repetition.",
-      "keywords": [
-        "レイヤー",
-        "バリエーション",
-        "違い",
-        "layers variations"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.10 p.20 / EN Manual Ch.10 p.27"
-    },
-    {
-      "id": "VEL-003",
-      "chapter": 10,
-      "category": "ベロシティレイヤー",
-      "q_ja": "ALL LAYERは何に使いますか？",
-      "a_ja": "対応する編集項目を複数レイヤーへまとめて適用するときに使用します。ただし波形編集タブなど、選択中レイヤーだけに作用する項目もあります。",
-      "q_en": "What is ALL LAYER used for?",
-      "a_en": "It applies supported edits across multiple layers. Some controls, such as waveform editing, still affect only the selected layer.",
-      "keywords": [
-        "all layer",
-        "全レイヤー",
-        "一括"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.10 p.20 / EN Manual Ch.10 p.27"
-    },
-    {
-      "id": "VAR-002",
-      "chapter": 11,
-      "category": "バリエーション",
-      "q_ja": "バリエーションとは何ですか？",
-      "a_ja": "同じベロシティ帯でも複数のサンプルを切り替えて鳴らし、同じ音の機械的な繰り返しを抑える機能です。",
-      "q_en": "What are variations?",
-      "a_en": "Variations alternate multiple samples within the same velocity area to reduce mechanical repetition.",
-      "keywords": [
-        "variation",
-        "バリエーション",
-        "繰り返し"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.11 p.22 / EN Manual Ch.11 p.30"
-    },
-    {
-      "id": "VAR-003",
-      "chapter": 11,
-      "category": "バリエーション",
-      "q_ja": "AUTOは何をしますか？",
-      "a_ja": "AUTOを有効にすると、登録されたV1、V2、V3などのバリエーションを自動的に切り替えて再生します。",
-      "q_en": "What does AUTO do?",
-      "a_en": "AUTO automatically switches among assigned variations such as V1, V2, and V3 during playback.",
-      "keywords": [
-        "auto",
-        "v1",
-        "v2",
-        "v3",
-        "自動"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.11 p.22 / EN Manual Ch.11 p.30"
-    },
-    {
-      "id": "MIX-001",
-      "chapter": 12,
-      "category": "ミキサー",
-      "q_ja": "各パッドの音量やパンを調整できますか？",
-      "a_ja": "はい。ミキサーで各パッド／チャンネルのレベル、パン、ミュートなどを調整できます。",
-      "q_en": "Can I adjust each pad’s level and pan?",
-      "a_en": "Yes. The mixer provides level, pan, mute, and related controls for each pad/channel.",
-      "keywords": [
-        "mixer",
-        "volume",
-        "pan",
-        "mute",
-        "ミキサー",
-        "パン"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.12 p.22 / EN Manual Ch.12 p.31"
-    },
-    {
-      "id": "MIX-002",
-      "chapter": 12,
-      "category": "ミキサー",
-      "q_ja": "ALL CHは何に使いますか？",
-      "a_ja": "対応するミキサー操作を複数チャンネルへまとめて適用するために使います。選択中のチャンネルだけに作用する編集項目もあるため、画面表示を確認してください。",
-      "q_en": "What is ALL CH used for?",
-      "a_en": "It applies supported mixer operations across multiple channels. Some edit controls still affect only the selected channel.",
-      "keywords": [
-        "all ch",
-        "全チャンネル",
-        "一括"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.12 p.22 / EN Manual Ch.12 p.31"
-    },
-    {
-      "id": "ANA-001",
-      "chapter": 13,
-      "category": "Analog Activator",
-      "q_ja": "Analog Activatorとは何ですか？",
-      "a_ja": "ヴィンテージ・アナログドラムマシンのDNAに着想を得た、14種類の音源セクションを持つモジュールです。生ドラムへレイヤーして使うこともできます。",
-      "q_en": "What is Analog Activator?",
-      "a_en": "It is a 14-section module inspired by vintage analog drum machines and can also be layered with acoustic drums.",
-      "keywords": [
-        "analog activator",
-        "アナログ",
-        "14"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.13 p.25 / EN Manual Ch.13 p.35"
-    },
-    {
-      "id": "ANA-002",
-      "chapter": 13,
-      "category": "Analog Activator",
-      "q_ja": "Analog Activatorにはどんな音がありますか？",
-      "a_ja": "Tom、Sweep、Rimshot、Cowbell、Clapなどを含む14種類の音源セクションがあります。",
-      "q_en": "What sounds are included in Analog Activator?",
-      "a_en": "Its 14 sections include sounds such as Toms, Sweeps, Rimshot, Cowbell, and Clap.",
-      "keywords": [
-        "tom",
-        "sweep",
-        "rimshot",
-        "cowbell",
-        "clap"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.13 p.25 / EN Manual Ch.13 p.35"
-    },
-    {
-      "id": "ANA-003",
-      "chapter": 13,
-      "category": "Analog Activator",
-      "q_ja": "生ドラムとAnalog Activatorを重ねられますか？",
-      "a_ja": "はい。Analog Activatorの音をPad Samplerの生ドラムへレイヤーし、太さや存在感を加えられます。",
-      "q_en": "Can Analog Activator be layered with acoustic drums?",
-      "a_en": "Yes. Layer Analog Activator with Pad Sampler drums to add weight and analog character.",
-      "keywords": [
-        "レイヤー",
-        "生ドラム",
-        "layer analog"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.13 p.25 / EN Manual Ch.13 p.35"
-    },
-    {
-      "id": "SLC-001",
-      "chapter": 14,
-      "category": "Slice Activator",
-      "q_ja": "Slice Activatorとは何ですか？",
-      "a_ja": "オーディオループを自動でスライスし、それぞれのスライスをパッドへ割り当てて演奏できるモジュールです。",
-      "q_en": "What is Slice Activator?",
-      "a_en": "It automatically slices an audio loop and assigns the slices to pads for performance and rearrangement.",
-      "keywords": [
-        "slice activator",
-        "スライス",
-        "audio loop"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.14 p.27 / EN Manual Ch.14 p.39"
-    },
-    {
-      "id": "SLC-002",
-      "chapter": 14,
-      "category": "Slice Activator",
-      "q_ja": "スライスをドラムマイクへ送れますか？",
-      "a_ja": "はい。スライスした音をCmd+C／Cmd+Vでドラムマイクチャンネルへコピー＆ペーストし、ループ素材からマルチマイクキットを組み立てられます。",
-      "q_en": "Can I send a slice to a drum-mic channel?",
-      "a_en": "Yes. Use Cmd+C/Cmd+V to copy a slice into a drum-mic channel and build a multi-mic kit from loop material.",
-      "keywords": [
-        "cmd c",
-        "cmd v",
-        "コピー",
-        "ペースト",
-        "drum mic",
-        "slice"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.14 p.27 / EN Manual Ch.14 p.39"
-    },
-    {
-      "id": "INS-IA-001",
-      "chapter": 15,
-      "category": "Instant Activator",
-      "q_ja": "Instant Activatorとは何ですか？",
-      "a_ja": "音へ即座に質感や存在感を加えるための処理モジュールです。Masterでは入力サチュレーションとブリックウォール・リミッターを使用します。",
-      "q_en": "What is Instant Activator?",
-      "a_en": "It is a processing module for quickly adding character and presence. On the Master it includes input saturation and a brick-wall limiter.",
-      "keywords": [
-        "instant activator",
-        "saturation",
-        "limiter",
-        "サチュレーション"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.15 p.29 / EN Manual Ch.15 p.42"
-    },
-    {
-      "id": "INS-IA-002",
-      "chapter": 15,
-      "category": "Instant Activator",
-      "q_ja": "QualityのStudioとEcoはどう使い分けますか？",
-      "a_ja": "Studioは高品質処理、EcoはCPU負荷を抑える設定です。負荷が高い場合はEcoを試してください。",
-      "q_en": "What is the difference between Studio and Eco quality?",
-      "a_en": "Studio prioritizes processing quality, while Eco reduces CPU usage. Try Eco if performance is heavy.",
-      "keywords": [
-        "quality",
-        "studio",
-        "eco",
-        "cpu"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.15 p.29 / EN Manual Ch.15 p.42"
-    },
-    {
-      "id": "PIT-001",
-      "chapter": 16,
-      "category": "ピッチベンド",
-      "q_ja": "ピッチベンドを使えますか？",
-      "a_ja": "はい。Pitch Bend設定を使って、MIDIピッチベンド操作に対する音程変化を設定できます。",
-      "q_en": "Can I use pitch bend?",
-      "a_en": "Yes. Pitch Bend settings control how the instrument responds to MIDI pitch-bend messages.",
-      "keywords": [
-        "pitch bend",
-        "ピッチベンド",
-        "midi"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.16 p.31 / EN Manual Ch.16 p.45"
-    },
-    {
-      "id": "HHT-001",
-      "chapter": 17,
-      "category": "Hi-Hat／パッド設定",
-      "q_ja": "ハイハットの開閉を設定できますか？",
-      "a_ja": "はい。Hi-Hat設定で、オープン／クローズなどのハイハット動作とパッド設定を調整できます。",
-      "q_en": "Can I configure open and closed hi-hat behavior?",
-      "a_en": "Yes. Hi-Hat settings control open/closed behavior and related pad assignments.",
-      "keywords": [
-        "hi-hat",
-        "ハイハット",
-        "open",
-        "closed"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.17 p.31 / EN Manual Ch.17 p.46"
-    },
-    {
-      "id": "PADSET-001",
-      "chapter": 17,
-      "category": "Hi-Hat／パッド設定",
-      "q_ja": "パッドのMIDIノートを変更できますか？",
-      "a_ja": "パッド設定から各パッドのMIDI割り当てを管理できます。外部コントローラーに合わせて設定してください。",
-      "q_en": "Can I change a pad’s MIDI note assignment?",
-      "a_en": "Use Pad Settings to manage the MIDI assignment for each pad and match your external controller.",
-      "keywords": [
-        "midi note",
-        "ノート",
-        "pad settings",
-        "割り当て"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.17 p.31 / EN Manual Ch.17 p.46"
-    },
-    {
-      "id": "MLN-001",
-      "chapter": 18,
-      "category": "MIDI LEARN",
-      "q_ja": "MIDI LEARNはどう使いますか？",
-      "a_ja": "割り当てたいパラメータでMIDI LEARNを開始し、続けて外部MIDIコントローラーのノブやボタンを操作して割り当てます。",
-      "q_en": "How do I use MIDI LEARN?",
-      "a_en": "Start MIDI LEARN on the target parameter, then move the knob or button on your external MIDI controller to create the assignment.",
-      "keywords": [
-        "midi learn",
-        "コントローラー",
-        "割り当て",
-        "learn"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.18 p.33 / EN Manual Ch.18 p.48"
-    },
-    {
-      "id": "KEY-001",
-      "chapter": 19,
-      "category": "キーボードショートカット",
-      "q_ja": "コピーとペーストのショートカットは？",
-      "a_ja": "macOSの標準操作と同様に、Cmd+Cでコピー、Cmd+Vでペーストします。Slice Activatorからドラムマイクへ音を移す操作にも使用します。",
-      "q_en": "What are the copy and paste shortcuts?",
-      "a_en": "Use Cmd+C to copy and Cmd+V to paste. These shortcuts are also used to move Slice Activator material into drum-mic channels.",
-      "keywords": [
-        "cmd c",
-        "cmd v",
-        "shortcut",
-        "ショートカット",
-        "copy paste"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.19 p.34 / EN Manual Ch.19 p.50"
-    },
-    {
-      "id": "KEY-002",
-      "chapter": 19,
-      "category": "キーボードショートカット",
-      "q_ja": "キーボードショートカットの一覧はどこですか？",
-      "a_ja": "マニュアル第19章「キーボードショートカット」を確認してください。",
-      "q_en": "Where can I find the keyboard shortcut list?",
-      "a_en": "See Chapter 19, Keyboard Shortcuts, in the user manual.",
-      "keywords": [
-        "一覧",
-        "shortcut list",
-        "第19章"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.19 p.34 / EN Manual Ch.19 p.50"
-    },
-    {
-      "id": "KIT-004",
-      "chapter": 20,
-      "category": "プリセット／キット",
-      "q_ja": "同梱プリセットには何がありますか？",
-      "a_ja": "SR 1／SR 2、Chillin' 1／2、S II S 1、Groove Ride 1／2／3が収録されています。",
-      "q_en": "Which presets are included?",
-      "a_en": "Included presets are SR 1/2, Chillin' 1/2, S II S 1, and Groove Ride 1/2/3.",
-      "keywords": [
-        "sr 1",
-        "chillin",
-        "s ii s",
-        "groove ride",
-        "同梱プリセット"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.20 p.37 / EN Manual Ch.20 p.52"
-    },
-    {
-      "id": "KIT-005",
-      "chapter": 20,
-      "category": "プリセット／キット",
-      "q_ja": ".gdapackとは何ですか？",
-      "a_ja": ".gdapackはZIPベースの自己完結型キットコンテナです。サンプル音源、全パッドとMic設定、Analog Activator、Slice Activator、Master／Pitch Bend／Hi-Hat／Instant Activator設定、メタデータを含みます。",
-      "q_en": "What is a .gdapack file?",
-      "a_en": "A .gdapack is a self-contained ZIP-based kit container holding samples, pad/mic settings, Analog and Slice Activator states, master/global settings, and metadata.",
-      "keywords": [
-        "gdapack",
-        "kit pack",
-        "拡張子",
-        "zip"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.20 p.37 / EN Manual Ch.20 p.52"
-    },
-    {
-      "id": "KIT-006",
-      "chapter": 20,
-      "category": "プリセット／キット",
-      "q_ja": "キットパックを書き出し・読み込みできますか？",
-      "a_ja": "はい。Fileメニューから現在のキットを保存し、Kit Packの書き出し／読み込みができます。",
-      "q_en": "Can I export and import Kit Packs?",
-      "a_en": "Yes. Use the File menu to save the current kit and export or import Kit Packs.",
-      "keywords": [
-        "kit pack",
-        "export",
-        "import",
-        "書き出し",
-        "読み込み"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.20 p.37 / EN Manual Ch.20 p.52"
-    },
-    {
-      "id": "KIT-007",
-      "chapter": 20,
-      "category": "プリセット／キット",
-      "q_ja": "キットには何が保存されますか？",
-      "a_ja": "Drum Engineの全パッドとMic設定、Analog Activator全14セクション、Slice Activator、Master、Pitch Bend、Hi-Hat、Instant Activator、作者名・説明・タグ・サムネイルなどが保存されます。",
-      "q_en": "What is stored in a kit?",
-      "a_en": "A kit stores all Drum Engine pads and mics, all 14 Analog Activator sections, Slice Activator, master/global settings, and metadata such as author, description, tags, and thumbnail.",
-      "keywords": [
-        "キット内容",
-        "metadata",
-        "サムネイル",
-        "what is stored"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.20 p.37 / EN Manual Ch.20 p.52"
-    },
-    {
-      "id": "OUT-003",
-      "chapter": 21,
-      "category": "マルチアウト",
-      "q_ja": "出力バスはいくつありますか？",
-      "a_ja": "Bus 0のMainとBus 1～16のOut 1～16、合計17系統のステレオ出力に対応します。",
-      "q_en": "How many output buses are available?",
-      "a_en": "There are 17 stereo buses: Bus 0 Main plus Bus 1–16 (Out 1–16).",
-      "keywords": [
-        "17",
-        "bus",
-        "out 1",
-        "out 16",
-        "出力"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.21 p.38 / EN Manual Ch.21 p.54"
-    },
-    {
-      "id": "OUT-004",
-      "chapter": 21,
-      "category": "マルチアウト",
-      "q_ja": "Logicで16xStereoと17xStereoのどちらを選びますか？",
-      "a_ja": "Groove Activatorでは「Multi Output (17xStereo)」を推奨します。16xStereoはLogicが生成する汎用構成で、Out 16を利用できません。",
-      "q_en": "Should I choose 16xStereo or 17xStereo in Logic?",
-      "a_en": "Choose Multi Output (17xStereo). The generic 16xStereo configuration generated by Logic does not provide Out 16.",
-      "keywords": [
-        "16xstereo",
-        "17xstereo",
-        "logic",
-        "out16"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.21 p.38 / EN Manual Ch.21 p.54"
-    },
-    {
-      "id": "OUT-005",
-      "chapter": 21,
-      "category": "マルチアウト",
-      "q_ja": "なぜマルチアウト時にMaster Instant Activatorが無効になりますか？",
-      "a_ja": "Master Instant Activatorには約4msのルックアヘッド遅延があり、ゼロレイテンシーのOutバスとの位相ずれや二重打ちを避けるためです。ひとつでもOut 1～16へ送ると自動的に無効になります。",
-      "q_en": "Why is Master Instant Activator disabled with multi-output?",
-      "a_en": "It uses about 4 ms of look-ahead latency. It is disabled when any signal is routed to Out 1–16 to avoid timing/phase mismatch against the zero-latency output buses.",
-      "keywords": [
-        "4ms",
-        "look ahead",
-        "phase",
-        "flam",
-        "無効"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.21 p.38 / EN Manual Ch.21 p.54"
-    },
-    {
-      "id": "REC-001",
-      "chapter": 22,
-      "category": "レコーディング／バウンス",
-      "q_ja": "Standaloneで録音できますか？",
-      "a_ja": "はい。Standalone版には録音機能があり、録音データはユーザーデータフォルダのRecordings内に保存されます。",
-      "q_en": "Can I record in Standalone?",
-      "a_en": "Yes. The Standalone version includes recording, and recordings are stored in the Recordings folder inside user data.",
-      "keywords": [
-        "standalone",
-        "録音",
-        "recordings",
-        "record"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.22 p.39 / EN Manual Ch.22 p.57"
-    },
-    {
-      "id": "REC-002",
-      "chapter": 22,
-      "category": "レコーディング／バウンス",
-      "q_ja": "DAWでオーディオにバウンスするには？",
-      "a_ja": "DAW側の通常のバウンス／書き出し機能を使用します。マルチアウトを使用している場合は、必要なAuxや出力チャンネルを含めて書き出してください。",
-      "q_en": "How do I bounce Groove Activator to audio in a DAW?",
-      "a_en": "Use the DAW’s normal bounce/export function. If using multi-output, include the required Aux or output channels in the bounce.",
-      "keywords": [
-        "バウンス",
-        "bounce",
-        "export audio",
-        "書き出し"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.22 p.39 / EN Manual Ch.22 p.57"
-    },
-    {
-      "id": "BKP-002",
-      "chapter": 23,
-      "category": "バックアップ",
-      "q_ja": "バックアップ対象のユーザーデータはどこですか？",
-      "a_ja": "~/Library/Application Support/GOTARecords/GrooveActivator/ フォルダです。必要に応じて、このフォルダ全体を別の場所へコピーしてください。",
-      "q_en": "Which folder should I back up?",
-      "a_en": "Back up ~/Library/Application Support/GOTARecords/GrooveActivator/. You can copy the entire folder to another safe location.",
-      "keywords": [
-        "backup folder",
-        "バックアップフォルダ",
-        "application support"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.23 p.40 / EN Manual Ch.23 p.58"
-    },
-    {
-      "id": "BKP-003",
-      "chapter": 23,
-      "category": "バックアップ",
-      "q_ja": "再インストール後にキットとライセンスを戻せますか？",
-      "a_ja": "通常のアンインストールではユーザーデータが残るため、そのまま再利用できます。手動で退避した場合は、元のユーザーデータフォルダへ戻してください。",
-      "q_en": "Can I restore kits and the license after reinstalling?",
-      "a_en": "The normal uninstaller preserves user data, so it should remain available. If you moved it manually, restore it to the original user-data folder.",
-      "keywords": [
-        "復元",
-        "restore",
-        "reinstall",
-        "再インストール"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.23 p.40 / EN Manual Ch.23 p.58"
-    },
-    {
-      "id": "TRB-001",
-      "chapter": 24,
-      "category": "トラブルシューティング",
-      "q_ja": "Logic ProでAUが見つかりません。",
-      "a_ja": "Logic Proを終了し、AU Cacheをクリアしてから再起動・再検証します。先にプラグインマネージャでGroove Activatorの状態も確認してください。",
-      "q_en": "The AU does not appear in Logic Pro.",
-      "a_en": "Quit Logic Pro, clear the AU cache, then relaunch and validate the plugin again. Also check Groove Activator’s status in Plug-in Manager.",
-      "keywords": [
-        "au cache",
-        "logic",
-        "見つからない",
-        "validation"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.24 p.41 / EN Manual Ch.24 p.59"
-    },
-    {
-      "id": "TRB-002",
-      "chapter": 24,
-      "category": "トラブルシューティング",
-      "q_ja": "音切れやノイズが出ます。",
-      "a_ja": "DAWまたはStandaloneのBuffer Sizeを大きくし、必要に応じてQualityをEcoへ変更してください。サンプルレートとオーディオデバイス設定も確認します。",
-      "q_en": "I hear dropouts or noise.",
-      "a_en": "Increase the DAW or Standalone buffer size and, if needed, switch Quality to Eco. Also check sample-rate and audio-device settings.",
-      "keywords": [
-        "音切れ",
-        "ノイズ",
-        "dropout",
-        "crackle",
-        "buffer"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.24 p.41 / EN Manual Ch.24 p.59"
-    },
-    {
-      "id": "TRB-003",
-      "chapter": 24,
-      "category": "トラブルシューティング",
-      "q_ja": "クラッシュが再現します。",
-      "a_ja": "Groove Activator、DAW、macOSのバージョン、再現手順、クラッシュログを記録し、サポートへ連絡してください。推測で設定を削除せず、必要なキットを先にバックアップしてください。",
-      "q_en": "A crash is reproducible.",
-      "a_en": "Record the Groove Activator, DAW, and macOS versions, exact reproduction steps, and crash log, then contact support. Back up your kits before deleting or resetting anything.",
-      "keywords": [
-        "クラッシュ",
-        "crash",
-        "再現",
-        "ログ",
-        "support"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.24 p.41 / EN Manual Ch.24 p.59"
-    },
-    {
-      "id": "CRD-001",
-      "chapter": 25,
-      "category": "クレジット",
-      "q_ja": "製品のクレジットはどこで確認できますか？",
-      "a_ja": "マニュアル第25章「クレジット」で確認できます。",
-      "q_en": "Where can I find the product credits?",
-      "a_en": "See Chapter 25, Credits, in the user manual.",
-      "keywords": [
-        "クレジット",
-        "credits"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.25 p.41 / EN Manual Ch.25 p.59"
-    },
-    {
-      "id": "AJI-001",
-      "chapter": 26,
-      "category": "AJITO SOUNDS",
-      "q_ja": "AJITO SOUNDSについて知りたいです。",
-      "a_ja": "マニュアル第26章に、AJITO SOUNDSについての紹介が掲載されています。",
-      "q_en": "Where can I learn about AJITO SOUNDS?",
-      "a_en": "See Chapter 26 of the manual for information about AJITO SOUNDS.",
-      "keywords": [
-        "ajito sounds",
-        "会社",
-        "about"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.26 p.42 / EN Manual Ch.26 p.59"
-    },
-    {
-      "id": "LEG-001",
-      "chapter": 27,
-      "category": "法的情報",
-      "q_ja": "著作権や法的情報はどこですか？",
-      "a_ja": "マニュアル第27章「奥付」に著作権、発行情報などが掲載されています。",
-      "q_en": "Where can I find copyright and legal information?",
-      "a_en": "Copyright, publication, and legal information are listed in Chapter 27.",
-      "keywords": [
-        "著作権",
-        "法的",
-        "copyright",
-        "legal",
-        "奥付"
-      ],
-      "source_type": "Manual",
-      "source": "JP Manual Ch.27 p.43 / EN Manual Ch.27 p.60"
+[
+  {
+    "id": "SYS-001",
+    "category": "動作環境",
+    "q_ja": "どのMacで使えますか？",
+    "a_ja": "macOS 11（Big Sur）以降に対応しています。Apple Silicon（M1／M2／M3／M4）とIntel Macの両方で動作するUniversal Binaryです。",
+    "q_en": "Which Macs are supported?",
+    "a_en": "Groove Activator supports macOS 11 (Big Sur) or later and runs on both Apple Silicon (M1/M2/M3/M4) and Intel Macs as a Universal Binary.",
+    "keywords": [
+      "mac",
+      "macos",
+      "対応",
+      "動作環境",
+      "m1",
+      "m2",
+      "m3",
+      "m4",
+      "intel",
+      "system requirements"
+    ],
+    "source": "JP Manual Ch.03 p.5 / EN Manual Ch.03 p.6",
+    "chapter": 3,
+    "source_type": "Manual",
+    "manual_page_ja": 5,
+    "manual_page_en": 5,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 39,
+      "chapter_source": "Recovered from source",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
     }
-  ]
-}
+  },
+  {
+    "id": "SYS-002",
+    "category": "動作環境",
+    "q_ja": "Windowsで使えますか？",
+    "a_ja": "現在のGroove Activator v1.0.2 Queen EditionはMac用です。Windowsは対応環境に含まれていません。",
+    "q_en": "Does it work on Windows?",
+    "a_en": "Groove Activator v1.0.2 Queen Edition is currently for Mac. Windows is not listed as a supported platform.",
+    "keywords": [
+      "windows",
+      "win",
+      "pc",
+      "ウィンドウズ"
+    ],
+    "source": "JP Manual Ch.03 p.5 / EN Manual Ch.03 p.6",
+    "chapter": 3,
+    "source_type": "Manual",
+    "manual_page_ja": 5,
+    "manual_page_en": 5,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 34,
+      "chapter_source": "Recovered from source",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "SYS-003",
+    "category": "動作環境",
+    "q_ja": "どのプラグイン形式に対応していますか？",
+    "a_ja": "AU、VST3、AAX、Standaloneに対応しています。AAXはPro Tools 2023.6以降が必要です。",
+    "q_en": "Which plugin formats are supported?",
+    "a_en": "AU, VST3, AAX and Standalone are supported. AAX requires Pro Tools 2023.6 or later.",
+    "keywords": [
+      "au",
+      "vst3",
+      "aax",
+      "standalone",
+      "形式",
+      "フォーマット",
+      "plugin format"
+    ],
+    "source": "JP Manual Ch.03 p.5 / EN Manual Ch.03 p.6",
+    "chapter": 3,
+    "source_type": "Manual",
+    "manual_page_ja": 5,
+    "manual_page_en": 5,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 35,
+      "chapter_source": "Recovered from source",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "SYS-004",
+    "category": "動作環境",
+    "q_ja": "必要なメモリと空き容量は？",
+    "a_ja": "RAMは8GB以上、16GB以上を推奨します。ストレージはキットを含めて2GB以上の空き容量が必要です。",
+    "q_en": "How much RAM and storage do I need?",
+    "a_en": "8 GB RAM is required and 16 GB or more is recommended. At least 2 GB of free storage is required, including kits.",
+    "keywords": [
+      "ram",
+      "メモリ",
+      "容量",
+      "storage",
+      "空き",
+      "2gb",
+      "8gb",
+      "16gb"
+    ],
+    "source": "JP Manual Ch.03 p.5 / EN Manual Ch.03 p.6",
+    "chapter": 3,
+    "source_type": "Manual",
+    "manual_page_ja": 5,
+    "manual_page_en": 5,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped - Review recommended",
+      "confidence_percent": 22,
+      "chapter_source": "Recovered from source",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "INS-001",
+    "category": "インストール",
+    "q_ja": "どうやってインストールしますか？",
+    "a_ja": "購入後にShopifyから届くリンクでPKGインストーラーをダウンロードし、ダブルクリックして画面の案内に従ってください。",
+    "q_en": "How do I install Groove Activator?",
+    "a_en": "Download the PKG installer from the Shopify link sent after purchase, double-click it, and follow the on-screen instructions.",
+    "keywords": [
+      "インストール",
+      "install",
+      "pkg",
+      "ダウンロード",
+      "download",
+      "shopify"
+    ],
+    "source": "JP Manual Ch.04 p.5–9 / EN Manual Ch.04 p.7–10",
+    "chapter": 4,
+    "source_type": "Manual",
+    "manual_page_ja": 5,
+    "manual_page_en": 5,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 41,
+      "chapter_source": "Recovered from source",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "INS-002",
+    "category": "インストール",
+    "q_ja": "インストールしたのにLogic Proに表示されません。",
+    "a_ja": "まずLogic Proを再起動してください。次にプラグインマネージャでGroove Activatorの検証状態を確認します。ソフトウェア音源トラックのAU Instruments → AJITO SOUNDS → Groove Activatorから開きます。表示されない場合は、マニュアル第24章のAU Cacheクリアを確認してください。",
+    "q_en": "Groove Activator does not appear in Logic Pro.",
+    "a_en": "Restart Logic Pro first, then check Groove Activator in Plug-in Manager. Open it from AU Instruments → AJITO SOUNDS → Groove Activator. If it still does not appear, follow the AU Cache clearing steps in Chapter 24.",
+    "keywords": [
+      "logic",
+      "logic pro",
+      "表示されない",
+      "見つからない",
+      "プラグインマネージャ",
+      "au cache",
+      "not appear",
+      "missing"
+    ],
+    "source": "JP Manual Ch.04 p.9 + Ch.24 p.41 / EN Manual Ch.04 p.11 + Ch.24",
+    "chapter": 4,
+    "source_type": "Manual",
+    "manual_page_ja": 9,
+    "manual_page_en": 11,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Editorial review required",
+      "confidence_percent": null,
+      "chapter_source": "",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "INS-003",
+    "category": "インストール",
+    "q_ja": "プラグインはどこにインストールされますか？",
+    "a_ja": "Standaloneは/Applications/Groove Activator.app、AUは/Library/Audio/Plug-Ins/Components/、VST3は/Library/Audio/Plug-Ins/VST3/、AAXは/Library/Application Support/Avid/Audio/Plug-Ins/に配置されます。",
+    "q_en": "Where are the plugin files installed?",
+    "a_en": "Standalone: /Applications/Groove Activator.app. AU: /Library/Audio/Plug-Ins/Components/. VST3: /Library/Audio/Plug-Ins/VST3/. AAX: /Library/Application Support/Avid/Audio/Plug-Ins/.",
+    "keywords": [
+      "インストール先",
+      "場所",
+      "component",
+      "vst3",
+      "aax",
+      "applications",
+      "install location"
+    ],
+    "source": "JP Manual Ch.04 p.9 / EN Manual Ch.04 p.10",
+    "chapter": 4,
+    "source_type": "Manual",
+    "manual_page_ja": 9,
+    "manual_page_en": 9,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 63,
+      "chapter_source": "Recovered from source",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "INS-004",
+    "category": "インストール",
+    "q_ja": "アンインストールすると自作キットも消えますか？",
+    "a_ja": "同梱のUninstall Groove Activator.appは本体とプラグインだけを削除します。自作キット、設定、ライセンスなどのユーザーデータは残ります。",
+    "q_en": "Will uninstalling delete my custom kits?",
+    "a_en": "No. Uninstall Groove Activator.app removes only the application and plugin formats. Your custom kits, settings and license data are preserved.",
+    "keywords": [
+      "アンインストール",
+      "削除",
+      "自作キット",
+      "消える",
+      "uninstall",
+      "custom kits",
+      "user data"
+    ],
+    "source": "JP Manual Ch.04 p.9 / EN Manual Ch.04 p.11",
+    "chapter": 4,
+    "source_type": "Manual",
+    "manual_page_ja": 9,
+    "manual_page_en": 9,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 46,
+      "chapter_source": "Recovered from source",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "LIC-001",
+    "category": "ライセンス",
+    "q_ja": "ライセンス認証はどうしますか？",
+    "a_ja": "初回起動時に表示されるLicense Activation画面へ、購入後のメールに記載されたシリアル番号を入力します。一度認証すれば、その後はオフラインで継続して使用できます。",
+    "q_en": "How do I activate my license?",
+    "a_en": "On first launch, enter the serial number from your purchase email in the License Activation screen. Once activated, Groove Activator can continue to run offline.",
+    "keywords": [
+      "ライセンス",
+      "認証",
+      "activation",
+      "activate",
+      "serial",
+      "シリアル",
+      "offline"
+    ],
+    "source": "JP Manual Ch.05 p.10–11 / EN Manual Ch.05 p.11–12",
+    "chapter": 5,
+    "source_type": "Manual",
+    "manual_page_ja": 10,
+    "manual_page_en": 10,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 57,
+      "chapter_source": "Recovered from source",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "LIC-002",
+    "category": "ライセンス",
+    "q_ja": "ライセンス認証に失敗します。",
+    "a_ja": "まずメールからシリアル番号をコピー＆ペーストし、前後に余分な空白が入っていないか確認してください。認証時はインターネット接続も確認します。それでも認証できない場合は、購入情報と表示されたエラー内容を添えてサポートへ連絡してください。",
+    "q_en": "License activation failed.",
+    "a_en": "Copy and paste the serial number from your purchase email and make sure there are no extra spaces. Check your internet connection during activation. If it still fails, contact support with your purchase details and the exact error message.",
+    "keywords": [
+      "認証失敗",
+      "アクティベーション",
+      "エラー",
+      "serial invalid",
+      "activation failed",
+      "license error"
+    ],
+    "source": "Manual Ch.05 + Gota support workflow",
+    "chapter": 5,
+    "source_type": "Manual + Verified Support",
+    "manual_page_ja": 11,
+    "manual_page_en": 11,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 39,
+      "chapter_source": "Recovered from source",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "LIC-003",
+    "category": "ライセンス",
+    "q_ja": "何台のコンピュータで使えますか？",
+    "a_ja": "1人のライセンス所有者が、2台のコンピュータで使用できます。別の人とライセンスを共有することはできません。",
+    "q_en": "How many computers can I use?",
+    "a_en": "One licensed user may use Groove Activator on up to two computers. The license may not be shared with another person.",
+    "keywords": [
+      "何台",
+      "2台",
+      "二台",
+      "computers",
+      "license share",
+      "共有"
+    ],
+    "source": "Manual license terms / EULA",
+    "chapter": "",
+    "source_type": "Manual",
+    "manual_page_ja": "",
+    "manual_page_en": "",
+    "verification": 100,
+    "page_mapping": {
+      "status": "Editorial review required",
+      "confidence_percent": null,
+      "chapter_source": "",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "AUD-001",
+    "category": "音が出ない",
+    "q_ja": "音が出ません。",
+    "a_ja": "まずGroove Activator画面のパッドを直接クリックしてください。パッドが反応するか、Masterメーターが動くか、Muteが有効になっていないかを確認します。次にDAW側のトラックと出力メーターを確認してください。",
+    "q_en": "There is no sound.",
+    "a_en": "Click a pad directly in Groove Activator. Check whether the pad responds, whether the Master meter moves, and whether Mute is enabled. Then check the DAW track and output meters.",
+    "keywords": [
+      "音が出ない",
+      "無音",
+      "no sound",
+      "silent",
+      "meter",
+      "メーター",
+      "mute"
+    ],
+    "source": "Gota support workflow / Manual Ch.07, Ch.12, Ch.24",
+    "chapter": "",
+    "source_type": "Manual + Verified Support",
+    "manual_page_ja": "",
+    "manual_page_en": "",
+    "verification": 100,
+    "page_mapping": {
+      "status": "Editorial review required",
+      "confidence_percent": null,
+      "chapter_source": "",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "AUD-002",
+    "category": "音が出ない",
+    "q_ja": "Pro Toolsで音が出ません。",
+    "a_ja": "まず別のソフト音源が鳴るか確認し、Pro Toolsのオーディオ設定とトラック出力を切り分けます。その後Groove Activatorのパッドを直接クリックし、パッド反応、Masterメーター、Mute、Pro Tools側のメーターを順に確認してください。",
+    "q_en": "There is no sound in Pro Tools.",
+    "a_en": "First confirm that another software instrument plays correctly to isolate the Pro Tools audio setup. Then click a Groove Activator pad directly and check the pad response, Master meter, Mute state and Pro Tools track meters.",
+    "keywords": [
+      "pro tools",
+      "プロツールス",
+      "音が出ない",
+      "no sound",
+      "aax"
+    ],
+    "source": "Gota support workflow / Manual Ch.24",
+    "chapter": 24,
+    "source_type": "Manual + Verified Support",
+    "manual_page_ja": 41,
+    "manual_page_en": 42,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 36,
+      "chapter_source": "Recovered from source",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "VAR-001",
+    "category": "バリエーション",
+    "q_ja": "毎回同じサンプルが鳴ります。",
+    "a_ja": "プリセット001「LM 400G」で確認し、LayersとVariation（V1／V2／V3）が設定されているか見てください。Variationを自動で切り替えるにはAUTOを有効にします。プリセットによっては意図的に同じ音だけを使う場合もあります。",
+    "q_en": "The same sample plays on every hit.",
+    "a_en": "Test with preset 001 “LM 400G” and check that Layers and Variations (V1/V2/V3) are assigned. Enable AUTO for automatic variation switching. Some presets may intentionally use only one sample.",
+    "keywords": [
+      "同じサンプル",
+      "毎回同じ",
+      "variation",
+      "auto",
+      "v1",
+      "v2",
+      "v3",
+      "round robin"
+    ],
+    "source": "Manual Ch.10–11 + Gota's Tip",
+    "chapter": 10,
+    "source_type": "Manual + Verified Support",
+    "manual_page_ja": 20,
+    "manual_page_en": 20,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 25,
+      "chapter_source": "Recovered from source",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "PER-001",
+    "category": "パフォーマンス",
+    "q_ja": "CPU使用率が高いです。",
+    "a_ja": "MasterのQuality設定をStudioからEcoへ下げてください。次にDAWのI/O Buffer Sizeを大きくします。録音時は小さめ、ミックス時は大きめのバッファが基本です。",
+    "q_en": "CPU usage is high.",
+    "a_en": "Lower the Master Quality setting from Studio to Eco, then increase the DAW I/O Buffer Size. A smaller buffer is useful while recording; a larger buffer is usually better while mixing.",
+    "keywords": [
+      "cpu",
+      "重い",
+      "遅い",
+      "overload",
+      "quality",
+      "eco",
+      "studio",
+      "buffer",
+      "バッファ"
+    ],
+    "source": "Manual Ch.15/24 + Gota's Tip",
+    "chapter": 15,
+    "source_type": "Manual + Verified Support",
+    "manual_page_ja": 29,
+    "manual_page_en": 29,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 26,
+      "chapter_source": "Recovered from source",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "PER-002",
+    "category": "パフォーマンス",
+    "q_ja": "演奏にレイテンシーがあります。",
+    "a_ja": "Logic Proではオーディオ設定のI/O Buffer Sizeを小さくしてください。StandaloneではOptions → Audio MIDI SettingsからBuffer Sizeを小さくします。小さくしすぎるとCPU負荷や音切れが起きるため、安定する範囲で調整してください。",
+    "q_en": "There is noticeable latency.",
+    "a_en": "In Logic Pro, reduce the I/O Buffer Size in Audio settings. In Standalone, open Options → Audio MIDI Settings and reduce the Buffer Size. Very small buffers can cause high CPU load or dropouts, so choose the lowest stable value.",
+    "keywords": [
+      "レイテンシー",
+      "遅延",
+      "latency",
+      "buffer",
+      "バッファ",
+      "audio midi settings"
+    ],
+    "source": "Gota support workflow / Manual Ch.24",
+    "chapter": 24,
+    "source_type": "Manual + Verified Support",
+    "manual_page_ja": 41,
+    "manual_page_en": 42,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 36,
+      "chapter_source": "Recovered from source",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "MID-001",
+    "category": "MIDI",
+    "q_ja": "Logic ProからMIDIファイルを書き出すには？",
+    "a_ja": "Logic Proで対象のMIDIリージョンを選択し、MIDIファイルとして書き出してください。Groove Activator自体からのドラッグ＆ドロップではありません。",
+    "q_en": "How do I export a MIDI file from Logic Pro?",
+    "a_en": "Select the MIDI region in Logic Pro and export it as a MIDI file. This is not done by dragging MIDI out of Groove Activator.",
+    "keywords": [
+      "midi 書き出し",
+      "midi export",
+      "logic",
+      "ドラッグ",
+      "drag"
+    ],
+    "source": "Gota's verified workflow",
+    "chapter": "",
+    "source_type": "Manual + Verified Support",
+    "manual_page_ja": "",
+    "manual_page_en": "",
+    "verification": 100,
+    "page_mapping": {
+      "status": "Editorial review required",
+      "confidence_percent": null,
+      "chapter_source": "",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "KIT-001",
+    "category": "キット管理",
+    "q_ja": "自分で作ったキットを保存するには？",
+    "a_ja": "BrowserからKit Saveを選び、空いているスロットを選択し、名前を付けて保存します。読み込むときはKit Loadを開き、対象のプリセットをダブルクリックします。",
+    "q_en": "How do I save a custom kit?",
+    "a_en": "In the Browser, choose Kit Save, select an empty slot, name the kit and save it. To load it, open Kit Load and double-click the desired preset.",
+    "keywords": [
+      "キット保存",
+      "kit save",
+      "custom kit",
+      "自作キット",
+      "kit load",
+      "読み込み"
+    ],
+    "source": "Manual Ch.20 + Gota's verified workflow",
+    "chapter": 20,
+    "source_type": "Manual + Verified Support",
+    "manual_page_ja": 36,
+    "manual_page_en": 36,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 35,
+      "chapter_source": "Recovered from source",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "BKP-001",
+    "category": "バックアップ",
+    "q_ja": "アップデート前に何をバックアップすればいいですか？",
+    "a_ja": "File → Save Set → All 18 Padsを使って、18パッド全体のセットを保存してください。自作キットや設定のバックアップについてはマニュアル第23章も確認してください。",
+    "q_en": "What should I back up before updating?",
+    "a_en": "Use File → Save Set → All 18 Pads to save the complete 18-pad set. Also review Chapter 23 for backup and recovery information.",
+    "keywords": [
+      "バックアップ",
+      "アップデート",
+      "save set",
+      "all 18 pads",
+      "backup",
+      "update"
+    ],
+    "source": "Manual Ch.23 + Gota's verified workflow",
+    "chapter": 23,
+    "source_type": "Manual + Verified Support",
+    "manual_page_ja": 40,
+    "manual_page_en": 40,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 27,
+      "chapter_source": "Recovered from source",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "KIT-002",
+    "category": "キット管理",
+    "q_ja": "最初はどのプリセットを選べばいいですか？",
+    "a_ja": "デモMIDIを読み込み、ループ再生しながらプリセットを順番に切り替えて、耳で合うものを選んでください。ジャンル名よりも、曲に必要な音のキャラクターで選ぶのがおすすめです。",
+    "q_en": "Which preset should I start with?",
+    "a_en": "Load the demo MIDI, loop it, and switch through presets while listening. Choose by the sound character your track needs rather than by genre name.",
+    "keywords": [
+      "おすすめプリセット",
+      "どのプリセット",
+      "preset",
+      "demo midi",
+      "ジャンル",
+      "genre"
+    ],
+    "source": "Gota's Tip",
+    "chapter": "",
+    "source_type": "Manual + Verified Support",
+    "manual_page_ja": "",
+    "manual_page_en": "",
+    "verification": 100,
+    "page_mapping": {
+      "status": "Editorial review required",
+      "confidence_percent": null,
+      "chapter_source": "",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "KIT-003",
+    "category": "キット管理",
+    "q_ja": "キットは全部作り直した方がいいですか？",
+    "a_ja": "最初に欲しい音の方向を決めて、必要な部分だけ編集してください。最初から全パラメータを触る必要はありません。気になるパッドだけ試聴し、必要ならダブルクリックで音を入れ替えます。",
+    "q_en": "Should I rebuild the whole kit?",
+    "a_en": "First decide the sound you want, then edit only what needs changing. You do not need to adjust every parameter. Audition individual pads and replace only the sounds that need it.",
+    "keywords": [
+      "全部編集",
+      "キット作り",
+      "customize",
+      "replace pad",
+      "音を入れ替え"
+    ],
+    "source": "Gota's Philosophy / Gota's Tip",
+    "chapter": "",
+    "source_type": "Manual + Verified Support",
+    "manual_page_ja": "",
+    "manual_page_en": "",
+    "verification": 100,
+    "page_mapping": {
+      "status": "Editorial review required",
+      "confidence_percent": null,
+      "chapter_source": "",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "OUT-001",
+    "category": "マルチアウト",
+    "q_ja": "Logic Proでマルチアウトを使うには？",
+    "a_ja": "ソフトウェア音源としてGroove Activatorを作成するときに「Multi Output (17xStereo)」を選んでください。Inspectorの「＋」でAuxを追加します。Out 16が必要な場合はMixer → Options → Create New Auxiliary Channel StripからAuxを作り、入力をOut 16に設定します。",
+    "q_en": "How do I use multi-output in Logic Pro?",
+    "a_en": "Create Groove Activator as “Multi Output (17xStereo)”, then add Aux channels using the “+” button in the Inspector. For Out 16, create a new Auxiliary Channel Strip from Mixer → Options and set its input to Out 16.",
+    "keywords": [
+      "マルチアウト",
+      "multi output",
+      "17xstereo",
+      "out 16",
+      "aux",
+      "logic"
+    ],
+    "source": "JP Manual Ch.21 p.38 / EN Manual Ch.21 p.54",
+    "chapter": 21,
+    "source_type": "Manual",
+    "manual_page_ja": 38,
+    "manual_page_en": 38,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 38,
+      "chapter_source": "Recovered from source",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "OUT-002",
+    "category": "マルチアウト",
+    "q_ja": "マルチアウトにするとMaster Instant Activatorが効きません。",
+    "a_ja": "Out 1〜16へルーティングしたパッド、マイク、AA Voiceが1つでもあると、位相を揃えるためMaster Instant Activatorは自動的に無効になります。これは仕様です。Masterのサチュレーション／リミッターを使いたい音はMainに残してください。",
+    "q_en": "Master Instant Activator turns off when I use multi-output.",
+    "a_en": "If any pad, mic or AA voice is routed to Out 1–16, Master Instant Activator is automatically disabled to keep all outputs phase-aligned. This is intended behavior. Keep sounds on Main if you want master saturation and limiting.",
+    "keywords": [
+      "instant activator",
+      "無効",
+      "効かない",
+      "multi output",
+      "phase",
+      "位相",
+      "limiter"
+    ],
+    "source": "JP/EN Manual Ch.21",
+    "chapter": 21,
+    "source_type": "Manual",
+    "manual_page_ja": 38,
+    "manual_page_en": 38,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 47,
+      "chapter_source": "Recovered from source",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "VOL-001",
+    "category": "音量",
+    "q_ja": "出力音量が小さいです。",
+    "a_ja": "Groove ActivatorのMaster出力、各パッド／ミキサーのレベル、DAWトラックのフェーダー、Stereo Outに挿しているプラグインの順に確認してください。Master Limiterや入出力ゲインの設定も確認します。",
+    "q_en": "The output level is too low.",
+    "a_en": "Check Groove Activator’s Master output, pad and mixer levels, the DAW track fader, and any plugins inserted on Stereo Out. Also review the Master Limiter and input/output gain settings.",
+    "keywords": [
+      "音量小さい",
+      "小さい",
+      "low volume",
+      "quiet",
+      "master",
+      "limiter",
+      "gain"
+    ],
+    "source": "Manual Ch.12/15 + Gota support workflow",
+    "chapter": 12,
+    "source_type": "Manual + Verified Support",
+    "manual_page_ja": 24,
+    "manual_page_en": 23,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 50,
+      "chapter_source": "Recovered from source",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "UPD-001",
+    "category": "アップデート",
+    "q_ja": "アップデートはどうやって知ることができますか？",
+    "a_ja": "現在は購入者向けのメールでアップデート情報を案内します。案内メールの手順と対象バージョンを確認してから更新してください。",
+    "q_en": "How will I know when an update is available?",
+    "a_en": "Update information is currently sent to customers by email. Check the instructions and applicable version in the update email before installing.",
+    "keywords": [
+      "アップデート通知",
+      "update notification",
+      "新しいバージョン",
+      "email"
+    ],
+    "source": "Current support policy",
+    "chapter": "",
+    "source_type": "Manual",
+    "manual_page_ja": "",
+    "manual_page_en": "",
+    "verification": 100,
+    "page_mapping": {
+      "status": "Editorial review required",
+      "confidence_percent": null,
+      "chapter_source": "",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "WEL-001",
+    "category": "製品について",
+    "q_ja": "Groove Activatorはどのような背景から生まれましたか？",
+    "a_ja": "屋敷豪太が1980年代から追求してきた、生演奏のグルーヴと機械ならではのグルーヴの融合を受け継ぎ、1995年のサンプリングCDを現代のDAW環境向けドラムプラグインとして再設計した製品です。",
+    "q_en": "What is the story behind Groove Activator?",
+    "a_en": "It carries forward Gota Yashiki’s long pursuit of combining human performance with machine-created groove, evolving the 1995 sampling CD into a modern DAW drum plugin.",
+    "keywords": [
+      "背景",
+      "歴史",
+      "1995",
+      "屋敷豪太",
+      "story",
+      "history"
+    ],
+    "source": "JP Manual Ch.01 p.3 / EN Manual Ch.01 p.4",
+    "chapter": 1,
+    "source_type": "Manual",
+    "manual_page_ja": 3,
+    "manual_page_en": 3,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 54,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "OVR-001",
+    "category": "製品について",
+    "q_ja": "Groove Activatorとは何ですか？",
+    "a_ja": "生ドラムの表現、アナログドラムマシンの存在感、オーディオループを使ったビートメイクを、ひとつのプラグインで組み合わせられるMac用ドラムサンプラーです。",
+    "q_en": "What is Groove Activator?",
+    "a_en": "It is a Mac drum sampler plugin combining expressive acoustic drums, analog drum-machine character, and audio-loop beat making in one environment.",
+    "keywords": [
+      "何",
+      "概要",
+      "ドラムサンプラー",
+      "what is",
+      "overview"
+    ],
+    "source": "JP Manual Ch.02 p.4 / EN Manual Ch.02 p.4",
+    "chapter": 2,
+    "source_type": "Manual",
+    "manual_page_ja": 4,
+    "manual_page_en": 4,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 53,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "OVR-002",
+    "category": "製品について",
+    "q_ja": "3つのコアモジュールは何ですか？",
+    "a_ja": "18パッドのPad Sampler、14種類の音源を備えたAnalog Activator、オーディオループをスライスして演奏できるSlice Activatorです。単独でも組み合わせても使用できます。",
+    "q_en": "What are the three core modules?",
+    "a_en": "They are the 18-pad Pad Sampler, the 14-section Analog Activator, and the loop-based Slice Activator. They can be used separately or combined.",
+    "keywords": [
+      "3つ",
+      "コアモジュール",
+      "pad sampler",
+      "analog activator",
+      "slice activator"
+    ],
+    "source": "JP Manual Ch.02 p.4 / EN Manual Ch.02 p.4",
+    "chapter": 2,
+    "source_type": "Manual",
+    "manual_page_ja": 4,
+    "manual_page_en": 4,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 53,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "OVR-003",
+    "category": "製品について",
+    "q_ja": "SIMPLEモードとADVANCEDモードの違いは？",
+    "a_ja": "SIMPLEモードはすぐにグルーヴ作りを始められるよう主要機能を分かりやすくまとめた表示です。ADVANCEDモードでは、より詳細な編集パラメータを使用できます。",
+    "q_en": "What is the difference between SIMPLE and ADVANCED modes?",
+    "a_en": "SIMPLE mode presents the main controls for quick groove creation. ADVANCED mode exposes the deeper editing parameters.",
+    "keywords": [
+      "simple",
+      "advanced",
+      "モード",
+      "違い"
+    ],
+    "source": "JP Manual Ch.02 p.4 / EN Manual Ch.02 p.5",
+    "chapter": 2,
+    "source_type": "Manual",
+    "manual_page_ja": 4,
+    "manual_page_en": 4,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 28,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "SYS-005",
+    "category": "動作環境",
+    "q_ja": "必要なディスプレイ解像度は？",
+    "a_ja": "1440×900以上のディスプレイを推奨環境としています。",
+    "q_en": "What display resolution is required?",
+    "a_en": "A display resolution of 1440 × 900 or higher is required.",
+    "keywords": [
+      "ディスプレイ",
+      "解像度",
+      "1440",
+      "900",
+      "display"
+    ],
+    "source": "JP Manual Ch.03 p.5 / EN Manual Ch.03 p.6",
+    "chapter": 3,
+    "source_type": "Manual",
+    "manual_page_ja": 5,
+    "manual_page_en": 5,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped - Review recommended",
+      "confidence_percent": 16,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "SYS-006",
+    "category": "動作環境",
+    "q_ja": "動作確認済みDAWは？",
+    "a_ja": "Logic Pro 11以降、Pro Tools 2024以降、Ableton Live 12、Cubase 13、Studio One 6です。",
+    "q_en": "Which DAWs have been tested?",
+    "a_en": "Logic Pro 11 or later, Pro Tools 2024 or later, Ableton Live 12, Cubase 13, and Studio One 6.",
+    "keywords": [
+      "daw",
+      "logic",
+      "pro tools",
+      "ableton",
+      "cubase",
+      "studio one"
+    ],
+    "source": "JP Manual Ch.03 p.5 / EN Manual Ch.03 p.6",
+    "chapter": 3,
+    "source_type": "Manual",
+    "manual_page_ja": 5,
+    "manual_page_en": 5,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 47,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "INS-005",
+    "category": "インストール",
+    "q_ja": "インストーラーはAppleの公証を受けていますか？",
+    "a_ja": "はい。PKGインストーラーはAppleによる署名・公証済みです。",
+    "q_en": "Is the installer signed and notarized by Apple?",
+    "a_en": "Yes. The PKG installer is signed and notarized by Apple.",
+    "keywords": [
+      "公証",
+      "署名",
+      "notarized",
+      "gatekeeper"
+    ],
+    "source": "JP Manual Ch.04 p.5 / EN Manual Ch.04 p.7",
+    "chapter": 4,
+    "source_type": "Manual",
+    "manual_page_ja": 5,
+    "manual_page_en": 5,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 34,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "INS-006",
+    "category": "インストール",
+    "q_ja": "インストール容量はどのくらいですか？",
+    "a_ja": "標準インストールでは約1.13GBです。十分な空き容量を確保してから実行してください。",
+    "q_en": "How large is the installation?",
+    "a_en": "The standard installation is approximately 1.13 GB. Make sure sufficient free space is available.",
+    "keywords": [
+      "容量",
+      "1.13",
+      "installation size"
+    ],
+    "source": "JP Manual Ch.04 p.8 / EN Manual Ch.04 p.9",
+    "chapter": 4,
+    "source_type": "Manual",
+    "manual_page_ja": 5,
+    "manual_page_en": 9,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped - Review recommended",
+      "confidence_percent": 23,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "INS-007",
+    "category": "インストール",
+    "q_ja": "ユーザーデータはどこに保存されますか？",
+    "a_ja": "ユーザーデータは ~/Library/Application Support/GOTARecords/GrooveActivator/ に保存されます。Kits、Pads、Presets、Recordings、Settings、license.jsonが含まれます。",
+    "q_en": "Where is user data stored?",
+    "a_en": "User data is stored in ~/Library/Application Support/GOTARecords/GrooveActivator/, including Kits, Pads, Presets, Recordings, Settings, and license.json.",
+    "keywords": [
+      "ユーザーデータ",
+      "library",
+      "kits",
+      "recordings",
+      "license.json"
+    ],
+    "source": "JP Manual Ch.04 p.9 / EN Manual Ch.04 p.11",
+    "chapter": 4,
+    "source_type": "Manual",
+    "manual_page_ja": 9,
+    "manual_page_en": 9,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 48,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "INS-008",
+    "category": "インストール",
+    "q_ja": "完全に削除するにはどうすればいいですか？",
+    "a_ja": "アンインストーラーで本体とプラグインを削除した後、必要な場合だけFinderで ~/Library/Application Support/GOTARecords/GrooveActivator/ を削除します。削除前に必要なキットを必ずバックアップしてください。",
+    "q_en": "How do I completely remove Groove Activator?",
+    "a_en": "After running the uninstaller, delete ~/Library/Application Support/GOTARecords/GrooveActivator/ in Finder only if you also want to remove all user data. Back up any kits you need first.",
+    "keywords": [
+      "完全削除",
+      "手動削除",
+      "remove everything",
+      "finder"
+    ],
+    "source": "JP Manual Ch.04 p.9 / EN Manual Ch.04 p.11",
+    "chapter": 4,
+    "source_type": "Manual",
+    "manual_page_ja": 9,
+    "manual_page_en": 9,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 50,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "LIC-004",
+    "category": "ライセンス",
+    "q_ja": "認証後もインターネット接続が必要ですか？",
+    "a_ja": "いいえ。初回認証が完了した後は、オフラインで継続して使用できます。",
+    "q_en": "Do I need an internet connection after activation?",
+    "a_en": "No. After the initial activation is complete, Groove Activator continues to work offline.",
+    "keywords": [
+      "オフライン",
+      "インターネット",
+      "offline",
+      "internet"
+    ],
+    "source": "JP Manual Ch.05 p.10 / EN Manual Ch.05 p.11",
+    "chapter": 5,
+    "source_type": "Manual",
+    "manual_page_ja": 11,
+    "manual_page_en": 10,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped - Review recommended",
+      "confidence_percent": 23,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "LIC-005",
+    "category": "ライセンス",
+    "q_ja": "シリアル番号はどこにありますか？",
+    "a_ja": "購入後に送信されるメールに記載されています。形式はXXXXX-XXXXX-XXXXXです。",
+    "q_en": "Where can I find my serial number?",
+    "a_en": "It is included in the email sent after purchase and has the format XXXXX-XXXXX-XXXXX.",
+    "keywords": [
+      "シリアル",
+      "メール",
+      "serial number",
+      "purchase email"
+    ],
+    "source": "JP Manual Ch.05 p.10 / EN Manual Ch.05 p.11",
+    "chapter": 5,
+    "source_type": "Manual",
+    "manual_page_ja": 10,
+    "manual_page_en": 10,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 51,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "LIC-006",
+    "category": "ライセンス",
+    "q_ja": "ライセンスファイルはどこに保存されますか？",
+    "a_ja": "ユーザーデータフォルダ内の license.json に保存されます。",
+    "q_en": "Where is the license file stored?",
+    "a_en": "It is stored as license.json inside the Groove Activator user-data folder.",
+    "keywords": [
+      "license.json",
+      "ライセンスファイル",
+      "stored"
+    ],
+    "source": "JP Manual Ch.05 p.11 / EN Manual Ch.05 p.11",
+    "chapter": 5,
+    "source_type": "Manual",
+    "manual_page_ja": 11,
+    "manual_page_en": 10,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 35,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "QST-001",
+    "category": "クイックスタート",
+    "q_ja": "初回起動後、最初に何をすればいいですか？",
+    "a_ja": "ライセンス認証後、ファクトリーキットまたはプリセットを読み込み、画面上のパッドまたはMIDIキーボードから演奏してください。まず音が出ることを確認してから編集を始めます。",
+    "q_en": "What should I do after the first launch?",
+    "a_en": "After activation, load a factory kit or preset and play it from the on-screen pads or a MIDI keyboard. Confirm that audio is working before editing.",
+    "keywords": [
+      "初回起動",
+      "最初",
+      "quick start",
+      "first launch"
+    ],
+    "source": "JP Manual Ch.06 p.12 / EN Manual Ch.06 p.13",
+    "chapter": 6,
+    "source_type": "Manual",
+    "manual_page_ja": 12,
+    "manual_page_en": 12,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 38,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "QST-002",
+    "category": "クイックスタート",
+    "q_ja": "MIDIキーボードがなくても音を確認できますか？",
+    "a_ja": "はい。画面上の18パッドをクリックして音を確認できます。",
+    "q_en": "Can I test sounds without a MIDI keyboard?",
+    "a_en": "Yes. Click the 18 on-screen pads to audition the sounds.",
+    "keywords": [
+      "midiキーボードなし",
+      "画面パッド",
+      "on-screen pads"
+    ],
+    "source": "JP Manual Ch.06 p.12 / EN Manual Ch.06 p.13",
+    "chapter": 6,
+    "source_type": "Manual",
+    "manual_page_ja": 12,
+    "manual_page_en": 12,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 36,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "UI-001",
+    "category": "インターフェイス",
+    "q_ja": "画面の主なエリアは何ですか？",
+    "a_ja": "主にパッドエリア、エディットエリア、ミキサー／モジュール、ブラウザー、マスター／グローバル設定で構成されています。",
+    "q_en": "What are the main areas of the interface?",
+    "a_en": "The interface is organized around the pads, edit section, mixer/modules, browser, and master/global controls.",
+    "keywords": [
+      "画面",
+      "エリア",
+      "interface",
+      "overview"
+    ],
+    "source": "JP Manual Ch.07 p.13 / EN Manual Ch.07 p.17",
+    "chapter": 7,
+    "source_type": "Manual",
+    "manual_page_ja": 15,
+    "manual_page_en": 15,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 37,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "UI-002",
+    "category": "インターフェイス",
+    "q_ja": "詳細なパラメータが表示されません。",
+    "a_ja": "SIMPLEモードになっている可能性があります。ADVANCEDモードへ切り替えると、詳細な編集パラメータが表示されます。",
+    "q_en": "I cannot see the detailed parameters.",
+    "a_en": "You may be in SIMPLE mode. Switch to ADVANCED mode to expose the detailed editing controls.",
+    "keywords": [
+      "詳細",
+      "表示されない",
+      "advanced",
+      "simple"
+    ],
+    "source": "JP Manual Ch.07 p.13 / EN Manual Ch.07 p.17",
+    "chapter": 7,
+    "source_type": "Manual",
+    "manual_page_ja": 13,
+    "manual_page_en": 13,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 38,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "PAD-001",
+    "category": "パッド",
+    "q_ja": "パッドはいくつありますか？",
+    "a_ja": "Pad Samplerには18個のパッドがあります。各パッドはMIDIノートから演奏できます。",
+    "q_en": "How many pads are available?",
+    "a_en": "The Pad Sampler has 18 pads, each playable from a MIDI note.",
+    "keywords": [
+      "18",
+      "パッド数",
+      "pads"
+    ],
+    "source": "JP Manual Ch.08 p.16 / EN Manual Ch.08 p.21",
+    "chapter": 8,
+    "source_type": "Manual",
+    "manual_page_ja": 17,
+    "manual_page_en": 16,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 44,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "PAD-002",
+    "category": "パッド",
+    "q_ja": "パッドを選択・編集するには？",
+    "a_ja": "編集したいパッドをクリックして選択します。選択中のパッドに対して、サンプル、レイヤー、バリエーション、ミキサーなどの編集を行います。",
+    "q_en": "How do I select and edit a pad?",
+    "a_en": "Click the pad you want to edit. The sample, layer, variation, and mixer controls then apply to the selected pad.",
+    "keywords": [
+      "選択",
+      "編集",
+      "selected pad",
+      "click pad"
+    ],
+    "source": "JP Manual Ch.08 p.16 / EN Manual Ch.08 p.21",
+    "chapter": 8,
+    "source_type": "Manual",
+    "manual_page_ja": 17,
+    "manual_page_en": 17,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 48,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "PAD-003",
+    "category": "パッド",
+    "q_ja": "パッドをクリックすると何が開きますか？",
+    "a_ja": "選択したパッドの簡易エディットが開き、現在の音や主な設定を確認・調整できます。",
+    "q_en": "What opens when I click a pad?",
+    "a_en": "A quick-edit view opens for the selected pad, allowing you to inspect and adjust its main settings.",
+    "keywords": [
+      "簡易エディット",
+      "quick edit",
+      "pad click"
+    ],
+    "source": "JP Manual Ch.08 p.18 / EN Manual Ch.08 p.23",
+    "chapter": 8,
+    "source_type": "Manual",
+    "manual_page_ja": 17,
+    "manual_page_en": 17,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 39,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "SMP-001",
+    "category": "サンプル編集",
+    "q_ja": "サンプルの開始位置と終了位置を変更できますか？",
+    "a_ja": "はい。Start PointとEnd Pointを、波形ディスプレイのハンドルまたは数値で設定できます。",
+    "q_en": "Can I change the sample start and end points?",
+    "a_en": "Yes. Set Start Point and End Point using the waveform handles or numeric values.",
+    "keywords": [
+      "start point",
+      "end point",
+      "開始位置",
+      "終了位置"
+    ],
+    "source": "JP Manual Ch.09 p.18 / EN Manual Ch.09 p.24",
+    "chapter": 9,
+    "source_type": "Manual",
+    "manual_page_ja": 18,
+    "manual_page_en": 18,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 45,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "SMP-002",
+    "category": "サンプル編集",
+    "q_ja": "サンプルをループ再生できますか？",
+    "a_ja": "はい。LoopをONにすると、End Pointへ到達した後にLoop Pointから再生を続けます。",
+    "q_en": "Can a sample be looped?",
+    "a_en": "Yes. When Loop is enabled, playback continues from the Loop Point after reaching the End Point.",
+    "keywords": [
+      "loop",
+      "loop point",
+      "ループ"
+    ],
+    "source": "JP Manual Ch.09 p.18 / EN Manual Ch.09 p.24",
+    "chapter": 9,
+    "source_type": "Manual",
+    "manual_page_ja": 18,
+    "manual_page_en": 18,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 45,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "SMP-003",
+    "category": "サンプル編集",
+    "q_ja": "ピッチはどこまで変更できますか？",
+    "a_ja": "Pitch（Tune）は±24セミトーンの範囲で調整できます。",
+    "q_en": "What is the pitch range?",
+    "a_en": "Pitch (Tune) can be adjusted over a range of ±24 semitones.",
+    "keywords": [
+      "pitch",
+      "tune",
+      "24",
+      "ピッチ",
+      "セミトーン"
+    ],
+    "source": "JP Manual Ch.09 p.18 / EN Manual Ch.09 p.24",
+    "chapter": 9,
+    "source_type": "Manual",
+    "manual_page_ja": 18,
+    "manual_page_en": 18,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 25,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "SMP-004",
+    "category": "サンプル編集",
+    "q_ja": "フィルターとエンベロープはありますか？",
+    "a_ja": "Low-PassとHigh-Passの2段フィルター、Attack／Decay／Releaseのエンベロープがあります。",
+    "q_en": "Are filter and envelope controls available?",
+    "a_en": "Yes. There are Low-Pass and High-Pass filters plus an Attack/Decay/Release envelope.",
+    "keywords": [
+      "filter",
+      "envelope",
+      "attack",
+      "decay",
+      "release",
+      "フィルター"
+    ],
+    "source": "JP Manual Ch.09 p.18 / EN Manual Ch.09 p.24",
+    "chapter": 9,
+    "source_type": "Manual",
+    "manual_page_ja": 18,
+    "manual_page_en": 18,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 30,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "SMP-005",
+    "category": "サンプル編集",
+    "q_ja": "波形編集は全レイヤーへ一括適用されますか？",
+    "a_ja": "いいえ。波形編集タブのパラメータは、選択中のPad／Layer／Micだけに作用します。ALL LAYERやALL CHは適用されません。",
+    "q_en": "Do waveform edits apply to all layers?",
+    "a_en": "No. Waveform-edit controls affect only the selected Pad/Layer/Mic. ALL LAYER and ALL CH do not apply there.",
+    "keywords": [
+      "all layer",
+      "all ch",
+      "波形編集",
+      "selected layer"
+    ],
+    "source": "JP Manual Ch.09 p.18 / EN Manual Ch.09 p.24",
+    "chapter": 9,
+    "source_type": "Manual",
+    "manual_page_ja": 18,
+    "manual_page_en": 18,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 37,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "VEL-001",
+    "category": "ベロシティレイヤー",
+    "q_ja": "ベロシティレイヤーとは何ですか？",
+    "a_ja": "演奏の強さに応じて異なるサンプルを鳴らす仕組みです。弱く叩いた音から強く叩いた音まで、自然なダイナミクスを作れます。",
+    "q_en": "What are velocity layers?",
+    "a_en": "Velocity layers trigger different samples according to playing strength, creating natural dynamics from soft to hard hits.",
+    "keywords": [
+      "velocity",
+      "layer",
+      "強弱",
+      "ベロシティ"
+    ],
+    "source": "JP Manual Ch.10 p.20 / EN Manual Ch.10 p.27",
+    "chapter": 10,
+    "source_type": "Manual",
+    "manual_page_ja": 20,
+    "manual_page_en": 20,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped - Review recommended",
+      "confidence_percent": 18,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "VEL-002",
+    "category": "ベロシティレイヤー",
+    "q_ja": "レイヤーとバリエーションの違いは？",
+    "a_ja": "レイヤーは主にベロシティの強弱で切り替わります。バリエーションは同じ強さの演奏でも異なるサンプルを鳴らし、繰り返し感を減らします。",
+    "q_en": "What is the difference between layers and variations?",
+    "a_en": "Layers respond mainly to velocity ranges. Variations alternate samples within a similar playing strength to reduce repetition.",
+    "keywords": [
+      "レイヤー",
+      "バリエーション",
+      "違い",
+      "layers variations"
+    ],
+    "source": "JP Manual Ch.10 p.20 / EN Manual Ch.10 p.27",
+    "chapter": 10,
+    "source_type": "Manual",
+    "manual_page_ja": 20,
+    "manual_page_en": 20,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 31,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "VEL-003",
+    "category": "ベロシティレイヤー",
+    "q_ja": "ALL LAYERは何に使いますか？",
+    "a_ja": "対応する編集項目を複数レイヤーへまとめて適用するときに使用します。ただし波形編集タブなど、選択中レイヤーだけに作用する項目もあります。",
+    "q_en": "What is ALL LAYER used for?",
+    "a_en": "It applies supported edits across multiple layers. Some controls, such as waveform editing, still affect only the selected layer.",
+    "keywords": [
+      "all layer",
+      "全レイヤー",
+      "一括"
+    ],
+    "source": "JP Manual Ch.10 p.20 / EN Manual Ch.10 p.27",
+    "chapter": 10,
+    "source_type": "Manual",
+    "manual_page_ja": 20,
+    "manual_page_en": 20,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 39,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "VAR-002",
+    "category": "バリエーション",
+    "q_ja": "バリエーションとは何ですか？",
+    "a_ja": "同じベロシティ帯でも複数のサンプルを切り替えて鳴らし、同じ音の機械的な繰り返しを抑える機能です。",
+    "q_en": "What are variations?",
+    "a_en": "Variations alternate multiple samples within the same velocity area to reduce mechanical repetition.",
+    "keywords": [
+      "variation",
+      "バリエーション",
+      "繰り返し"
+    ],
+    "source": "JP Manual Ch.11 p.22 / EN Manual Ch.11 p.30",
+    "chapter": 11,
+    "source_type": "Manual",
+    "manual_page_ja": 22,
+    "manual_page_en": 22,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped - Review recommended",
+      "confidence_percent": 21,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "VAR-003",
+    "category": "バリエーション",
+    "q_ja": "AUTOは何をしますか？",
+    "a_ja": "AUTOを有効にすると、登録されたV1、V2、V3などのバリエーションを自動的に切り替えて再生します。",
+    "q_en": "What does AUTO do?",
+    "a_en": "AUTO automatically switches among assigned variations such as V1, V2, and V3 during playback.",
+    "keywords": [
+      "auto",
+      "v1",
+      "v2",
+      "v3",
+      "自動"
+    ],
+    "source": "JP Manual Ch.11 p.22 / EN Manual Ch.11 p.30",
+    "chapter": 11,
+    "source_type": "Manual",
+    "manual_page_ja": 22,
+    "manual_page_en": 22,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped - Review recommended",
+      "confidence_percent": 23,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "MIX-001",
+    "category": "ミキサー",
+    "q_ja": "各パッドの音量やパンを調整できますか？",
+    "a_ja": "はい。ミキサーで各パッド／チャンネルのレベル、パン、ミュートなどを調整できます。",
+    "q_en": "Can I adjust each pad’s level and pan?",
+    "a_en": "Yes. The mixer provides level, pan, mute, and related controls for each pad/channel.",
+    "keywords": [
+      "mixer",
+      "volume",
+      "pan",
+      "mute",
+      "ミキサー",
+      "パン"
+    ],
+    "source": "JP Manual Ch.12 p.22 / EN Manual Ch.12 p.31",
+    "chapter": 12,
+    "source_type": "Manual",
+    "manual_page_ja": 23,
+    "manual_page_en": 23,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 30,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "MIX-002",
+    "category": "ミキサー",
+    "q_ja": "ALL CHは何に使いますか？",
+    "a_ja": "対応するミキサー操作を複数チャンネルへまとめて適用するために使います。選択中のチャンネルだけに作用する編集項目もあるため、画面表示を確認してください。",
+    "q_en": "What is ALL CH used for?",
+    "a_en": "It applies supported mixer operations across multiple channels. Some edit controls still affect only the selected channel.",
+    "keywords": [
+      "all ch",
+      "全チャンネル",
+      "一括"
+    ],
+    "source": "JP Manual Ch.12 p.22 / EN Manual Ch.12 p.31",
+    "chapter": 12,
+    "source_type": "Manual",
+    "manual_page_ja": 22,
+    "manual_page_en": 22,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped - Review recommended",
+      "confidence_percent": 23,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "ANA-001",
+    "category": "Analog Activator",
+    "q_ja": "Analog Activatorとは何ですか？",
+    "a_ja": "ヴィンテージ・アナログドラムマシンのDNAに着想を得た、14種類の音源セクションを持つモジュールです。生ドラムへレイヤーして使うこともできます。",
+    "q_en": "What is Analog Activator?",
+    "a_en": "It is a 14-section module inspired by vintage analog drum machines and can also be layered with acoustic drums.",
+    "keywords": [
+      "analog activator",
+      "アナログ",
+      "14"
+    ],
+    "source": "JP Manual Ch.13 p.25 / EN Manual Ch.13 p.35",
+    "chapter": 13,
+    "source_type": "Manual",
+    "manual_page_ja": 25,
+    "manual_page_en": 25,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 43,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "ANA-002",
+    "category": "Analog Activator",
+    "q_ja": "Analog Activatorにはどんな音がありますか？",
+    "a_ja": "Tom、Sweep、Rimshot、Cowbell、Clapなどを含む14種類の音源セクションがあります。",
+    "q_en": "What sounds are included in Analog Activator?",
+    "a_en": "Its 14 sections include sounds such as Toms, Sweeps, Rimshot, Cowbell, and Clap.",
+    "keywords": [
+      "tom",
+      "sweep",
+      "rimshot",
+      "cowbell",
+      "clap"
+    ],
+    "source": "JP Manual Ch.13 p.25 / EN Manual Ch.13 p.35",
+    "chapter": 13,
+    "source_type": "Manual",
+    "manual_page_ja": 25,
+    "manual_page_en": 25,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 38,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "ANA-003",
+    "category": "Analog Activator",
+    "q_ja": "生ドラムとAnalog Activatorを重ねられますか？",
+    "a_ja": "はい。Analog Activatorの音をPad Samplerの生ドラムへレイヤーし、太さや存在感を加えられます。",
+    "q_en": "Can Analog Activator be layered with acoustic drums?",
+    "a_en": "Yes. Layer Analog Activator with Pad Sampler drums to add weight and analog character.",
+    "keywords": [
+      "レイヤー",
+      "生ドラム",
+      "layer analog"
+    ],
+    "source": "JP Manual Ch.13 p.25 / EN Manual Ch.13 p.35",
+    "chapter": 13,
+    "source_type": "Manual",
+    "manual_page_ja": 26,
+    "manual_page_en": 25,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 32,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "SLC-001",
+    "category": "Slice Activator",
+    "q_ja": "Slice Activatorとは何ですか？",
+    "a_ja": "オーディオループを自動でスライスし、それぞれのスライスをパッドへ割り当てて演奏できるモジュールです。",
+    "q_en": "What is Slice Activator?",
+    "a_en": "It automatically slices an audio loop and assigns the slices to pads for performance and rearrangement.",
+    "keywords": [
+      "slice activator",
+      "スライス",
+      "audio loop"
+    ],
+    "source": "JP Manual Ch.14 p.27 / EN Manual Ch.14 p.39",
+    "chapter": 14,
+    "source_type": "Manual",
+    "manual_page_ja": 27,
+    "manual_page_en": 27,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 44,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "SLC-002",
+    "category": "Slice Activator",
+    "q_ja": "スライスをドラムマイクへ送れますか？",
+    "a_ja": "はい。スライスした音をCmd+C／Cmd+Vでドラムマイクチャンネルへコピー＆ペーストし、ループ素材からマルチマイクキットを組み立てられます。",
+    "q_en": "Can I send a slice to a drum-mic channel?",
+    "a_en": "Yes. Use Cmd+C/Cmd+V to copy a slice into a drum-mic channel and build a multi-mic kit from loop material.",
+    "keywords": [
+      "cmd c",
+      "cmd v",
+      "コピー",
+      "ペースト",
+      "drum mic",
+      "slice"
+    ],
+    "source": "JP Manual Ch.14 p.27 / EN Manual Ch.14 p.39",
+    "chapter": 14,
+    "source_type": "Manual",
+    "manual_page_ja": 27,
+    "manual_page_en": 27,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 49,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "INS-IA-001",
+    "category": "Instant Activator",
+    "q_ja": "Instant Activatorとは何ですか？",
+    "a_ja": "音へ即座に質感や存在感を加えるための処理モジュールです。Masterでは入力サチュレーションとブリックウォール・リミッターを使用します。",
+    "q_en": "What is Instant Activator?",
+    "a_en": "It is a processing module for quickly adding character and presence. On the Master it includes input saturation and a brick-wall limiter.",
+    "keywords": [
+      "instant activator",
+      "saturation",
+      "limiter",
+      "サチュレーション"
+    ],
+    "source": "JP Manual Ch.15 p.29 / EN Manual Ch.15 p.42",
+    "chapter": 15,
+    "source_type": "Manual",
+    "manual_page_ja": 29,
+    "manual_page_en": 29,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 45,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "INS-IA-002",
+    "category": "Instant Activator",
+    "q_ja": "QualityのStudioとEcoはどう使い分けますか？",
+    "a_ja": "Studioは高品質処理、EcoはCPU負荷を抑える設定です。負荷が高い場合はEcoを試してください。",
+    "q_en": "What is the difference between Studio and Eco quality?",
+    "a_en": "Studio prioritizes processing quality, while Eco reduces CPU usage. Try Eco if performance is heavy.",
+    "keywords": [
+      "quality",
+      "studio",
+      "eco",
+      "cpu"
+    ],
+    "source": "JP Manual Ch.15 p.29 / EN Manual Ch.15 p.42",
+    "chapter": 15,
+    "source_type": "Manual",
+    "manual_page_ja": 29,
+    "manual_page_en": 29,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped - Review recommended",
+      "confidence_percent": 17,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "PIT-001",
+    "category": "ピッチベンド",
+    "q_ja": "ピッチベンドを使えますか？",
+    "a_ja": "はい。Pitch Bend設定を使って、MIDIピッチベンド操作に対する音程変化を設定できます。",
+    "q_en": "Can I use pitch bend?",
+    "a_en": "Yes. Pitch Bend settings control how the instrument responds to MIDI pitch-bend messages.",
+    "keywords": [
+      "pitch bend",
+      "ピッチベンド",
+      "midi"
+    ],
+    "source": "JP Manual Ch.16 p.31 / EN Manual Ch.16 p.45",
+    "chapter": 16,
+    "source_type": "Manual",
+    "manual_page_ja": 31,
+    "manual_page_en": 31,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 34,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "HHT-001",
+    "category": "Hi-Hat／パッド設定",
+    "q_ja": "ハイハットの開閉を設定できますか？",
+    "a_ja": "はい。Hi-Hat設定で、オープン／クローズなどのハイハット動作とパッド設定を調整できます。",
+    "q_en": "Can I configure open and closed hi-hat behavior?",
+    "a_en": "Yes. Hi-Hat settings control open/closed behavior and related pad assignments.",
+    "keywords": [
+      "hi-hat",
+      "ハイハット",
+      "open",
+      "closed"
+    ],
+    "source": "JP Manual Ch.17 p.31 / EN Manual Ch.17 p.46",
+    "chapter": 17,
+    "source_type": "Manual",
+    "manual_page_ja": 31,
+    "manual_page_en": 32,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 26,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "PADSET-001",
+    "category": "Hi-Hat／パッド設定",
+    "q_ja": "パッドのMIDIノートを変更できますか？",
+    "a_ja": "パッド設定から各パッドのMIDI割り当てを管理できます。外部コントローラーに合わせて設定してください。",
+    "q_en": "Can I change a pad’s MIDI note assignment?",
+    "a_en": "Use Pad Settings to manage the MIDI assignment for each pad and match your external controller.",
+    "keywords": [
+      "midi note",
+      "ノート",
+      "pad settings",
+      "割り当て"
+    ],
+    "source": "JP Manual Ch.17 p.31 / EN Manual Ch.17 p.46",
+    "chapter": 17,
+    "source_type": "Manual",
+    "manual_page_ja": 31,
+    "manual_page_en": 32,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 30,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "MLN-001",
+    "category": "MIDI LEARN",
+    "q_ja": "MIDI LEARNはどう使いますか？",
+    "a_ja": "割り当てたいパラメータでMIDI LEARNを開始し、続けて外部MIDIコントローラーのノブやボタンを操作して割り当てます。",
+    "q_en": "How do I use MIDI LEARN?",
+    "a_en": "Start MIDI LEARN on the target parameter, then move the knob or button on your external MIDI controller to create the assignment.",
+    "keywords": [
+      "midi learn",
+      "コントローラー",
+      "割り当て",
+      "learn"
+    ],
+    "source": "JP Manual Ch.18 p.33 / EN Manual Ch.18 p.48",
+    "chapter": 18,
+    "source_type": "Manual",
+    "manual_page_ja": 33,
+    "manual_page_en": 33,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 54,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "KEY-001",
+    "category": "キーボードショートカット",
+    "q_ja": "コピーとペーストのショートカットは？",
+    "a_ja": "macOSの標準操作と同様に、Cmd+Cでコピー、Cmd+Vでペーストします。Slice Activatorからドラムマイクへ音を移す操作にも使用します。",
+    "q_en": "What are the copy and paste shortcuts?",
+    "a_en": "Use Cmd+C to copy and Cmd+V to paste. These shortcuts are also used to move Slice Activator material into drum-mic channels.",
+    "keywords": [
+      "cmd c",
+      "cmd v",
+      "shortcut",
+      "ショートカット",
+      "copy paste"
+    ],
+    "source": "JP Manual Ch.19 p.34 / EN Manual Ch.19 p.50",
+    "chapter": 19,
+    "source_type": "Manual",
+    "manual_page_ja": 34,
+    "manual_page_en": 34,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 39,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "KEY-002",
+    "category": "キーボードショートカット",
+    "q_ja": "キーボードショートカットの一覧はどこですか？",
+    "a_ja": "マニュアル第19章「キーボードショートカット」を確認してください。",
+    "q_en": "Where can I find the keyboard shortcut list?",
+    "a_en": "See Chapter 19, Keyboard Shortcuts, in the user manual.",
+    "keywords": [
+      "一覧",
+      "shortcut list",
+      "第19章"
+    ],
+    "source": "JP Manual Ch.19 p.34 / EN Manual Ch.19 p.50",
+    "chapter": 19,
+    "source_type": "Manual",
+    "manual_page_ja": 34,
+    "manual_page_en": 33,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 27,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "KIT-004",
+    "category": "プリセット／キット",
+    "q_ja": "同梱プリセットには何がありますか？",
+    "a_ja": "SR 1／SR 2、Chillin' 1／2、S II S 1、Groove Ride 1／2／3が収録されています。",
+    "q_en": "Which presets are included?",
+    "a_en": "Included presets are SR 1/2, Chillin' 1/2, S II S 1, and Groove Ride 1/2/3.",
+    "keywords": [
+      "sr 1",
+      "chillin",
+      "s ii s",
+      "groove ride",
+      "同梱プリセット"
+    ],
+    "source": "JP Manual Ch.20 p.37 / EN Manual Ch.20 p.52",
+    "chapter": 20,
+    "source_type": "Manual",
+    "manual_page_ja": 37,
+    "manual_page_en": 37,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 42,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "KIT-005",
+    "category": "プリセット／キット",
+    "q_ja": ".gdapackとは何ですか？",
+    "a_ja": ".gdapackはZIPベースの自己完結型キットコンテナです。サンプル音源、全パッドとMic設定、Analog Activator、Slice Activator、Master／Pitch Bend／Hi-Hat／Instant Activator設定、メタデータを含みます。",
+    "q_en": "What is a .gdapack file?",
+    "a_en": "A .gdapack is a self-contained ZIP-based kit container holding samples, pad/mic settings, Analog and Slice Activator states, master/global settings, and metadata.",
+    "keywords": [
+      "gdapack",
+      "kit pack",
+      "拡張子",
+      "zip"
+    ],
+    "source": "JP Manual Ch.20 p.37 / EN Manual Ch.20 p.52",
+    "chapter": 20,
+    "source_type": "Manual",
+    "manual_page_ja": 37,
+    "manual_page_en": 37,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 53,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "KIT-006",
+    "category": "プリセット／キット",
+    "q_ja": "キットパックを書き出し・読み込みできますか？",
+    "a_ja": "はい。Fileメニューから現在のキットを保存し、Kit Packの書き出し／読み込みができます。",
+    "q_en": "Can I export and import Kit Packs?",
+    "a_en": "Yes. Use the File menu to save the current kit and export or import Kit Packs.",
+    "keywords": [
+      "kit pack",
+      "export",
+      "import",
+      "書き出し",
+      "読み込み"
+    ],
+    "source": "JP Manual Ch.20 p.37 / EN Manual Ch.20 p.52",
+    "chapter": 20,
+    "source_type": "Manual",
+    "manual_page_ja": 37,
+    "manual_page_en": 37,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 37,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "KIT-007",
+    "category": "プリセット／キット",
+    "q_ja": "キットには何が保存されますか？",
+    "a_ja": "Drum Engineの全パッドとMic設定、Analog Activator全14セクション、Slice Activator、Master、Pitch Bend、Hi-Hat、Instant Activator、作者名・説明・タグ・サムネイルなどが保存されます。",
+    "q_en": "What is stored in a kit?",
+    "a_en": "A kit stores all Drum Engine pads and mics, all 14 Analog Activator sections, Slice Activator, master/global settings, and metadata such as author, description, tags, and thumbnail.",
+    "keywords": [
+      "キット内容",
+      "metadata",
+      "サムネイル",
+      "what is stored"
+    ],
+    "source": "JP Manual Ch.20 p.37 / EN Manual Ch.20 p.52",
+    "chapter": 20,
+    "source_type": "Manual",
+    "manual_page_ja": 37,
+    "manual_page_en": 37,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 53,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "OUT-003",
+    "category": "マルチアウト",
+    "q_ja": "出力バスはいくつありますか？",
+    "a_ja": "Bus 0のMainとBus 1～16のOut 1～16、合計17系統のステレオ出力に対応します。",
+    "q_en": "How many output buses are available?",
+    "a_en": "There are 17 stereo buses: Bus 0 Main plus Bus 1–16 (Out 1–16).",
+    "keywords": [
+      "17",
+      "bus",
+      "out 1",
+      "out 16",
+      "出力"
+    ],
+    "source": "JP Manual Ch.21 p.38 / EN Manual Ch.21 p.54",
+    "chapter": 21,
+    "source_type": "Manual",
+    "manual_page_ja": 38,
+    "manual_page_en": 38,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 28,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "OUT-004",
+    "category": "マルチアウト",
+    "q_ja": "Logicで16xStereoと17xStereoのどちらを選びますか？",
+    "a_ja": "Groove Activatorでは「Multi Output (17xStereo)」を推奨します。16xStereoはLogicが生成する汎用構成で、Out 16を利用できません。",
+    "q_en": "Should I choose 16xStereo or 17xStereo in Logic?",
+    "a_en": "Choose Multi Output (17xStereo). The generic 16xStereo configuration generated by Logic does not provide Out 16.",
+    "keywords": [
+      "16xstereo",
+      "17xstereo",
+      "logic",
+      "out16"
+    ],
+    "source": "JP Manual Ch.21 p.38 / EN Manual Ch.21 p.54",
+    "chapter": 21,
+    "source_type": "Manual",
+    "manual_page_ja": 38,
+    "manual_page_en": 38,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 25,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "OUT-005",
+    "category": "マルチアウト",
+    "q_ja": "なぜマルチアウト時にMaster Instant Activatorが無効になりますか？",
+    "a_ja": "Master Instant Activatorには約4msのルックアヘッド遅延があり、ゼロレイテンシーのOutバスとの位相ずれや二重打ちを避けるためです。ひとつでもOut 1～16へ送ると自動的に無効になります。",
+    "q_en": "Why is Master Instant Activator disabled with multi-output?",
+    "a_en": "It uses about 4 ms of look-ahead latency. It is disabled when any signal is routed to Out 1–16 to avoid timing/phase mismatch against the zero-latency output buses.",
+    "keywords": [
+      "4ms",
+      "look ahead",
+      "phase",
+      "flam",
+      "無効"
+    ],
+    "source": "JP Manual Ch.21 p.38 / EN Manual Ch.21 p.54",
+    "chapter": 21,
+    "source_type": "Manual",
+    "manual_page_ja": 38,
+    "manual_page_en": 38,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 44,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "REC-001",
+    "category": "レコーディング／バウンス",
+    "q_ja": "Standaloneで録音できますか？",
+    "a_ja": "はい。Standalone版には録音機能があり、録音データはユーザーデータフォルダのRecordings内に保存されます。",
+    "q_en": "Can I record in Standalone?",
+    "a_en": "Yes. The Standalone version includes recording, and recordings are stored in the Recordings folder inside user data.",
+    "keywords": [
+      "standalone",
+      "録音",
+      "recordings",
+      "record"
+    ],
+    "source": "JP Manual Ch.22 p.39 / EN Manual Ch.22 p.57",
+    "chapter": 22,
+    "source_type": "Manual",
+    "manual_page_ja": 39,
+    "manual_page_en": 39,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 34,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "REC-002",
+    "category": "レコーディング／バウンス",
+    "q_ja": "DAWでオーディオにバウンスするには？",
+    "a_ja": "DAW側の通常のバウンス／書き出し機能を使用します。マルチアウトを使用している場合は、必要なAuxや出力チャンネルを含めて書き出してください。",
+    "q_en": "How do I bounce Groove Activator to audio in a DAW?",
+    "a_en": "Use the DAW’s normal bounce/export function. If using multi-output, include the required Aux or output channels in the bounce.",
+    "keywords": [
+      "バウンス",
+      "bounce",
+      "export audio",
+      "書き出し"
+    ],
+    "source": "JP Manual Ch.22 p.39 / EN Manual Ch.22 p.57",
+    "chapter": 22,
+    "source_type": "Manual",
+    "manual_page_ja": 39,
+    "manual_page_en": 39,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 39,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "BKP-002",
+    "category": "バックアップ",
+    "q_ja": "バックアップ対象のユーザーデータはどこですか？",
+    "a_ja": "~/Library/Application Support/GOTARecords/GrooveActivator/ フォルダです。必要に応じて、このフォルダ全体を別の場所へコピーしてください。",
+    "q_en": "Which folder should I back up?",
+    "a_en": "Back up ~/Library/Application Support/GOTARecords/GrooveActivator/. You can copy the entire folder to another safe location.",
+    "keywords": [
+      "backup folder",
+      "バックアップフォルダ",
+      "application support"
+    ],
+    "source": "JP Manual Ch.23 p.40 / EN Manual Ch.23 p.58",
+    "chapter": 23,
+    "source_type": "Manual",
+    "manual_page_ja": 40,
+    "manual_page_en": 41,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 32,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "BKP-003",
+    "category": "バックアップ",
+    "q_ja": "再インストール後にキットとライセンスを戻せますか？",
+    "a_ja": "通常のアンインストールではユーザーデータが残るため、そのまま再利用できます。手動で退避した場合は、元のユーザーデータフォルダへ戻してください。",
+    "q_en": "Can I restore kits and the license after reinstalling?",
+    "a_en": "The normal uninstaller preserves user data, so it should remain available. If you moved it manually, restore it to the original user-data folder.",
+    "keywords": [
+      "復元",
+      "restore",
+      "reinstall",
+      "再インストール"
+    ],
+    "source": "JP Manual Ch.23 p.40 / EN Manual Ch.23 p.58",
+    "chapter": 23,
+    "source_type": "Manual",
+    "manual_page_ja": 40,
+    "manual_page_en": 40,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped - Review recommended",
+      "confidence_percent": 24,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "TRB-001",
+    "category": "トラブルシューティング",
+    "q_ja": "Logic ProでAUが見つかりません。",
+    "a_ja": "Logic Proを終了し、AU Cacheをクリアしてから再起動・再検証します。先にプラグインマネージャでGroove Activatorの状態も確認してください。",
+    "q_en": "The AU does not appear in Logic Pro.",
+    "a_en": "Quit Logic Pro, clear the AU cache, then relaunch and validate the plugin again. Also check Groove Activator’s status in Plug-in Manager.",
+    "keywords": [
+      "au cache",
+      "logic",
+      "見つからない",
+      "validation"
+    ],
+    "source": "JP Manual Ch.24 p.41 / EN Manual Ch.24 p.59",
+    "chapter": 24,
+    "source_type": "Manual",
+    "manual_page_ja": 41,
+    "manual_page_en": 42,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 45,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "TRB-002",
+    "category": "トラブルシューティング",
+    "q_ja": "音切れやノイズが出ます。",
+    "a_ja": "DAWまたはStandaloneのBuffer Sizeを大きくし、必要に応じてQualityをEcoへ変更してください。サンプルレートとオーディオデバイス設定も確認します。",
+    "q_en": "I hear dropouts or noise.",
+    "a_en": "Increase the DAW or Standalone buffer size and, if needed, switch Quality to Eco. Also check sample-rate and audio-device settings.",
+    "keywords": [
+      "音切れ",
+      "ノイズ",
+      "dropout",
+      "crackle",
+      "buffer"
+    ],
+    "source": "JP Manual Ch.24 p.41 / EN Manual Ch.24 p.59",
+    "chapter": 24,
+    "source_type": "Manual",
+    "manual_page_ja": 41,
+    "manual_page_en": 42,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 26,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "TRB-003",
+    "category": "トラブルシューティング",
+    "q_ja": "クラッシュが再現します。",
+    "a_ja": "Groove Activator、DAW、macOSのバージョン、再現手順、クラッシュログを記録し、サポートへ連絡してください。推測で設定を削除せず、必要なキットを先にバックアップしてください。",
+    "q_en": "A crash is reproducible.",
+    "a_en": "Record the Groove Activator, DAW, and macOS versions, exact reproduction steps, and crash log, then contact support. Back up your kits before deleting or resetting anything.",
+    "keywords": [
+      "クラッシュ",
+      "crash",
+      "再現",
+      "ログ",
+      "support"
+    ],
+    "source": "JP Manual Ch.24 p.41 / EN Manual Ch.24 p.59",
+    "chapter": 24,
+    "source_type": "Manual",
+    "manual_page_ja": 41,
+    "manual_page_en": 42,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 29,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "CRD-001",
+    "category": "クレジット",
+    "q_ja": "製品のクレジットはどこで確認できますか？",
+    "a_ja": "マニュアル第25章「クレジット」で確認できます。",
+    "q_en": "Where can I find the product credits?",
+    "a_en": "See Chapter 25, Credits, in the user manual.",
+    "keywords": [
+      "クレジット",
+      "credits"
+    ],
+    "source": "JP Manual Ch.25 p.41 / EN Manual Ch.25 p.59",
+    "chapter": 25,
+    "source_type": "Manual",
+    "manual_page_ja": 41,
+    "manual_page_en": 42,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped - Review recommended",
+      "confidence_percent": 23,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "AJI-001",
+    "category": "AJITO SOUNDS",
+    "q_ja": "AJITO SOUNDSについて知りたいです。",
+    "a_ja": "マニュアル第26章に、AJITO SOUNDSについての紹介が掲載されています。",
+    "q_en": "Where can I learn about AJITO SOUNDS?",
+    "a_en": "See Chapter 26 of the manual for information about AJITO SOUNDS.",
+    "keywords": [
+      "ajito sounds",
+      "会社",
+      "about"
+    ],
+    "source": "JP Manual Ch.26 p.42 / EN Manual Ch.26 p.59",
+    "chapter": 26,
+    "source_type": "Manual",
+    "manual_page_ja": 42,
+    "manual_page_en": 43,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped",
+      "confidence_percent": 54,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  },
+  {
+    "id": "LEG-001",
+    "category": "法的情報",
+    "q_ja": "著作権や法的情報はどこですか？",
+    "a_ja": "マニュアル第27章「奥付」に著作権、発行情報などが掲載されています。",
+    "q_en": "Where can I find copyright and legal information?",
+    "a_en": "Copyright, publication, and legal information are listed in Chapter 27.",
+    "keywords": [
+      "著作権",
+      "法的",
+      "copyright",
+      "legal",
+      "奥付"
+    ],
+    "source": "JP Manual Ch.27 p.43 / EN Manual Ch.27 p.60",
+    "chapter": 27,
+    "source_type": "Manual",
+    "manual_page_ja": 43,
+    "manual_page_en": 44,
+    "verification": 100,
+    "page_mapping": {
+      "status": "Mapped - Review recommended",
+      "confidence_percent": 5,
+      "chapter_source": "Structured chapter",
+      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+    }
+  }
+]

@@ -1,99 +1,12 @@
 {
-  "schema_version": 1,
-  "updated_at": "2026-07-30",
-  "manual_version": "v1.0.2 Queen Edition",
-  "languages": {
-    "ja": {
-      "source_file": "GrooveActivator_UserManual_v1.0.2_QueenEdition_JP.pdf",
-      "chapters": {
-        "4": {
-          "title": "インストール",
-          "pages": [
-            5,
-            6,
-            7,
-            8,
-            9
-          ],
-          "media_type": "screenshot"
-        },
-        "5": {
-          "title": "ライセンス認証",
-          "pages": [
-            10,
-            11
-          ],
-          "media_type": "screenshot"
-        },
-        "15": {
-          "title": "Instant Activator",
-          "pages": [
-            29,
-            30
-          ],
-          "media_type": "both"
-        },
-        "23": {
-          "title": "バックアップと復元",
-          "pages": [
-            40
-          ],
-          "media_type": "screenshot"
-        },
-        "24": {
-          "title": "トラブルシューティング",
-          "pages": [
-            41
-          ],
-          "media_type": "screenshot"
-        }
-      }
-    },
-    "en": {
-      "source_file": "GrooveActivator_UserManual_v1.0.2_QueenEdition_EN.pdf",
-      "chapters": {
-        "4": {
-          "title": "Installation",
-          "pages": [
-            5,
-            6,
-            7,
-            8,
-            9
-          ],
-          "media_type": "screenshot"
-        },
-        "5": {
-          "title": "License Activation",
-          "pages": [
-            10,
-            11
-          ],
-          "media_type": "screenshot"
-        },
-        "15": {
-          "title": "Instant Activator",
-          "pages": [
-            29,
-            30
-          ],
-          "media_type": "both"
-        },
-        "23": {
-          "title": "Backup & Recovery",
-          "pages": [
-            40
-          ],
-          "media_type": "screenshot"
-        },
-        "24": {
-          "title": "Troubleshooting",
-          "pages": [
-            42
-          ],
-          "media_type": "screenshot"
-        }
-      }
-    }
-  }
+  "version": "v1.0.2 Queen Edition",
+  "pdf": {
+    "ja": "./manual-pdf/GrooveActivator_UserManual_v1.0.2_QueenEdition_JP.pdf",
+    "en": "./manual-pdf/GrooveActivator_UserManual_v1.0.2_QueenEdition_EN.pdf"
+  },
+  "page_counts": {
+    "ja": 43,
+    "en": 44
+  },
+  "chapters": 27
 }
