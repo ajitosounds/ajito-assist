@@ -132,9 +132,53 @@ button.media-type.manual-link:hover{
 .manual-page-card figcaption a:hover{text-decoration:underline}
 </style>
 
+
+<style>
+.manual-image-zoom-trigger{
+  display:block;width:100%;padding:0;border:0;background:none;
+  cursor:zoom-in;
+}
+.manual-image-zoom-trigger.text-trigger{
+  width:auto;color:var(--gold);font:inherit;font-weight:700;cursor:zoom-in;
+}
+.zoom-viewer{
+  position:fixed;inset:0;z-index:99999;background:rgba(5,5,8,.96);
+  display:none;flex-direction:column;
+}
+.zoom-viewer.open{display:flex}
+.zoom-viewer-toolbar{
+  display:flex;align-items:center;gap:8px;padding:10px 14px;
+  background:rgba(20,20,26,.96);border-bottom:1px solid rgba(255,255,255,.12)
+}
+.zoom-viewer-toolbar button{
+  border:1px solid rgba(255,255,255,.2);background:#24242d;color:#fff;
+  min-width:42px;height:38px;border-radius:9px;font-size:18px;cursor:pointer
+}
+.zoom-viewer-toolbar .zoom-close{margin-left:auto;font-size:24px}
+#zoomLevel{min-width:58px;text-align:center;color:#ddd;font-weight:700}
+.zoom-stage{
+  flex:1;overflow:auto;display:flex;align-items:flex-start;justify-content:center;
+  padding:28px;cursor:zoom-in
+}
+.zoom-stage.zoom-out-cursor{cursor:zoom-out}
+.zoom-stage img{
+  display:block;max-width:none;max-height:none;transform-origin:top center;
+  transition:transform .12s ease;
+  user-select:none;-webkit-user-drag:none;
+}
+.zoom-help{
+  padding:8px 14px;text-align:center;background:rgba(20,20,26,.96);
+  color:#bbb;font-size:12px;border-top:1px solid rgba(255,255,255,.1)
+}
+@media(max-width:640px){
+  .zoom-help{font-size:11px}
+  .zoom-stage{padding:12px}
+}
+</style>
+
 </head><body><div class="app">
 <header><div class="brand">AJITO SOUNDS</div><h1>GROOVE ACTIVATOR FAQ SUPPORT</h1>
-<div class="sub">AJITO Assist · Stable Manual Viewer v1.5 · Keep the Music Flowing</div>
+<div class="sub">AJITO Assist · Zoom Viewer v1.6 · Keep the Music Flowing</div>
 <div class="coverage"><strong>Manual coverage: 27 / 27 chapters</strong><div class="bar"><i></i></div><span><span id="kbStatus">87 base FAQs · Diagnostic Engine ON · Smart Manual ON · Embedded Manual ON</span></span></div>
 <div class="controls"><button class="lang active" data-lang="ja">日本語</button><button class="lang" data-lang="en">English</button>
 <select id="category"><option value="">全カテゴリー</option></select><button id="diagnosticStart">診断を始める</button><button id="faqList">FAQ一覧</button><button id="chapterList">章別一覧</button><button id="learningPanel">学習管理 <span id="pendingCount">0</span></button><button id="exportLearning">学習データ書出し</button><button id="reset">リセット</button></div>
@@ -229,7 +273,7 @@ function manualGalleryHtml(chapter){
  const pages=manualPagesForChapter(chapter);
  if(!pages.length)return `<div class="media-placeholder">${lang==='ja'?'該当ページ画像は未登録です。':'No page images are registered.'}</div>`;
  const label=lang==='ja'?'日本語マニュアル':'English Manual';
- return `<div class="manual-pages-intro">${lang==='ja'?'公式マニュアルの該当ページです。画像をクリックすると大きな画像が別タブで開きます。':'Relevant official manual pages. Click an image to open the full-size page in a new tab.'}</div><div class="manual-page-gallery">${pages.map(x=>`<figure class="manual-page-card"><a class="manual-image-native" href="${x.src}" target="_blank" rel="noopener" aria-label="${label} page ${x.page}"><img loading="lazy" src="${x.src}" alt="${label} page ${x.page}"></a><figcaption><span>${label}</span><a href="${x.src}" target="_blank" rel="noopener">p.${x.page} · 🔎 ${lang==='ja'?'拡大':'Open'}</a></figcaption></figure>`).join('')}</div>`;
+ return `<div class="manual-pages-intro">${lang==='ja'?'公式マニュアルの該当ページです。画像をクリックすると大きな画像が別タブで開きます。':'Relevant official manual pages. Click an image to open the full-size page in a new tab.'}</div><div class="manual-page-gallery">${pages.map(x=>`<figure class="manual-page-card"><button type="button" class="manual-image-zoom-trigger" data-src="${x.src}" data-page="${x.page}" aria-label="${label} page ${x.page}"><img loading="lazy" src="${x.src}" alt="${label} page ${x.page}"></button><figcaption><span>${label}</span><button type="button" class="manual-image-zoom-trigger text-trigger" data-src="${x.src}" data-page="${x.page}">p.${x.page} · 🔎 ${lang==='ja'?'拡大':'Open'}</button></figcaption></figure>`).join('')}</div>`;
 }
 function mediaPanelForChapter(chapter,entries=[]){
  const title=chapters[String(chapter)]||'';
@@ -704,4 +748,103 @@ document.getElementById('exportLearning').onclick=()=>{
 document.getElementById('chapterList').onclick=()=>{chat.innerHTML='';for(const [n,name] of Object.entries(chapters)){const count=faqs.filter(f=>String(inferChapter(f))===String(n)).length;const b=document.createElement('button');b.className='faqbtn';b.textContent=`Ch.${String(n).padStart(2,'0')} ${name} — ${count} FAQ`;b.onclick=()=>{chat.innerHTML='';const arr=faqs.filter(f=>String(inferChapter(f))===String(n));add(`Ch.${n} ${name} — ${arr.length} FAQ`);arr.forEach(f=>{const x=document.createElement('button');x.className='faqbtn';x.textContent=lang==='ja'?f.q_ja:f.q_en;x.onclick=()=>answer(lang==='ja'?f.q_ja:f.q_en);chat.appendChild(x)})};chat.appendChild(b)}};
 updateLearningStatus();
 welcome();
-</script></body></html>
+</script>
+<div id="zoomViewer" class="zoom-viewer" aria-hidden="true">
+  <div class="zoom-viewer-toolbar">
+    <button type="button" id="zoomOutBtn" aria-label="Zoom out">−</button>
+    <button type="button" id="zoomResetBtn">100%</button>
+    <button type="button" id="zoomInBtn" aria-label="Zoom in">＋</button>
+    <span id="zoomLevel">100%</span>
+    <button type="button" id="zoomCloseBtn" class="zoom-close" aria-label="Close">×</button>
+  </div>
+  <div id="zoomStage" class="zoom-stage">
+    <img id="zoomImage" alt="">
+  </div>
+  <div class="zoom-help">クリック：拡大　／　Shift＋クリック：縮小　／　ホイール：拡大・縮小</div>
+</div>
+
+
+<script>
+(() => {
+  const viewer = document.getElementById('zoomViewer');
+  const stage = document.getElementById('zoomStage');
+  const image = document.getElementById('zoomImage');
+  const levelLabel = document.getElementById('zoomLevel');
+  const inBtn = document.getElementById('zoomInBtn');
+  const outBtn = document.getElementById('zoomOutBtn');
+  const resetBtn = document.getElementById('zoomResetBtn');
+  const closeBtn = document.getElementById('zoomCloseBtn');
+
+  let zoom = 1;
+  const MIN = 0.25;
+  const MAX = 5;
+  const STEP = 0.25;
+
+  function applyZoom(){
+    zoom = Math.min(MAX, Math.max(MIN, zoom));
+    image.style.transform = `scale(${zoom})`;
+    levelLabel.textContent = `${Math.round(zoom * 100)}%`;
+  }
+  function zoomIn(){ zoom += STEP; applyZoom(); }
+  function zoomOut(){ zoom -= STEP; applyZoom(); }
+  function resetZoom(){ zoom = 1; applyZoom(); stage.scrollTo(0,0); }
+
+  function openViewer(src, page){
+    image.src = src;
+    image.alt = `Manual page ${page}`;
+    viewer.classList.add('open');
+    viewer.setAttribute('aria-hidden','false');
+    document.body.style.overflow='hidden';
+    resetZoom();
+  }
+  function closeViewer(){
+    viewer.classList.remove('open');
+    viewer.setAttribute('aria-hidden','true');
+    image.removeAttribute('src');
+    document.body.style.overflow='';
+  }
+
+  document.addEventListener('click', e => {
+    const trigger = e.target.closest('.manual-image-zoom-trigger');
+    if(trigger){
+      e.preventDefault();
+      openViewer(trigger.dataset.src, trigger.dataset.page);
+      return;
+    }
+    if(viewer.classList.contains('open') && e.target === stage){
+      e.shiftKey ? zoomOut() : zoomIn();
+    }
+  });
+
+  image.addEventListener('click', e => {
+    e.preventDefault();
+    e.stopPropagation();
+    e.shiftKey ? zoomOut() : zoomIn();
+  });
+
+  document.addEventListener('keydown', e => {
+    if(!viewer.classList.contains('open')) return;
+    if(e.key === 'Shift') stage.classList.add('zoom-out-cursor');
+    if(e.key === 'Escape') closeViewer();
+    if(e.key === '+' || e.key === '=') zoomIn();
+    if(e.key === '-') zoomOut();
+    if(e.key === '0') resetZoom();
+  });
+  document.addEventListener('keyup', e => {
+    if(e.key === 'Shift') stage.classList.remove('zoom-out-cursor');
+  });
+
+  stage.addEventListener('wheel', e => {
+    if(!viewer.classList.contains('open')) return;
+    e.preventDefault();
+    e.deltaY < 0 ? zoomIn() : zoomOut();
+  }, {passive:false});
+
+  inBtn.onclick = zoomIn;
+  outBtn.onclick = zoomOut;
+  resetBtn.onclick = resetZoom;
+  closeBtn.onclick = closeViewer;
+})();
+</script>
+
+</body></html>
