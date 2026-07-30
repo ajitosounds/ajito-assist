@@ -1,14 +1,13 @@
-# AJITO Assist v3.1 — Support Experience
+# AJITO Assist v3.2 — Stable Refresh
 
-A redesigned, search-first support experience for Groove Activator.
+This release restores the proven v3.0 application logic and applies a visual-only refresh.
 
-## Highlights
-- Search-first landing screen
-- Unified answer flow: Answer → Manual → Video → Gota's Tips → Related FAQ
-- Fullscreen original PDF viewer
-- FAQ browser and guided no-sound diagnostic
-- Japanese / English switching
-- Responsive desktop and mobile layout
+## Safety policy
+- FAQ search logic: unchanged from the working v3.0 release
+- 87-FAQ dataset: retained
+- Diagnostics, learning, Smart Manual and PDF viewer: retained
+- Visual changes: CSS only, apart from version labels and cache-busting query strings
 
 ## Deployment
-Upload the contents of this folder to the repository root, preserving all folders.
+Upload every item inside this folder to the repository root and overwrite matching files.
+After GitHub Pages finishes deploying, hard-refresh the public page with Command + Shift + R.

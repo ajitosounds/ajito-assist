@@ -1,9 +1,10 @@
-AJITO Assist v3.1 upload
+AJITO Assist v3.2 Stable Refresh
 
-1. Open the GitHub repository root.
-2. Upload all 8 visible items from this folder.
-3. Choose "Commit changes".
-4. Wait about 1–3 minutes for GitHub Pages.
-5. Reload the public page with Command + Shift + R.
+1. Open this folder.
+2. Drag every item inside it into the GitHub repository root.
+3. Choose to replace files with the same names.
+4. Commit with: AJITO Assist v3.2 stable refresh
+5. Wait for the GitHub Pages deployment to turn green.
+6. Open the public URL and press Command + Shift + R.
 
-Keep these folders intact: css, js, data, manual-pdf, assets.
+This package intentionally restores the working v3.0 search/application code.
