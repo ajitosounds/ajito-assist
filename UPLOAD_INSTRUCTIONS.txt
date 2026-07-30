@@ -1,9 +1,9 @@
-AJITO Assist v3.0 upload instructions
+AJITO Assist v3.1 upload
 
-1. Back up the current GitHub Pages repository.
-2. Upload every file and folder in this package to the repository root.
-3. Keep css/, js/, data/, manual-pdf/, and assets/ names unchanged.
-4. Commit the changes.
-5. Open the GitHub Pages URL and hard-refresh the browser.
+1. Open the GitHub repository root.
+2. Upload all 8 visible items from this folder.
+3. Choose "Commit changes".
+4. Wait about 1–3 minutes for GitHub Pages.
+5. Reload the public page with Command + Shift + R.
 
-The complete folder must be uploaded; replacing index.html alone is no longer sufficient.
+Keep these folders intact: css, js, data, manual-pdf, assets.

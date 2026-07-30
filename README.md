@@ -1,25 +1,14 @@
-# AJITO Assist v3.0 — Modular Architecture
+# AJITO Assist v3.1 — Support Experience
 
-## Structure
-- `index.html` — semantic UI shell only
-- `css/app.css` — all visual styles
-- `js/data-loader.js` — JSON loading and boot lifecycle
-- `js/search.js` — reusable search scoring engine
-- `js/diagnostics.js` — reusable diagnostic session helpers
-- `js/app.js` — FAQ, learning, Smart Manual and application behavior
-- `js/viewer.js` — fullscreen original-PDF viewer
-- `data/*.json` — editable content databases
-- `manual-pdf/` — official Japanese and English manuals
+A redesigned, search-first support experience for Groove Activator.
 
-## GitHub Pages deployment
-Upload the complete folder contents without changing the directory structure.
-Do not open `index.html` directly with `file://`; JSON loading requires GitHub Pages or a local web server.
+## Highlights
+- Search-first landing screen
+- Unified answer flow: Answer → Manual → Video → Gota's Tips → Related FAQ
+- Fullscreen original PDF viewer
+- FAQ browser and guided no-sound diagnostic
+- Japanese / English switching
+- Responsive desktop and mobile layout
 
-## Local test
-From this directory, run:
-
-```bash
-python3 -m http.server 8000
-```
-
-Then open `http://localhost:8000`.
+## Deployment
+Upload the contents of this folder to the repository root, preserving all folders.
