@@ -176,10 +176,43 @@ button.media-type.manual-link:hover{
 }
 </style>
 
+
+<style>
+.manual-pdf-block{
+  margin-top:12px;border:1px solid var(--line);border-radius:14px;
+  overflow:hidden;background:#0d0d12;
+}
+.manual-pdf-head{
+  display:flex;justify-content:space-between;align-items:center;gap:12px;
+  padding:11px 13px;background:#17171f;border-bottom:1px solid var(--line);
+}
+.manual-pdf-head>div{display:flex;flex-direction:column;gap:3px}
+.manual-pdf-head span{font-size:11px;color:var(--muted)}
+.manual-pdf-open{
+  display:inline-flex;align-items:center;justify-content:center;
+  padding:8px 11px;border:1px solid #6f5a7d;border-radius:9px;
+  background:#2a2232;color:#fff;text-decoration:none;font-size:12px;font-weight:700;
+  white-space:nowrap;
+}
+.manual-pdf-open:hover{background:#352a40}
+.manual-pdf-viewer{
+  display:block;width:100%;height:min(75vh,760px);border:0;background:#222;
+}
+.manual-pdf-help{
+  padding:8px 12px;color:var(--muted);font-size:11px;line-height:1.5;
+  border-top:1px solid var(--line);
+}
+@media(max-width:640px){
+  .manual-pdf-head{align-items:flex-start;flex-direction:column}
+  .manual-pdf-open{width:100%}
+  .manual-pdf-viewer{height:68vh}
+}
+</style>
+
 </head><body><div class="app">
 <header><div class="brand">AJITO SOUNDS</div><h1>GROOVE ACTIVATOR FAQ SUPPORT</h1>
-<div class="sub">AJITO Assist · Zoom Viewer v1.6 · Keep the Music Flowing</div>
-<div class="coverage"><strong>Manual coverage: 27 / 27 chapters</strong><div class="bar"><i></i></div><span><span id="kbStatus">87 base FAQs · Diagnostic Engine ON · Smart Manual ON · Embedded Manual ON</span></span></div>
+<div class="sub">AJITO Assist · Original PDF Viewer v2.0 · Keep the Music Flowing</div>
+<div class="coverage"><strong>Manual coverage: 27 / 27 chapters</strong><div class="bar"><i></i></div><span><span id="kbStatus">87 base FAQs · Diagnostic Engine ON · Smart Manual ON · Original PDF Manual ON</span></span></div>
 <div class="controls"><button class="lang active" data-lang="ja">日本語</button><button class="lang" data-lang="en">English</button>
 <select id="category"><option value="">全カテゴリー</option></select><button id="diagnosticStart">診断を始める</button><button id="faqList">FAQ一覧</button><button id="chapterList">章別一覧</button><button id="learningPanel">学習管理 <span id="pendingCount">0</span></button><button id="exportLearning">学習データ書出し</button><button id="reset">リセット</button></div>
 </header><main id="chat"></main>
@@ -218,6 +251,11 @@ learnedFaqs.forEach(f=>faqs.push(f));
 // Default policy: official manual visuals first. Video is used only where change over time or sound must be demonstrated.
 const embeddedManualPages={"ja":{"3":"./manual-pages/ja/page-03.jpg","4":"./manual-pages/ja/page-04.jpg","5":"./manual-pages/ja/page-05.jpg","6":"./manual-pages/ja/page-06.jpg","7":"./manual-pages/ja/page-07.jpg","8":"./manual-pages/ja/page-08.jpg","9":"./manual-pages/ja/page-09.jpg","10":"./manual-pages/ja/page-10.jpg","11":"./manual-pages/ja/page-11.jpg","12":"./manual-pages/ja/page-12.jpg","13":"./manual-pages/ja/page-13.jpg","14":"./manual-pages/ja/page-14.jpg","15":"./manual-pages/ja/page-15.jpg","16":"./manual-pages/ja/page-16.jpg","17":"./manual-pages/ja/page-17.jpg","18":"./manual-pages/ja/page-18.jpg","19":"./manual-pages/ja/page-19.jpg","20":"./manual-pages/ja/page-20.jpg","21":"./manual-pages/ja/page-21.jpg","22":"./manual-pages/ja/page-22.jpg","23":"./manual-pages/ja/page-23.jpg","24":"./manual-pages/ja/page-24.jpg","25":"./manual-pages/ja/page-25.jpg","26":"./manual-pages/ja/page-26.jpg","27":"./manual-pages/ja/page-27.jpg","28":"./manual-pages/ja/page-28.jpg","29":"./manual-pages/ja/page-29.jpg","30":"./manual-pages/ja/page-30.jpg","31":"./manual-pages/ja/page-31.jpg","32":"./manual-pages/ja/page-32.jpg","33":"./manual-pages/ja/page-33.jpg","34":"./manual-pages/ja/page-34.jpg","35":"./manual-pages/ja/page-35.jpg","36":"./manual-pages/ja/page-36.jpg","37":"./manual-pages/ja/page-37.jpg","38":"./manual-pages/ja/page-38.jpg","39":"./manual-pages/ja/page-39.jpg","40":"./manual-pages/ja/page-40.jpg","41":"./manual-pages/ja/page-41.jpg","42":"./manual-pages/ja/page-42.jpg","43":"./manual-pages/ja/page-43.jpg"},"en":{"3":"./manual-pages/en/page-03.jpg","4":"./manual-pages/en/page-04.jpg","5":"./manual-pages/en/page-05.jpg","6":"./manual-pages/en/page-06.jpg","7":"./manual-pages/en/page-07.jpg","8":"./manual-pages/en/page-08.jpg","9":"./manual-pages/en/page-09.jpg","10":"./manual-pages/en/page-10.jpg","11":"./manual-pages/en/page-11.jpg","12":"./manual-pages/en/page-12.jpg","13":"./manual-pages/en/page-13.jpg","14":"./manual-pages/en/page-14.jpg","15":"./manual-pages/en/page-15.jpg","16":"./manual-pages/en/page-16.jpg","17":"./manual-pages/en/page-17.jpg","18":"./manual-pages/en/page-18.jpg","19":"./manual-pages/en/page-19.jpg","20":"./manual-pages/en/page-20.jpg","21":"./manual-pages/en/page-21.jpg","22":"./manual-pages/en/page-22.jpg","23":"./manual-pages/en/page-23.jpg","24":"./manual-pages/en/page-24.jpg","25":"./manual-pages/en/page-25.jpg","26":"./manual-pages/en/page-26.jpg","27":"./manual-pages/en/page-27.jpg","28":"./manual-pages/en/page-28.jpg","29":"./manual-pages/en/page-29.jpg","30":"./manual-pages/en/page-30.jpg","31":"./manual-pages/en/page-31.jpg","32":"./manual-pages/en/page-32.jpg","33":"./manual-pages/en/page-33.jpg","34":"./manual-pages/en/page-34.jpg","35":"./manual-pages/en/page-35.jpg","36":"./manual-pages/en/page-36.jpg","37":"./manual-pages/en/page-37.jpg","38":"./manual-pages/en/page-38.jpg","39":"./manual-pages/en/page-39.jpg","40":"./manual-pages/en/page-40.jpg","41":"./manual-pages/en/page-41.jpg","42":"./manual-pages/en/page-42.jpg","43":"./manual-pages/en/page-43.jpg","44":"./manual-pages/en/page-44.jpg"}};
 const embeddedChapterPages={"ja":{"1":[3],"2":[4],"3":[5],"4":[5,6,7,8,9],"5":[10,11],"6":[12],"7":[13,14,15],"8":[16,17],"9":[18,19],"10":[20,21],"11":[22],"12":[22,23,24],"13":[25,26],"14":[27,28],"15":[29,30],"16":[31],"17":[31,32],"18":[33],"19":[34,35],"20":[36,37],"21":[38],"22":[39],"23":[40],"24":[41],"25":[41],"26":[42],"27":[43]},"en":{"1":[3],"2":[4],"3":[5],"4":[5,6,7,8,9],"5":[10,11],"6":[12],"7":[13,14,15],"8":[16,17],"9":[18,19],"10":[20,21],"11":[22],"12":[22,23,24],"13":[25,26],"14":[27,28],"15":[29,30],"16":[31],"17":[31,32],"18":[33],"19":[33,34,35],"20":[36,37],"21":[38],"22":[39],"23":[40,41],"24":[42],"25":[42],"26":[43],"27":[44]}};
+const ORIGINAL_MANUAL_PDF={
+ ja:'./manual-pdf/GrooveActivator_UserManual_v1.0.2_QueenEdition_JP.pdf',
+ en:'./manual-pdf/GrooveActivator_UserManual_v1.0.2_QueenEdition_EN.pdf'
+};
+
 const MANUAL_PDF_FILE='GrooveActivator_Manual_v1.0.2_QueenEdition_JP.pdf';
 const chapterPages={1:3,2:4,3:5,4:5,5:10,6:12,7:13,8:16,9:18,10:20,11:22,12:22,13:25,14:27,15:29,16:31,17:31,18:33,19:34,20:36,21:38,22:39,23:40,24:41,25:41,26:42,27:43};
 const mediaRegistry={
@@ -270,10 +308,23 @@ function closeManualImage(){
  document.body.style.overflow='';
 }
 function manualGalleryHtml(chapter){
- const pages=manualPagesForChapter(chapter);
- if(!pages.length)return `<div class="media-placeholder">${lang==='ja'?'該当ページ画像は未登録です。':'No page images are registered.'}</div>`;
- const label=lang==='ja'?'日本語マニュアル':'English Manual';
- return `<div class="manual-pages-intro">${lang==='ja'?'公式マニュアルの該当ページです。画像をクリックすると大きな画像が別タブで開きます。':'Relevant official manual pages. Click an image to open the full-size page in a new tab.'}</div><div class="manual-page-gallery">${pages.map(x=>`<figure class="manual-page-card"><button type="button" class="manual-image-zoom-trigger" data-src="${x.src}" data-page="${x.page}" aria-label="${label} page ${x.page}"><img loading="lazy" src="${x.src}" alt="${label} page ${x.page}"></button><figcaption><span>${label}</span><button type="button" class="manual-image-zoom-trigger text-trigger" data-src="${x.src}" data-page="${x.page}">p.${x.page} · 🔎 ${lang==='ja'?'拡大':'Open'}</button></figcaption></figure>`).join('')}</div>`;
+ const code=lang==='en'?'en':'ja';
+ const pages=embeddedChapterPages[code][String(chapter)]||[];
+ const page=pages[0]||1;
+ const pdf=ORIGINAL_MANUAL_PDF[code];
+ const label=lang==='ja'?'日本語公式マニュアル':'Official English Manual';
+ const viewerUrl=`${pdf}#page=${page}&zoom=page-width`;
+ return `<div class="manual-pdf-block">
+   <div class="manual-pdf-head">
+     <div><strong>📖 ${label}</strong><span>${lang==='ja'?`第${chapter}章・${page}ページから表示`:`Chapter ${chapter}, starting at page ${page}`}</span></div>
+     <a class="manual-pdf-open" href="${viewerUrl}" target="_blank" rel="noopener">${lang==='ja'?'PDFを大きく開く':'Open full PDF'}</a>
+   </div>
+   <object class="manual-pdf-viewer" data="${viewerUrl}" type="application/pdf">
+     <iframe class="manual-pdf-viewer" src="${viewerUrl}" title="${label} page ${page}"></iframe>
+     <p>${lang==='ja'?'PDFを表示できません。上の「PDFを大きく開く」を押してください。':'The PDF cannot be displayed here. Use “Open full PDF” above.'}</p>
+   </object>
+   <div class="manual-pdf-help">${lang==='ja'?'PDF内の＋／−、トラックパッド、またはブラウザのズームで鮮明なまま拡大できます。':'Use the PDF controls, trackpad, or browser zoom. Text remains sharp because this is the original PDF.'}</div>
+ </div>`;
 }
 function mediaPanelForChapter(chapter,entries=[]){
  const title=chapters[String(chapter)]||'';
@@ -748,103 +799,6 @@ document.getElementById('exportLearning').onclick=()=>{
 document.getElementById('chapterList').onclick=()=>{chat.innerHTML='';for(const [n,name] of Object.entries(chapters)){const count=faqs.filter(f=>String(inferChapter(f))===String(n)).length;const b=document.createElement('button');b.className='faqbtn';b.textContent=`Ch.${String(n).padStart(2,'0')} ${name} — ${count} FAQ`;b.onclick=()=>{chat.innerHTML='';const arr=faqs.filter(f=>String(inferChapter(f))===String(n));add(`Ch.${n} ${name} — ${arr.length} FAQ`);arr.forEach(f=>{const x=document.createElement('button');x.className='faqbtn';x.textContent=lang==='ja'?f.q_ja:f.q_en;x.onclick=()=>answer(lang==='ja'?f.q_ja:f.q_en);chat.appendChild(x)})};chat.appendChild(b)}};
 updateLearningStatus();
 welcome();
-</script>
-<div id="zoomViewer" class="zoom-viewer" aria-hidden="true">
-  <div class="zoom-viewer-toolbar">
-    <button type="button" id="zoomOutBtn" aria-label="Zoom out">−</button>
-    <button type="button" id="zoomResetBtn">100%</button>
-    <button type="button" id="zoomInBtn" aria-label="Zoom in">＋</button>
-    <span id="zoomLevel">100%</span>
-    <button type="button" id="zoomCloseBtn" class="zoom-close" aria-label="Close">×</button>
-  </div>
-  <div id="zoomStage" class="zoom-stage">
-    <img id="zoomImage" alt="">
-  </div>
-  <div class="zoom-help">クリック：拡大　／　Shift＋クリック：縮小　／　ホイール：拡大・縮小</div>
-</div>
-
-
-<script>
-(() => {
-  const viewer = document.getElementById('zoomViewer');
-  const stage = document.getElementById('zoomStage');
-  const image = document.getElementById('zoomImage');
-  const levelLabel = document.getElementById('zoomLevel');
-  const inBtn = document.getElementById('zoomInBtn');
-  const outBtn = document.getElementById('zoomOutBtn');
-  const resetBtn = document.getElementById('zoomResetBtn');
-  const closeBtn = document.getElementById('zoomCloseBtn');
-
-  let zoom = 1;
-  const MIN = 0.25;
-  const MAX = 5;
-  const STEP = 0.25;
-
-  function applyZoom(){
-    zoom = Math.min(MAX, Math.max(MIN, zoom));
-    image.style.transform = `scale(${zoom})`;
-    levelLabel.textContent = `${Math.round(zoom * 100)}%`;
-  }
-  function zoomIn(){ zoom += STEP; applyZoom(); }
-  function zoomOut(){ zoom -= STEP; applyZoom(); }
-  function resetZoom(){ zoom = 1; applyZoom(); stage.scrollTo(0,0); }
-
-  function openViewer(src, page){
-    image.src = src;
-    image.alt = `Manual page ${page}`;
-    viewer.classList.add('open');
-    viewer.setAttribute('aria-hidden','false');
-    document.body.style.overflow='hidden';
-    resetZoom();
-  }
-  function closeViewer(){
-    viewer.classList.remove('open');
-    viewer.setAttribute('aria-hidden','true');
-    image.removeAttribute('src');
-    document.body.style.overflow='';
-  }
-
-  document.addEventListener('click', e => {
-    const trigger = e.target.closest('.manual-image-zoom-trigger');
-    if(trigger){
-      e.preventDefault();
-      openViewer(trigger.dataset.src, trigger.dataset.page);
-      return;
-    }
-    if(viewer.classList.contains('open') && e.target === stage){
-      e.shiftKey ? zoomOut() : zoomIn();
-    }
-  });
-
-  image.addEventListener('click', e => {
-    e.preventDefault();
-    e.stopPropagation();
-    e.shiftKey ? zoomOut() : zoomIn();
-  });
-
-  document.addEventListener('keydown', e => {
-    if(!viewer.classList.contains('open')) return;
-    if(e.key === 'Shift') stage.classList.add('zoom-out-cursor');
-    if(e.key === 'Escape') closeViewer();
-    if(e.key === '+' || e.key === '=') zoomIn();
-    if(e.key === '-') zoomOut();
-    if(e.key === '0') resetZoom();
-  });
-  document.addEventListener('keyup', e => {
-    if(e.key === 'Shift') stage.classList.remove('zoom-out-cursor');
-  });
-
-  stage.addEventListener('wheel', e => {
-    if(!viewer.classList.contains('open')) return;
-    e.preventDefault();
-    e.deltaY < 0 ? zoomIn() : zoomOut();
-  }, {passive:false});
-
-  inBtn.onclick = zoomIn;
-  outBtn.onclick = zoomOut;
-  resetBtn.onclick = resetZoom;
-  closeBtn.onclick = closeViewer;
-})();
 </script>
 
 </body></html>
