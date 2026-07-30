@@ -1,0 +1,10 @@
+{
+  "app_name": "AJITO Assist",
+  "product_name": "Groove Activator",
+  "tagline": "Keep the Music Flowing",
+  "data_base_url": "../data/",
+  "manual_base_url": "../manual/",
+  "videos_base_url": "../videos/",
+  "developer_mode": true,
+  "cache_bust": "2026-07-30-1"
+}

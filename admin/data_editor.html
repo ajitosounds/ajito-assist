@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ja"><meta charset="utf-8"><title>AJITO Assist Data Editor</title>
+<style>
+body{font-family:system-ui;background:#0c0c10;color:#eee;max-width:1000px;margin:40px auto;padding:0 20px}
+textarea{width:100%;height:65vh;background:#16161e;color:#eee;border:1px solid #444;border-radius:12px;padding:14px}
+button,select{padding:10px 14px;margin:6px;border-radius:10px}
+small{color:#aaa}
+</style>
+<h1>AJITO Assist Data Editor</h1>
+<p>編集するJSONを選び、内容を貼り付けて保存用ファイルを書き出します。公開前に必ず検証してください。</p>
+<select id="name"><option>faq.json</option><option>manual.json</option><option>videos.json</option><option>diagnostics.json</option><option>gota_tips.json</option></select>
+<button onclick="download()">JSONを書き出す</button>
+<textarea id="editor">{}</textarea>
+<p><small>Google Driveは編集・保管用。公開サイトでは data フォルダーのJSONを読み込みます。</small></p>
+<script>
+function download(){
+ const name=document.getElementById('name').value;
+ const txt=document.getElementById('editor').value;
+ try{JSON.parse(txt)}catch(e){alert('JSONエラー: '+e.message);return}
+ const a=document.createElement('a');
+ a.href=URL.createObjectURL(new Blob([txt],{type:'application/json'}));
+ a.download=name;a.click();URL.revokeObjectURL(a.href);
+}
+</script></html>
