@@ -209,9 +209,133 @@ button.media-type.manual-link:hover{
 }
 </style>
 
+
+<style>
+.manual-pdf-launch{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:16px;
+  margin-top:12px;
+  padding:14px;
+  border:1px solid var(--line);
+  border-radius:14px;
+  background:#111118;
+}
+.manual-pdf-launch>div{
+  display:flex;
+  flex-direction:column;
+  gap:4px;
+}
+.manual-pdf-launch span{
+  color:var(--muted);
+  font-size:12px;
+}
+.open-fullscreen-pdf{
+  border:1px solid #8a6ca0;
+  background:#362943;
+  color:#fff;
+  padding:10px 16px;
+  border-radius:10px;
+  font-weight:800;
+  cursor:pointer;
+  white-space:nowrap;
+}
+.open-fullscreen-pdf:hover{background:#443253}
+
+.fullscreen-pdf-overlay{
+  position:fixed;
+  inset:0;
+  z-index:100000;
+  display:none;
+  flex-direction:column;
+  background:#09090d;
+}
+.fullscreen-pdf-overlay.open{display:flex}
+.fullscreen-pdf-toolbar{
+  min-height:58px;
+  display:flex;
+  align-items:center;
+  gap:12px;
+  padding:8px 12px;
+  background:#15151c;
+  border-bottom:1px solid rgba(255,255,255,.14);
+}
+.pdf-back,
+.pdf-controls button,
+.pdf-controls a{
+  min-height:38px;
+  border:1px solid rgba(255,255,255,.18);
+  background:#25252f;
+  color:#fff;
+  border-radius:9px;
+  padding:7px 12px;
+  text-decoration:none;
+  font:inherit;
+  font-weight:700;
+  cursor:pointer;
+}
+.pdf-back{white-space:nowrap}
+.pdf-title-wrap{
+  min-width:0;
+  display:flex;
+  flex-direction:column;
+  line-height:1.2;
+}
+.pdf-title-wrap strong{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.pdf-title-wrap span{
+  color:#aaa;
+  font-size:11px;
+}
+.pdf-controls{
+  margin-left:auto;
+  display:flex;
+  align-items:center;
+  gap:7px;
+}
+.pdf-controls .pdf-close{
+  font-size:21px;
+  min-width:42px;
+}
+.fullscreen-pdf-frame{
+  flex:1;
+  width:100%;
+  border:0;
+  background:#202124;
+}
+@media(max-width:760px){
+  .fullscreen-pdf-toolbar{
+    flex-wrap:wrap;
+    align-items:center;
+  }
+  .pdf-title-wrap{
+    flex:1;
+  }
+  .pdf-controls{
+    width:100%;
+    margin-left:0;
+    overflow-x:auto;
+    padding-bottom:2px;
+  }
+  .pdf-controls button,
+  .pdf-controls a{
+    flex:0 0 auto;
+  }
+  .manual-pdf-launch{
+    align-items:stretch;
+    flex-direction:column;
+  }
+  .open-fullscreen-pdf{width:100%}
+}
+</style>
+
 </head><body><div class="app">
 <header><div class="brand">AJITO SOUNDS</div><h1>GROOVE ACTIVATOR FAQ SUPPORT</h1>
-<div class="sub">AJITO Assist · Original PDF Viewer v2.0 · Keep the Music Flowing</div>
+<div class="sub">AJITO Assist · Fullscreen PDF Viewer v2.1 · Keep the Music Flowing</div>
 <div class="coverage"><strong>Manual coverage: 27 / 27 chapters</strong><div class="bar"><i></i></div><span><span id="kbStatus">87 base FAQs · Diagnostic Engine ON · Smart Manual ON · Original PDF Manual ON</span></span></div>
 <div class="controls"><button class="lang active" data-lang="ja">日本語</button><button class="lang" data-lang="en">English</button>
 <select id="category"><option value="">全カテゴリー</option></select><button id="diagnosticStart">診断を始める</button><button id="faqList">FAQ一覧</button><button id="chapterList">章別一覧</button><button id="learningPanel">学習管理 <span id="pendingCount">0</span></button><button id="exportLearning">学習データ書出し</button><button id="reset">リセット</button></div>
@@ -311,19 +435,15 @@ function manualGalleryHtml(chapter){
  const code=lang==='en'?'en':'ja';
  const pages=embeddedChapterPages[code][String(chapter)]||[];
  const page=pages[0]||1;
- const pdf=ORIGINAL_MANUAL_PDF[code];
  const label=lang==='ja'?'日本語公式マニュアル':'Official English Manual';
- const viewerUrl=`${pdf}#page=${page}&zoom=page-width`;
- return `<div class="manual-pdf-block">
-   <div class="manual-pdf-head">
-     <div><strong>📖 ${label}</strong><span>${lang==='ja'?`第${chapter}章・${page}ページから表示`:`Chapter ${chapter}, starting at page ${page}`}</span></div>
-     <a class="manual-pdf-open" href="${viewerUrl}" target="_blank" rel="noopener">${lang==='ja'?'PDFを大きく開く':'Open full PDF'}</a>
+ return `<div class="manual-pdf-launch">
+   <div>
+     <strong>📖 ${label}</strong>
+     <span>${lang==='ja'?`第${chapter}章・${page}ページから開きます`:`Chapter ${chapter}, starting at page ${page}`}</span>
    </div>
-   <object class="manual-pdf-viewer" data="${viewerUrl}" type="application/pdf">
-     <iframe class="manual-pdf-viewer" src="${viewerUrl}" title="${label} page ${page}"></iframe>
-     <p>${lang==='ja'?'PDFを表示できません。上の「PDFを大きく開く」を押してください。':'The PDF cannot be displayed here. Use “Open full PDF” above.'}</p>
-   </object>
-   <div class="manual-pdf-help">${lang==='ja'?'PDF内の＋／−、トラックパッド、またはブラウザのズームで鮮明なまま拡大できます。':'Use the PDF controls, trackpad, or browser zoom. Text remains sharp because this is the original PDF.'}</div>
+   <button type="button" class="open-fullscreen-pdf" data-lang="${code}" data-page="${page}" data-chapter="${chapter}">
+     ${lang==='ja'?'全画面で読む':'Read full screen'}
+   </button>
  </div>`;
 }
 function mediaPanelForChapter(chapter,entries=[]){
@@ -799,6 +919,123 @@ document.getElementById('exportLearning').onclick=()=>{
 document.getElementById('chapterList').onclick=()=>{chat.innerHTML='';for(const [n,name] of Object.entries(chapters)){const count=faqs.filter(f=>String(inferChapter(f))===String(n)).length;const b=document.createElement('button');b.className='faqbtn';b.textContent=`Ch.${String(n).padStart(2,'0')} ${name} — ${count} FAQ`;b.onclick=()=>{chat.innerHTML='';const arr=faqs.filter(f=>String(inferChapter(f))===String(n));add(`Ch.${n} ${name} — ${arr.length} FAQ`);arr.forEach(f=>{const x=document.createElement('button');x.className='faqbtn';x.textContent=lang==='ja'?f.q_ja:f.q_en;x.onclick=()=>answer(lang==='ja'?f.q_ja:f.q_en);chat.appendChild(x)})};chat.appendChild(b)}};
 updateLearningStatus();
 welcome();
+</script>
+
+
+<div id="fullscreenPdfOverlay" class="fullscreen-pdf-overlay" aria-hidden="true">
+  <div class="fullscreen-pdf-toolbar">
+    <button type="button" id="pdfBackBtn" class="pdf-back">← 戻る</button>
+    <div class="pdf-title-wrap">
+      <strong id="pdfViewerTitle">Official Manual</strong>
+      <span id="pdfViewerPage"></span>
+    </div>
+    <div class="pdf-controls">
+      <button type="button" id="pdfZoomOut" aria-label="縮小">−</button>
+      <button type="button" id="pdfZoomReset">100%</button>
+      <button type="button" id="pdfFitWidth">幅に合わせる</button>
+      <button type="button" id="pdfZoomIn" aria-label="拡大">＋</button>
+      <a id="pdfOpenTab" href="#" target="_blank" rel="noopener">別タブ</a>
+      <button type="button" id="pdfCloseBtn" class="pdf-close">×</button>
+    </div>
+  </div>
+  <iframe id="fullscreenPdfFrame" class="fullscreen-pdf-frame" title="Official Manual PDF"></iframe>
+</div>
+
+
+<script>
+(() => {
+  const overlay = document.getElementById('fullscreenPdfOverlay');
+  const frame = document.getElementById('fullscreenPdfFrame');
+  const backBtn = document.getElementById('pdfBackBtn');
+  const closeBtn = document.getElementById('pdfCloseBtn');
+  const zoomInBtn = document.getElementById('pdfZoomIn');
+  const zoomOutBtn = document.getElementById('pdfZoomOut');
+  const resetBtn = document.getElementById('pdfZoomReset');
+  const fitBtn = document.getElementById('pdfFitWidth');
+  const openTab = document.getElementById('pdfOpenTab');
+  const title = document.getElementById('pdfViewerTitle');
+  const pageLabel = document.getElementById('pdfViewerPage');
+
+  let currentPdf = '';
+  let currentPage = 1;
+  let currentZoom = 'page-width';
+
+  function buildUrl(){
+    return `${currentPdf}#page=${currentPage}&zoom=${currentZoom}&toolbar=0&navpanes=0&pagemode=none`;
+  }
+
+  function loadPdf(){
+    const url = buildUrl();
+    frame.src = url;
+    openTab.href = url;
+    resetBtn.textContent = currentZoom === 'page-width' ? '幅' : `${currentZoom}%`;
+  }
+
+  function openPdfViewer(code, page, chapter){
+    currentPdf = ORIGINAL_MANUAL_PDF[code];
+    currentPage = Number(page) || 1;
+    currentZoom = 'page-width';
+
+    title.textContent = code === 'ja' ? 'Groove Activator 日本語公式マニュアル' : 'Groove Activator Official English Manual';
+    pageLabel.textContent = code === 'ja'
+      ? `第${chapter}章・${currentPage}ページ`
+      : `Chapter ${chapter} · Page ${currentPage}`;
+
+    overlay.classList.add('open');
+    overlay.setAttribute('aria-hidden','false');
+    document.body.style.overflow = 'hidden';
+    loadPdf();
+  }
+
+  function closePdfViewer(){
+    overlay.classList.remove('open');
+    overlay.setAttribute('aria-hidden','true');
+    frame.removeAttribute('src');
+    document.body.style.overflow = '';
+  }
+
+  function numericZoom(){
+    return currentZoom === 'page-width' ? 100 : Number(currentZoom) || 100;
+  }
+
+  document.addEventListener('click', e => {
+    const trigger = e.target.closest('.open-fullscreen-pdf');
+    if(!trigger) return;
+    e.preventDefault();
+    openPdfViewer(trigger.dataset.lang, trigger.dataset.page, trigger.dataset.chapter);
+  });
+
+  zoomInBtn.addEventListener('click', () => {
+    currentZoom = Math.min(300, numericZoom() + 25);
+    loadPdf();
+  });
+
+  zoomOutBtn.addEventListener('click', () => {
+    currentZoom = Math.max(50, numericZoom() - 25);
+    loadPdf();
+  });
+
+  resetBtn.addEventListener('click', () => {
+    currentZoom = 100;
+    loadPdf();
+  });
+
+  fitBtn.addEventListener('click', () => {
+    currentZoom = 'page-width';
+    loadPdf();
+  });
+
+  backBtn.addEventListener('click', closePdfViewer);
+  closeBtn.addEventListener('click', closePdfViewer);
+
+  document.addEventListener('keydown', e => {
+    if(!overlay.classList.contains('open')) return;
+    if(e.key === 'Escape') closePdfViewer();
+    if(e.key === '+' || e.key === '=') zoomInBtn.click();
+    if(e.key === '-') zoomOutBtn.click();
+    if(e.key === '0') resetBtn.click();
+  });
+})();
 </script>
 
 </body></html>
