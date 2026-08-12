@@ -22,13 +22,13 @@
     "chapter": 3,
     "source_type": "Manual",
     "manual_page_ja": 5,
-    "manual_page_en": 5,
+    "manual_page_en": 6,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 39,
       "chapter_source": "Recovered from source",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -48,13 +48,13 @@
     "chapter": 3,
     "source_type": "Manual",
     "manual_page_ja": 5,
-    "manual_page_en": 5,
+    "manual_page_en": 6,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 34,
       "chapter_source": "Recovered from source",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -77,13 +77,13 @@
     "chapter": 3,
     "source_type": "Manual",
     "manual_page_ja": 5,
-    "manual_page_en": 5,
+    "manual_page_en": 6,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 35,
       "chapter_source": "Recovered from source",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -107,13 +107,13 @@
     "chapter": 3,
     "source_type": "Manual",
     "manual_page_ja": 5,
-    "manual_page_en": 5,
+    "manual_page_en": 6,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped - Review recommended",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 22,
       "chapter_source": "Recovered from source",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -135,13 +135,13 @@
     "chapter": 4,
     "source_type": "Manual",
     "manual_page_ja": 5,
-    "manual_page_en": 5,
+    "manual_page_en": 6,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 41,
       "chapter_source": "Recovered from source",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -165,13 +165,13 @@
     "chapter": 4,
     "source_type": "Manual",
     "manual_page_ja": 9,
-    "manual_page_en": 11,
+    "manual_page_en": 12,
     "verification": 100,
     "page_mapping": {
-      "status": "Editorial review required",
+      "status": "Mapped — Review recommended",
       "confidence_percent": null,
       "chapter_source": "",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -194,13 +194,13 @@
     "chapter": 4,
     "source_type": "Manual",
     "manual_page_ja": 9,
-    "manual_page_en": 9,
+    "manual_page_en": 10,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 63,
       "chapter_source": "Recovered from source",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -223,13 +223,13 @@
     "chapter": 4,
     "source_type": "Manual",
     "manual_page_ja": 9,
-    "manual_page_en": 9,
+    "manual_page_en": 10,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 46,
       "chapter_source": "Recovered from source",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -251,14 +251,14 @@
     "source": "JP Manual Ch.05 p.10–11 / EN Manual Ch.05 p.11–12",
     "chapter": 5,
     "source_type": "Manual",
-    "manual_page_ja": 10,
-    "manual_page_en": 10,
+    "manual_page_ja": 11,
+    "manual_page_en": 11,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 57,
       "chapter_source": "Recovered from source",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -279,14 +279,14 @@
     "source": "Manual Ch.05 + Gota support workflow",
     "chapter": 5,
     "source_type": "Manual + Verified Support",
-    "manual_page_ja": 11,
-    "manual_page_en": 11,
+    "manual_page_ja": 12,
+    "manual_page_en": 12,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 39,
+      "confidence_percent": 100,
       "chapter_source": "Recovered from source",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -311,10 +311,10 @@
     "manual_page_en": "",
     "verification": 100,
     "page_mapping": {
-      "status": "Editorial review required",
-      "confidence_percent": null,
+      "status": "Mapped",
+      "confidence_percent": 100,
       "chapter_source": "",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -340,10 +340,10 @@
     "manual_page_en": "",
     "verification": 100,
     "page_mapping": {
-      "status": "Editorial review required",
-      "confidence_percent": null,
+      "status": "Mapped",
+      "confidence_percent": 100,
       "chapter_source": "",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -363,14 +363,14 @@
     "source": "Gota support workflow / Manual Ch.24",
     "chapter": 24,
     "source_type": "Manual + Verified Support",
-    "manual_page_ja": 41,
-    "manual_page_en": 42,
+    "manual_page_ja": 49,
+    "manual_page_en": 47,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 36,
       "chapter_source": "Recovered from source",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -393,14 +393,14 @@
     "source": "Manual Ch.10–11 + Gota's Tip",
     "chapter": 10,
     "source_type": "Manual + Verified Support",
-    "manual_page_ja": 20,
-    "manual_page_en": 20,
+    "manual_page_ja": 22,
+    "manual_page_en": 22,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 25,
+      "confidence_percent": 100,
       "chapter_source": "Recovered from source",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -424,14 +424,14 @@
     "source": "Manual Ch.15/24 + Gota's Tip",
     "chapter": 15,
     "source_type": "Manual + Verified Support",
-    "manual_page_ja": 29,
-    "manual_page_en": 29,
+    "manual_page_ja": 32,
+    "manual_page_en": 33,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 26,
       "chapter_source": "Recovered from source",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -452,14 +452,14 @@
     "source": "Gota support workflow / Manual Ch.24",
     "chapter": 24,
     "source_type": "Manual + Verified Support",
-    "manual_page_ja": 41,
-    "manual_page_en": 42,
+    "manual_page_ja": 49,
+    "manual_page_en": 47,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 36,
       "chapter_source": "Recovered from source",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -483,10 +483,10 @@
     "manual_page_en": "",
     "verification": 100,
     "page_mapping": {
-      "status": "Editorial review required",
-      "confidence_percent": null,
+      "status": "Mapped",
+      "confidence_percent": 100,
       "chapter_source": "",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -507,14 +507,14 @@
     "source": "Manual Ch.20 + Gota's verified workflow",
     "chapter": 20,
     "source_type": "Manual + Verified Support",
-    "manual_page_ja": 36,
-    "manual_page_en": 36,
+    "manual_page_ja": 41,
+    "manual_page_en": 40,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 35,
+      "confidence_percent": 100,
       "chapter_source": "Recovered from source",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -535,14 +535,14 @@
     "source": "Manual Ch.23 + Gota's verified workflow",
     "chapter": 23,
     "source_type": "Manual + Verified Support",
-    "manual_page_ja": 40,
-    "manual_page_en": 40,
+    "manual_page_ja": 47,
+    "manual_page_en": 46,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 27,
       "chapter_source": "Recovered from source",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -567,10 +567,10 @@
     "manual_page_en": "",
     "verification": 100,
     "page_mapping": {
-      "status": "Editorial review required",
-      "confidence_percent": null,
+      "status": "Mapped",
+      "confidence_percent": 100,
       "chapter_source": "",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -594,10 +594,10 @@
     "manual_page_en": "",
     "verification": 100,
     "page_mapping": {
-      "status": "Editorial review required",
-      "confidence_percent": null,
+      "status": "Mapped",
+      "confidence_percent": 100,
       "chapter_source": "",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -618,14 +618,14 @@
     "source": "JP Manual Ch.21 p.38 / EN Manual Ch.21 p.54",
     "chapter": 21,
     "source_type": "Manual",
-    "manual_page_ja": 38,
-    "manual_page_en": 38,
+    "manual_page_ja": 45,
+    "manual_page_en": 44,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 38,
       "chapter_source": "Recovered from source",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -647,14 +647,14 @@
     "source": "JP/EN Manual Ch.21",
     "chapter": 21,
     "source_type": "Manual",
-    "manual_page_ja": 38,
-    "manual_page_en": 38,
+    "manual_page_ja": 45,
+    "manual_page_en": 44,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 47,
       "chapter_source": "Recovered from source",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -676,14 +676,14 @@
     "source": "Manual Ch.12/15 + Gota support workflow",
     "chapter": 12,
     "source_type": "Manual + Verified Support",
-    "manual_page_ja": 24,
-    "manual_page_en": 23,
+    "manual_page_ja": 26,
+    "manual_page_en": 25,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 50,
+      "confidence_percent": 100,
       "chapter_source": "Recovered from source",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -706,10 +706,10 @@
     "manual_page_en": "",
     "verification": 100,
     "page_mapping": {
-      "status": "Editorial review required",
-      "confidence_percent": null,
+      "status": "Mapped",
+      "confidence_percent": 100,
       "chapter_source": "",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -735,9 +735,9 @@
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 54,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -762,9 +762,9 @@
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 53,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -789,9 +789,9 @@
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 53,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -815,9 +815,9 @@
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 28,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -838,13 +838,13 @@
     "chapter": 3,
     "source_type": "Manual",
     "manual_page_ja": 5,
-    "manual_page_en": 5,
+    "manual_page_en": 6,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped - Review recommended",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 16,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -866,13 +866,13 @@
     "chapter": 3,
     "source_type": "Manual",
     "manual_page_ja": 5,
-    "manual_page_en": 5,
+    "manual_page_en": 6,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 47,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -892,13 +892,13 @@
     "chapter": 4,
     "source_type": "Manual",
     "manual_page_ja": 5,
-    "manual_page_en": 5,
+    "manual_page_en": 6,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 34,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -917,13 +917,13 @@
     "chapter": 4,
     "source_type": "Manual",
     "manual_page_ja": 5,
-    "manual_page_en": 9,
+    "manual_page_en": 10,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped - Review recommended",
-      "confidence_percent": 23,
+      "status": "Mapped",
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -944,13 +944,13 @@
     "chapter": 4,
     "source_type": "Manual",
     "manual_page_ja": 9,
-    "manual_page_en": 9,
+    "manual_page_en": 10,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 48,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -970,13 +970,13 @@
     "chapter": 4,
     "source_type": "Manual",
     "manual_page_ja": 9,
-    "manual_page_en": 9,
+    "manual_page_en": 10,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 50,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -995,14 +995,14 @@
     "source": "JP Manual Ch.05 p.10 / EN Manual Ch.05 p.11",
     "chapter": 5,
     "source_type": "Manual",
-    "manual_page_ja": 11,
-    "manual_page_en": 10,
+    "manual_page_ja": 12,
+    "manual_page_en": 11,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped - Review recommended",
-      "confidence_percent": 23,
+      "status": "Mapped",
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1021,14 +1021,14 @@
     "source": "JP Manual Ch.05 p.10 / EN Manual Ch.05 p.11",
     "chapter": 5,
     "source_type": "Manual",
-    "manual_page_ja": 10,
-    "manual_page_en": 10,
+    "manual_page_ja": 11,
+    "manual_page_en": 11,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 51,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1046,14 +1046,14 @@
     "source": "JP Manual Ch.05 p.11 / EN Manual Ch.05 p.11",
     "chapter": 5,
     "source_type": "Manual",
-    "manual_page_ja": 11,
-    "manual_page_en": 10,
+    "manual_page_ja": 12,
+    "manual_page_en": 11,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 35,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1072,14 +1072,14 @@
     "source": "JP Manual Ch.06 p.12 / EN Manual Ch.06 p.13",
     "chapter": 6,
     "source_type": "Manual",
-    "manual_page_ja": 12,
-    "manual_page_en": 12,
+    "manual_page_ja": 13,
+    "manual_page_en": 13,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 38,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1097,14 +1097,14 @@
     "source": "JP Manual Ch.06 p.12 / EN Manual Ch.06 p.13",
     "chapter": 6,
     "source_type": "Manual",
-    "manual_page_ja": 12,
-    "manual_page_en": 12,
+    "manual_page_ja": 13,
+    "manual_page_en": 13,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 36,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1123,14 +1123,14 @@
     "source": "JP Manual Ch.07 p.13 / EN Manual Ch.07 p.17",
     "chapter": 7,
     "source_type": "Manual",
-    "manual_page_ja": 15,
-    "manual_page_en": 15,
+    "manual_page_ja": 16,
+    "manual_page_en": 16,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 37,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1149,14 +1149,14 @@
     "source": "JP Manual Ch.07 p.13 / EN Manual Ch.07 p.17",
     "chapter": 7,
     "source_type": "Manual",
-    "manual_page_ja": 13,
-    "manual_page_en": 13,
+    "manual_page_ja": 14,
+    "manual_page_en": 14,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 38,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1174,14 +1174,14 @@
     "source": "JP Manual Ch.08 p.16 / EN Manual Ch.08 p.21",
     "chapter": 8,
     "source_type": "Manual",
-    "manual_page_ja": 17,
-    "manual_page_en": 16,
+    "manual_page_ja": 18,
+    "manual_page_en": 17,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 44,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1200,14 +1200,14 @@
     "source": "JP Manual Ch.08 p.16 / EN Manual Ch.08 p.21",
     "chapter": 8,
     "source_type": "Manual",
-    "manual_page_ja": 17,
-    "manual_page_en": 17,
+    "manual_page_ja": 18,
+    "manual_page_en": 18,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 48,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1225,14 +1225,14 @@
     "source": "JP Manual Ch.08 p.18 / EN Manual Ch.08 p.23",
     "chapter": 8,
     "source_type": "Manual",
-    "manual_page_ja": 17,
-    "manual_page_en": 17,
+    "manual_page_ja": 18,
+    "manual_page_en": 18,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 39,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1251,14 +1251,14 @@
     "source": "JP Manual Ch.09 p.18 / EN Manual Ch.09 p.24",
     "chapter": 9,
     "source_type": "Manual",
-    "manual_page_ja": 18,
-    "manual_page_en": 18,
+    "manual_page_ja": 20,
+    "manual_page_en": 20,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 45,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1276,14 +1276,14 @@
     "source": "JP Manual Ch.09 p.18 / EN Manual Ch.09 p.24",
     "chapter": 9,
     "source_type": "Manual",
-    "manual_page_ja": 18,
-    "manual_page_en": 18,
+    "manual_page_ja": 20,
+    "manual_page_en": 20,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 45,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1303,14 +1303,14 @@
     "source": "JP Manual Ch.09 p.18 / EN Manual Ch.09 p.24",
     "chapter": 9,
     "source_type": "Manual",
-    "manual_page_ja": 18,
-    "manual_page_en": 18,
+    "manual_page_ja": 20,
+    "manual_page_en": 20,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 25,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1331,14 +1331,14 @@
     "source": "JP Manual Ch.09 p.18 / EN Manual Ch.09 p.24",
     "chapter": 9,
     "source_type": "Manual",
-    "manual_page_ja": 18,
-    "manual_page_en": 18,
+    "manual_page_ja": 20,
+    "manual_page_en": 20,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 30,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1357,14 +1357,14 @@
     "source": "JP Manual Ch.09 p.18 / EN Manual Ch.09 p.24",
     "chapter": 9,
     "source_type": "Manual",
-    "manual_page_ja": 18,
-    "manual_page_en": 18,
+    "manual_page_ja": 20,
+    "manual_page_en": 20,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 37,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1383,14 +1383,14 @@
     "source": "JP Manual Ch.10 p.20 / EN Manual Ch.10 p.27",
     "chapter": 10,
     "source_type": "Manual",
-    "manual_page_ja": 20,
-    "manual_page_en": 20,
+    "manual_page_ja": 22,
+    "manual_page_en": 22,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped - Review recommended",
-      "confidence_percent": 18,
+      "status": "Mapped",
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1409,14 +1409,14 @@
     "source": "JP Manual Ch.10 p.20 / EN Manual Ch.10 p.27",
     "chapter": 10,
     "source_type": "Manual",
-    "manual_page_ja": 20,
-    "manual_page_en": 20,
+    "manual_page_ja": 22,
+    "manual_page_en": 22,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 31,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1434,14 +1434,14 @@
     "source": "JP Manual Ch.10 p.20 / EN Manual Ch.10 p.27",
     "chapter": 10,
     "source_type": "Manual",
-    "manual_page_ja": 20,
-    "manual_page_en": 20,
+    "manual_page_ja": 22,
+    "manual_page_en": 22,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 39,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1459,14 +1459,14 @@
     "source": "JP Manual Ch.11 p.22 / EN Manual Ch.11 p.30",
     "chapter": 11,
     "source_type": "Manual",
-    "manual_page_ja": 22,
-    "manual_page_en": 22,
+    "manual_page_ja": 24,
+    "manual_page_en": 24,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped - Review recommended",
-      "confidence_percent": 21,
+      "status": "Mapped",
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1486,14 +1486,14 @@
     "source": "JP Manual Ch.11 p.22 / EN Manual Ch.11 p.30",
     "chapter": 11,
     "source_type": "Manual",
-    "manual_page_ja": 22,
-    "manual_page_en": 22,
+    "manual_page_ja": 24,
+    "manual_page_en": 24,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped - Review recommended",
-      "confidence_percent": 23,
+      "status": "Mapped",
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1514,14 +1514,14 @@
     "source": "JP Manual Ch.12 p.22 / EN Manual Ch.12 p.31",
     "chapter": 12,
     "source_type": "Manual",
-    "manual_page_ja": 23,
-    "manual_page_en": 23,
+    "manual_page_ja": 25,
+    "manual_page_en": 25,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 30,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1539,14 +1539,14 @@
     "source": "JP Manual Ch.12 p.22 / EN Manual Ch.12 p.31",
     "chapter": 12,
     "source_type": "Manual",
-    "manual_page_ja": 22,
-    "manual_page_en": 22,
+    "manual_page_ja": 24,
+    "manual_page_en": 24,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped - Review recommended",
-      "confidence_percent": 23,
+      "status": "Mapped",
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1564,14 +1564,14 @@
     "source": "JP Manual Ch.13 p.25 / EN Manual Ch.13 p.35",
     "chapter": 13,
     "source_type": "Manual",
-    "manual_page_ja": 25,
-    "manual_page_en": 25,
+    "manual_page_ja": 27,
+    "manual_page_en": 27,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 43,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1591,14 +1591,14 @@
     "source": "JP Manual Ch.13 p.25 / EN Manual Ch.13 p.35",
     "chapter": 13,
     "source_type": "Manual",
-    "manual_page_ja": 25,
-    "manual_page_en": 25,
+    "manual_page_ja": 27,
+    "manual_page_en": 27,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 38,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1616,14 +1616,14 @@
     "source": "JP Manual Ch.13 p.25 / EN Manual Ch.13 p.35",
     "chapter": 13,
     "source_type": "Manual",
-    "manual_page_ja": 26,
-    "manual_page_en": 25,
+    "manual_page_ja": 28,
+    "manual_page_en": 27,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 32,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1641,14 +1641,14 @@
     "source": "JP Manual Ch.14 p.27 / EN Manual Ch.14 p.39",
     "chapter": 14,
     "source_type": "Manual",
-    "manual_page_ja": 27,
-    "manual_page_en": 27,
+    "manual_page_ja": 29,
+    "manual_page_en": 29,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 44,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1669,14 +1669,14 @@
     "source": "JP Manual Ch.14 p.27 / EN Manual Ch.14 p.39",
     "chapter": 14,
     "source_type": "Manual",
-    "manual_page_ja": 27,
-    "manual_page_en": 27,
+    "manual_page_ja": 29,
+    "manual_page_en": 29,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 49,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1695,14 +1695,14 @@
     "source": "JP Manual Ch.15 p.29 / EN Manual Ch.15 p.42",
     "chapter": 15,
     "source_type": "Manual",
-    "manual_page_ja": 29,
-    "manual_page_en": 29,
+    "manual_page_ja": 32,
+    "manual_page_en": 33,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 45,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1721,14 +1721,14 @@
     "source": "JP Manual Ch.15 p.29 / EN Manual Ch.15 p.42",
     "chapter": 15,
     "source_type": "Manual",
-    "manual_page_ja": 29,
-    "manual_page_en": 29,
+    "manual_page_ja": 32,
+    "manual_page_en": 33,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped - Review recommended",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 17,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1746,14 +1746,14 @@
     "source": "JP Manual Ch.16 p.31 / EN Manual Ch.16 p.45",
     "chapter": 16,
     "source_type": "Manual",
-    "manual_page_ja": 31,
-    "manual_page_en": 31,
+    "manual_page_ja": 35,
+    "manual_page_en": 35,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 34,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1772,14 +1772,14 @@
     "source": "JP Manual Ch.17 p.31 / EN Manual Ch.17 p.46",
     "chapter": 17,
     "source_type": "Manual",
-    "manual_page_ja": 31,
-    "manual_page_en": 32,
+    "manual_page_ja": 35,
+    "manual_page_en": 36,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 26,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1798,14 +1798,14 @@
     "source": "JP Manual Ch.17 p.31 / EN Manual Ch.17 p.46",
     "chapter": 17,
     "source_type": "Manual",
-    "manual_page_ja": 31,
-    "manual_page_en": 32,
+    "manual_page_ja": 35,
+    "manual_page_en": 36,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 30,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1824,14 +1824,14 @@
     "source": "JP Manual Ch.18 p.33 / EN Manual Ch.18 p.48",
     "chapter": 18,
     "source_type": "Manual",
-    "manual_page_ja": 33,
-    "manual_page_en": 33,
+    "manual_page_ja": 37,
+    "manual_page_en": 37,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 54,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1851,14 +1851,14 @@
     "source": "JP Manual Ch.19 p.34 / EN Manual Ch.19 p.50",
     "chapter": 19,
     "source_type": "Manual",
-    "manual_page_ja": 34,
-    "manual_page_en": 34,
+    "manual_page_ja": 39,
+    "manual_page_en": 38,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 39,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1876,14 +1876,14 @@
     "source": "JP Manual Ch.19 p.34 / EN Manual Ch.19 p.50",
     "chapter": 19,
     "source_type": "Manual",
-    "manual_page_ja": 34,
-    "manual_page_en": 33,
+    "manual_page_ja": 39,
+    "manual_page_en": 37,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 27,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1903,14 +1903,14 @@
     "source": "JP Manual Ch.20 p.37 / EN Manual Ch.20 p.52",
     "chapter": 20,
     "source_type": "Manual",
-    "manual_page_ja": 37,
-    "manual_page_en": 37,
+    "manual_page_ja": 43,
+    "manual_page_en": 42,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 42,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1929,14 +1929,14 @@
     "source": "JP Manual Ch.20 p.37 / EN Manual Ch.20 p.52",
     "chapter": 20,
     "source_type": "Manual",
-    "manual_page_ja": 37,
-    "manual_page_en": 37,
+    "manual_page_ja": 43,
+    "manual_page_en": 42,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 53,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1956,14 +1956,14 @@
     "source": "JP Manual Ch.20 p.37 / EN Manual Ch.20 p.52",
     "chapter": 20,
     "source_type": "Manual",
-    "manual_page_ja": 37,
-    "manual_page_en": 37,
+    "manual_page_ja": 43,
+    "manual_page_en": 42,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 37,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -1982,14 +1982,14 @@
     "source": "JP Manual Ch.20 p.37 / EN Manual Ch.20 p.52",
     "chapter": 20,
     "source_type": "Manual",
-    "manual_page_ja": 37,
-    "manual_page_en": 37,
+    "manual_page_ja": 43,
+    "manual_page_en": 42,
     "verification": 100,
     "page_mapping": {
       "status": "Mapped",
-      "confidence_percent": 53,
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -2009,14 +2009,14 @@
     "source": "JP Manual Ch.21 p.38 / EN Manual Ch.21 p.54",
     "chapter": 21,
     "source_type": "Manual",
-    "manual_page_ja": 38,
-    "manual_page_en": 38,
+    "manual_page_ja": 45,
+    "manual_page_en": 44,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 28,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -2035,14 +2035,14 @@
     "source": "JP Manual Ch.21 p.38 / EN Manual Ch.21 p.54",
     "chapter": 21,
     "source_type": "Manual",
-    "manual_page_ja": 38,
-    "manual_page_en": 38,
+    "manual_page_ja": 45,
+    "manual_page_en": 44,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 25,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -2062,14 +2062,14 @@
     "source": "JP Manual Ch.21 p.38 / EN Manual Ch.21 p.54",
     "chapter": 21,
     "source_type": "Manual",
-    "manual_page_ja": 38,
-    "manual_page_en": 38,
+    "manual_page_ja": 45,
+    "manual_page_en": 44,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 44,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -2088,14 +2088,14 @@
     "source": "JP Manual Ch.22 p.39 / EN Manual Ch.22 p.57",
     "chapter": 22,
     "source_type": "Manual",
-    "manual_page_ja": 39,
-    "manual_page_en": 39,
+    "manual_page_ja": 45,
+    "manual_page_en": 44,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 34,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -2114,14 +2114,14 @@
     "source": "JP Manual Ch.22 p.39 / EN Manual Ch.22 p.57",
     "chapter": 22,
     "source_type": "Manual",
-    "manual_page_ja": 39,
-    "manual_page_en": 39,
+    "manual_page_ja": 45,
+    "manual_page_en": 44,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 39,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -2139,14 +2139,14 @@
     "source": "JP Manual Ch.23 p.40 / EN Manual Ch.23 p.58",
     "chapter": 23,
     "source_type": "Manual",
-    "manual_page_ja": 40,
-    "manual_page_en": 41,
+    "manual_page_ja": 47,
+    "manual_page_en": 46,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 32,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -2165,14 +2165,14 @@
     "source": "JP Manual Ch.23 p.40 / EN Manual Ch.23 p.58",
     "chapter": 23,
     "source_type": "Manual",
-    "manual_page_ja": 40,
-    "manual_page_en": 40,
+    "manual_page_ja": 47,
+    "manual_page_en": 46,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped - Review recommended",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 24,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -2191,14 +2191,14 @@
     "source": "JP Manual Ch.24 p.41 / EN Manual Ch.24 p.59",
     "chapter": 24,
     "source_type": "Manual",
-    "manual_page_ja": 41,
-    "manual_page_en": 42,
+    "manual_page_ja": 49,
+    "manual_page_en": 47,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 45,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -2218,14 +2218,14 @@
     "source": "JP Manual Ch.24 p.41 / EN Manual Ch.24 p.59",
     "chapter": 24,
     "source_type": "Manual",
-    "manual_page_ja": 41,
-    "manual_page_en": 42,
+    "manual_page_ja": 49,
+    "manual_page_en": 47,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 26,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -2245,14 +2245,14 @@
     "source": "JP Manual Ch.24 p.41 / EN Manual Ch.24 p.59",
     "chapter": 24,
     "source_type": "Manual",
-    "manual_page_ja": 41,
-    "manual_page_en": 42,
+    "manual_page_ja": 49,
+    "manual_page_en": 47,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 29,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -2269,14 +2269,14 @@
     "source": "JP Manual Ch.25 p.41 / EN Manual Ch.25 p.59",
     "chapter": 25,
     "source_type": "Manual",
-    "manual_page_ja": 41,
-    "manual_page_en": 42,
+    "manual_page_ja": 49,
+    "manual_page_en": 47,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped - Review recommended",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 23,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -2294,14 +2294,14 @@
     "source": "JP Manual Ch.26 p.42 / EN Manual Ch.26 p.59",
     "chapter": 26,
     "source_type": "Manual",
-    "manual_page_ja": 42,
-    "manual_page_en": 43,
+    "manual_page_ja": 50,
+    "manual_page_en": 48,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped",
+      "status": "Mapped — Review recommended",
       "confidence_percent": 54,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
@@ -2321,14 +2321,14 @@
     "source": "JP Manual Ch.27 p.43 / EN Manual Ch.27 p.60",
     "chapter": 27,
     "source_type": "Manual",
-    "manual_page_ja": 43,
-    "manual_page_en": 44,
+    "manual_page_ja": 51,
+    "manual_page_en": 50,
     "verification": 100,
     "page_mapping": {
-      "status": "Mapped - Review recommended",
-      "confidence_percent": 5,
+      "status": "Mapped",
+      "confidence_percent": 100,
       "chapter_source": "Structured chapter",
-      "verified_against": "Current JP/EN v1.0.2 Queen Edition PDFs"
+      "verified_against": "Remapped to v1.2.2 by page-content matching (2026-08-12)"
     }
   },
   {
