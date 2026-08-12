@@ -1,12 +1,12 @@
 {
-  "version": "v1.0.2 Queen Edition",
+  "version": "v1.2.2 Queen Edition",
   "pdf": {
-    "ja": "./manual-pdf/GrooveActivator_UserManual_v1.0.2_QueenEdition_JP.pdf",
-    "en": "./manual-pdf/GrooveActivator_UserManual_v1.0.2_QueenEdition_EN.pdf"
+    "ja": "./manual-pdf/GrooveActivator_UserManual_v1.2.2_QueenEdition_JP.pdf",
+    "en": "./manual-pdf/GrooveActivator_UserManual_v1.2.2_QueenEdition_EN.pdf"
   },
   "page_counts": {
-    "ja": 43,
-    "en": 44
+    "ja": 51,
+    "en": 50
   },
   "chapters": 27
 }
