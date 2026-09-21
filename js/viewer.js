@@ -28,15 +28,16 @@
     resetBtn.textContent = currentZoom === 'page-width' ? '幅' : `${currentZoom}%`;
   }
 
-  function openPdfViewer(code, page, chapter){
+  function openPdfViewer(code, page, chapter, chapterLabel){
     currentPdf = (window.AJITO_DATA.config.manual_pdf || {})[code];
     currentPage = Number(page) || 1;
     currentZoom = 'page-width';
 
     title.textContent = code === 'ja' ? 'Groove Activator 日本語公式マニュアル' : 'Groove Activator Official English Manual';
+    // chapterLabel comes from app.js (chLong): "第3章" / "Chapter 3" or "付録B" / "Appendix B" for the v1.5.0 appendices.
     pageLabel.textContent = code === 'ja'
-      ? `第${chapter}章・${currentPage}ページ`
-      : `Chapter ${chapter} · Page ${currentPage}`;
+      ? `${chapterLabel || `第${chapter}章`}・${currentPage}ページ`
+      : `${chapterLabel || `Chapter ${chapter}`} · Page ${currentPage}`;
 
     overlay.classList.add('open');
     overlay.setAttribute('aria-hidden','false');
@@ -59,7 +60,7 @@
     const trigger = e.target.closest('.open-fullscreen-pdf');
     if(!trigger) return;
     e.preventDefault();
-    openPdfViewer(trigger.dataset.lang, trigger.dataset.page, trigger.dataset.chapter);
+    openPdfViewer(trigger.dataset.lang, trigger.dataset.page, trigger.dataset.chapter, trigger.dataset.chapterLabel);
   });
 
   zoomInBtn.addEventListener('click', () => {

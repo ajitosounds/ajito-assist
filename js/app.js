@@ -3,7 +3,11 @@
   function startAJITOAssist(){
 
 const faqs = (window.AJITO_DATA.faq || []).map(item => ({...item}));
-const chapters={"1": "Welcome from Gota", "2": "What is Groove Activator", "3": "System Requirements", "4": "Installation", "5": "License Activation", "6": "First Launch & Quick Start", "7": "Interface Overview", "8": "Pad System", "9": "Sample Editing", "10": "Velocity Layers", "11": "Variations", "12": "Mixer", "13": "Analog Activator", "14": "Slice Activator", "15": "Instant Activator", "16": "Pitch Bend", "17": "Hi-Hat & Pad Settings", "18": "MIDI LEARN", "19": "Keyboard Shortcuts", "20": "Presets & Kit Management", "21": "Multi-Output Routing", "22": "Recording & Bouncing", "23": "Backup & Recovery", "24": "Troubleshooting", "25": "Credits", "26": "About AJITO SOUNDS", "27": "Legal & Credits"}; let lang='ja';
+const chapters={"1": "Welcome from Gota", "2": "What is Groove Activator", "3": "Installation & Activation", "4": "First Sound in 5 Minutes", "5": "Interface Overview", "6": "Pads", "7": "Mixer & Outputs", "8": "The EDIT Panel", "9": "Pad Settings", "10": "Hi-Hat", "11": "DAMP — Hand Damping", "12": "MIDI Learn & Maps", "13": "Analog Activator", "14": "Slice Activator", "15": "Instant Activator", "16": "Groove Player", "17": "Factory Kits & Presets", "18": "Sharing Kits", "19": "Organising the Library", "20": "Recording & Bouncing", "21": "Backup & Recovery", "22": "Keyboard Shortcuts", "23": "Troubleshooting", "24": "Credits", "25": "About AJITO SOUNDS", "26": "Colophon"}; let lang='ja';
+// v1.5.0 manual: chapters 1-21, appendices A-B and end matter C-E. A-E are carried as chapter numbers 22-26 so the numeric FAQ `chapter` field keeps working.
+const appendixLetters={22:'A',23:'B',24:'C',25:'D',26:'E'};
+function chShort(n,pad){const a=appendixLetters[Number(n)];return a?`App.${a}`:`Ch.${pad?String(n).padStart(2,'0'):n}`}
+function chLong(n){const a=appendixLetters[Number(n)];if(!a)return lang==='ja'?`第${n}章`:`Chapter ${n}`;const end=a>'B';return lang==='ja'?`${end?'巻末':'付録'}${a}`:`${end?'End Matter':'Appendix'} ${a}`}
 const chat=document.getElementById('chat'), q=document.getElementById('q'), cat=document.getElementById('category');
 const STORAGE_KEYS={
  unresolved:'ga_unresolved_v1',
@@ -23,24 +27,24 @@ learnedFaqs.forEach(f=>faqs.push(f));
 
 // AJITO Assist Media Router
 // Default policy: official manual visuals first. Video is used only where change over time or sound must be demonstrated.
-const embeddedManualPages={"ja":{"3":"./manual-pages/ja/page-03.jpg","4":"./manual-pages/ja/page-04.jpg","5":"./manual-pages/ja/page-05.jpg","6":"./manual-pages/ja/page-06.jpg","7":"./manual-pages/ja/page-07.jpg","8":"./manual-pages/ja/page-08.jpg","9":"./manual-pages/ja/page-09.jpg","10":"./manual-pages/ja/page-10.jpg","11":"./manual-pages/ja/page-11.jpg","12":"./manual-pages/ja/page-12.jpg","13":"./manual-pages/ja/page-13.jpg","14":"./manual-pages/ja/page-14.jpg","15":"./manual-pages/ja/page-15.jpg","16":"./manual-pages/ja/page-16.jpg","17":"./manual-pages/ja/page-17.jpg","18":"./manual-pages/ja/page-18.jpg","19":"./manual-pages/ja/page-19.jpg","20":"./manual-pages/ja/page-20.jpg","21":"./manual-pages/ja/page-21.jpg","22":"./manual-pages/ja/page-22.jpg","23":"./manual-pages/ja/page-23.jpg","24":"./manual-pages/ja/page-24.jpg","25":"./manual-pages/ja/page-25.jpg","26":"./manual-pages/ja/page-26.jpg","27":"./manual-pages/ja/page-27.jpg","28":"./manual-pages/ja/page-28.jpg","29":"./manual-pages/ja/page-29.jpg","30":"./manual-pages/ja/page-30.jpg","31":"./manual-pages/ja/page-31.jpg","32":"./manual-pages/ja/page-32.jpg","33":"./manual-pages/ja/page-33.jpg","34":"./manual-pages/ja/page-34.jpg","35":"./manual-pages/ja/page-35.jpg","36":"./manual-pages/ja/page-36.jpg","37":"./manual-pages/ja/page-37.jpg","38":"./manual-pages/ja/page-38.jpg","39":"./manual-pages/ja/page-39.jpg","40":"./manual-pages/ja/page-40.jpg","41":"./manual-pages/ja/page-41.jpg","42":"./manual-pages/ja/page-42.jpg","43":"./manual-pages/ja/page-43.jpg","44":"./manual-pages/ja/page-44.jpg","45":"./manual-pages/ja/page-45.jpg","46":"./manual-pages/ja/page-46.jpg","47":"./manual-pages/ja/page-47.jpg","48":"./manual-pages/ja/page-48.jpg","49":"./manual-pages/ja/page-49.jpg","50":"./manual-pages/ja/page-50.jpg","51":"./manual-pages/ja/page-51.jpg"},"en":{"3":"./manual-pages/en/page-03.jpg","4":"./manual-pages/en/page-04.jpg","5":"./manual-pages/en/page-05.jpg","6":"./manual-pages/en/page-06.jpg","7":"./manual-pages/en/page-07.jpg","8":"./manual-pages/en/page-08.jpg","9":"./manual-pages/en/page-09.jpg","10":"./manual-pages/en/page-10.jpg","11":"./manual-pages/en/page-11.jpg","12":"./manual-pages/en/page-12.jpg","13":"./manual-pages/en/page-13.jpg","14":"./manual-pages/en/page-14.jpg","15":"./manual-pages/en/page-15.jpg","16":"./manual-pages/en/page-16.jpg","17":"./manual-pages/en/page-17.jpg","18":"./manual-pages/en/page-18.jpg","19":"./manual-pages/en/page-19.jpg","20":"./manual-pages/en/page-20.jpg","21":"./manual-pages/en/page-21.jpg","22":"./manual-pages/en/page-22.jpg","23":"./manual-pages/en/page-23.jpg","24":"./manual-pages/en/page-24.jpg","25":"./manual-pages/en/page-25.jpg","26":"./manual-pages/en/page-26.jpg","27":"./manual-pages/en/page-27.jpg","28":"./manual-pages/en/page-28.jpg","29":"./manual-pages/en/page-29.jpg","30":"./manual-pages/en/page-30.jpg","31":"./manual-pages/en/page-31.jpg","32":"./manual-pages/en/page-32.jpg","33":"./manual-pages/en/page-33.jpg","34":"./manual-pages/en/page-34.jpg","35":"./manual-pages/en/page-35.jpg","36":"./manual-pages/en/page-36.jpg","37":"./manual-pages/en/page-37.jpg","38":"./manual-pages/en/page-38.jpg","39":"./manual-pages/en/page-39.jpg","40":"./manual-pages/en/page-40.jpg","41":"./manual-pages/en/page-41.jpg","42":"./manual-pages/en/page-42.jpg","43":"./manual-pages/en/page-43.jpg","44":"./manual-pages/en/page-44.jpg","45":"./manual-pages/en/page-45.jpg","46":"./manual-pages/en/page-46.jpg","47":"./manual-pages/en/page-47.jpg","48":"./manual-pages/en/page-48.jpg","49":"./manual-pages/en/page-49.jpg","50":"./manual-pages/en/page-50.jpg"}};
-const embeddedChapterPages={"ja":{"1":[3],"2":[4],"3":[5],"4":[5,6,7,8,9],"5":[11,12],"6":[13],"7":[14,15,16],"8":[17,18],"9":[20,21],"10":[22,23],"11":[24],"12":[24,25,26],"13":[27,28],"14":[29,30],"15":[32,33],"16":[35],"17":[35,36],"18":[37],"19":[39,40],"20":[41,43],"21":[45],"22":[45],"23":[47],"24":[49],"25":[49],"26":[50],"27":[51]},"en":{"1":[3],"2":[4],"3":[6],"4":[6,7,8,9,10],"5":[11,12],"6":[13],"7":[14,15,16],"8":[17,18],"9":[20,21],"10":[22,23],"11":[24],"12":[24,25,26],"13":[27,28],"14":[29,30],"15":[33,34],"16":[35],"17":[35,36],"18":[37],"19":[37,38,39],"20":[40,42],"21":[44],"22":[44],"23":[46],"24":[47],"25":[47],"26":[48],"27":[50]}};
+const embeddedManualPages={"ja":{"3":"./manual-pages/ja/page-03.jpg","4":"./manual-pages/ja/page-04.jpg","5":"./manual-pages/ja/page-05.jpg","6":"./manual-pages/ja/page-06.jpg","7":"./manual-pages/ja/page-07.jpg","8":"./manual-pages/ja/page-08.jpg","9":"./manual-pages/ja/page-09.jpg","10":"./manual-pages/ja/page-10.jpg","11":"./manual-pages/ja/page-11.jpg","12":"./manual-pages/ja/page-12.jpg","13":"./manual-pages/ja/page-13.jpg","14":"./manual-pages/ja/page-14.jpg","15":"./manual-pages/ja/page-15.jpg","16":"./manual-pages/ja/page-16.jpg","17":"./manual-pages/ja/page-17.jpg","18":"./manual-pages/ja/page-18.jpg","19":"./manual-pages/ja/page-19.jpg","20":"./manual-pages/ja/page-20.jpg","21":"./manual-pages/ja/page-21.jpg","22":"./manual-pages/ja/page-22.jpg","23":"./manual-pages/ja/page-23.jpg","24":"./manual-pages/ja/page-24.jpg","25":"./manual-pages/ja/page-25.jpg","26":"./manual-pages/ja/page-26.jpg","27":"./manual-pages/ja/page-27.jpg","28":"./manual-pages/ja/page-28.jpg","29":"./manual-pages/ja/page-29.jpg","30":"./manual-pages/ja/page-30.jpg","31":"./manual-pages/ja/page-31.jpg","32":"./manual-pages/ja/page-32.jpg","33":"./manual-pages/ja/page-33.jpg","34":"./manual-pages/ja/page-34.jpg","35":"./manual-pages/ja/page-35.jpg","36":"./manual-pages/ja/page-36.jpg","37":"./manual-pages/ja/page-37.jpg","38":"./manual-pages/ja/page-38.jpg","39":"./manual-pages/ja/page-39.jpg","40":"./manual-pages/ja/page-40.jpg","41":"./manual-pages/ja/page-41.jpg","42":"./manual-pages/ja/page-42.jpg","43":"./manual-pages/ja/page-43.jpg","44":"./manual-pages/ja/page-44.jpg","45":"./manual-pages/ja/page-45.jpg","46":"./manual-pages/ja/page-46.jpg","47":"./manual-pages/ja/page-47.jpg","48":"./manual-pages/ja/page-48.jpg","49":"./manual-pages/ja/page-49.jpg","50":"./manual-pages/ja/page-50.jpg","51":"./manual-pages/ja/page-51.jpg","52":"./manual-pages/ja/page-52.jpg","53":"./manual-pages/ja/page-53.jpg","54":"./manual-pages/ja/page-54.jpg","55":"./manual-pages/ja/page-55.jpg","56":"./manual-pages/ja/page-56.jpg","57":"./manual-pages/ja/page-57.jpg","58":"./manual-pages/ja/page-58.jpg","59":"./manual-pages/ja/page-59.jpg","60":"./manual-pages/ja/page-60.jpg","61":"./manual-pages/ja/page-61.jpg","62":"./manual-pages/ja/page-62.jpg","63":"./manual-pages/ja/page-63.jpg","64":"./manual-pages/ja/page-64.jpg","65":"./manual-pages/ja/page-65.jpg","66":"./manual-pages/ja/page-66.jpg","67":"./manual-pages/ja/page-67.jpg","68":"./manual-pages/ja/page-68.jpg","69":"./manual-pages/ja/page-69.jpg","70":"./manual-pages/ja/page-70.jpg","71":"./manual-pages/ja/page-71.jpg","72":"./manual-pages/ja/page-72.jpg","73":"./manual-pages/ja/page-73.jpg","74":"./manual-pages/ja/page-74.jpg","75":"./manual-pages/ja/page-75.jpg","76":"./manual-pages/ja/page-76.jpg"},"en":{"3":"./manual-pages/en/page-03.jpg","4":"./manual-pages/en/page-04.jpg","5":"./manual-pages/en/page-05.jpg","6":"./manual-pages/en/page-06.jpg","7":"./manual-pages/en/page-07.jpg","8":"./manual-pages/en/page-08.jpg","9":"./manual-pages/en/page-09.jpg","10":"./manual-pages/en/page-10.jpg","11":"./manual-pages/en/page-11.jpg","12":"./manual-pages/en/page-12.jpg","13":"./manual-pages/en/page-13.jpg","14":"./manual-pages/en/page-14.jpg","15":"./manual-pages/en/page-15.jpg","16":"./manual-pages/en/page-16.jpg","17":"./manual-pages/en/page-17.jpg","18":"./manual-pages/en/page-18.jpg","19":"./manual-pages/en/page-19.jpg","20":"./manual-pages/en/page-20.jpg","21":"./manual-pages/en/page-21.jpg","22":"./manual-pages/en/page-22.jpg","23":"./manual-pages/en/page-23.jpg","24":"./manual-pages/en/page-24.jpg","25":"./manual-pages/en/page-25.jpg","26":"./manual-pages/en/page-26.jpg","27":"./manual-pages/en/page-27.jpg","28":"./manual-pages/en/page-28.jpg","29":"./manual-pages/en/page-29.jpg","30":"./manual-pages/en/page-30.jpg","31":"./manual-pages/en/page-31.jpg","32":"./manual-pages/en/page-32.jpg","33":"./manual-pages/en/page-33.jpg","34":"./manual-pages/en/page-34.jpg","35":"./manual-pages/en/page-35.jpg","36":"./manual-pages/en/page-36.jpg","37":"./manual-pages/en/page-37.jpg","38":"./manual-pages/en/page-38.jpg","39":"./manual-pages/en/page-39.jpg","40":"./manual-pages/en/page-40.jpg","41":"./manual-pages/en/page-41.jpg","42":"./manual-pages/en/page-42.jpg","43":"./manual-pages/en/page-43.jpg","44":"./manual-pages/en/page-44.jpg","45":"./manual-pages/en/page-45.jpg","46":"./manual-pages/en/page-46.jpg","47":"./manual-pages/en/page-47.jpg","48":"./manual-pages/en/page-48.jpg","49":"./manual-pages/en/page-49.jpg","50":"./manual-pages/en/page-50.jpg","51":"./manual-pages/en/page-51.jpg","52":"./manual-pages/en/page-52.jpg","53":"./manual-pages/en/page-53.jpg","54":"./manual-pages/en/page-54.jpg","55":"./manual-pages/en/page-55.jpg","56":"./manual-pages/en/page-56.jpg","57":"./manual-pages/en/page-57.jpg","58":"./manual-pages/en/page-58.jpg","59":"./manual-pages/en/page-59.jpg","60":"./manual-pages/en/page-60.jpg","61":"./manual-pages/en/page-61.jpg","62":"./manual-pages/en/page-62.jpg","63":"./manual-pages/en/page-63.jpg","64":"./manual-pages/en/page-64.jpg","65":"./manual-pages/en/page-65.jpg","66":"./manual-pages/en/page-66.jpg","67":"./manual-pages/en/page-67.jpg","68":"./manual-pages/en/page-68.jpg","69":"./manual-pages/en/page-69.jpg","70":"./manual-pages/en/page-70.jpg","71":"./manual-pages/en/page-71.jpg","72":"./manual-pages/en/page-72.jpg","73":"./manual-pages/en/page-73.jpg","74":"./manual-pages/en/page-74.jpg","75":"./manual-pages/en/page-75.jpg","76":"./manual-pages/en/page-76.jpg","77":"./manual-pages/en/page-77.jpg","78":"./manual-pages/en/page-78.jpg"}};
+const embeddedChapterPages={"ja":{"1":[3],"2":[4],"3":[5,6,7,8,9,10,11,12,13],"4":[13],"5":[14,15,16,17,18,19],"6":[19,20,21,22],"7":[22,23,24,25,26,27,28,29,30],"8":[30,31,32,33,34,35,36,37],"9":[37,38,39,40],"10":[41,42],"11":[42,43,44],"12":[44,45],"13":[45,46,47],"14":[47,48,49,50],"15":[50,51],"16":[52,53,54,55,56,57],"17":[57,58,59,60,61,62,63],"18":[63,64,65,66],"19":[66,67],"20":[67,68,69],"21":[69,70],"22":[71,72],"23":[73,74],"24":[74],"25":[75],"26":[76]},"en":{"1":[3],"2":[4],"3":[5,6,7,8,9,10,11,12,13,14],"4":[14],"5":[15,16,17,18,19,20],"6":[20,21,22,23],"7":[24,25,26,27,28,29,30,31],"8":[31,32,33,34,35,36,37,38],"9":[38,39,40,41],"10":[42,43],"11":[43,44,45],"12":[45],"13":[46,47,48],"14":[48,49,50,51,52],"15":[52,53],"16":[54,55,56,57,58,59],"17":[59,60,61,62,63,64,65],"18":[65,66,67,68],"19":[68,69],"20":[69,70,71],"21":[71,72],"22":[73,74],"23":[75,76],"24":[76],"25":[76,77],"26":[78]}};
 const ORIGINAL_MANUAL_PDF={
- ja:'./manual-pdf/GrooveActivator_UserManual_v1.2.2_QueenEdition_JP.pdf',
- en:'./manual-pdf/GrooveActivator_UserManual_v1.2.2_QueenEdition_EN.pdf'
+ ja:'./manual-pdf/GrooveActivator_UserManual_v1.5.0_QueenEdition_JP.pdf',
+ en:'./manual-pdf/GrooveActivator_UserManual_v1.5.0_QueenEdition_EN.pdf'
 };
 
-const MANUAL_PDF_FILE='GrooveActivator_UserManual_v1.2.2_QueenEdition_JP.pdf';
-const chapterPages={1:3,2:4,3:5,4:5,5:11,6:13,7:14,8:17,9:20,10:22,11:24,12:24,13:27,14:29,15:32,16:35,17:35,18:37,19:39,20:41,21:45,22:45,23:47,24:49,25:49,26:50,27:51};
+const MANUAL_PDF_FILE='GrooveActivator_UserManual_v1.5.0_QueenEdition_JP.pdf';
+// First page of each chapter, PER LANGUAGE (JP and EN page numbers differ). Must equal embeddedChapterPages[lang][n][0]; checked by tools/check_consistency.py.
+const chapterPages={ja:{1:3,2:4,3:5,4:13,5:14,6:19,7:22,8:30,9:37,10:41,11:42,12:44,13:45,14:47,15:50,16:52,17:57,18:63,19:66,20:67,21:69,22:71,23:73,24:74,25:75,26:76},en:{1:3,2:4,3:5,4:14,5:15,6:20,7:24,8:31,9:38,10:42,11:43,12:45,13:46,14:48,15:52,16:54,17:59,18:65,19:68,20:69,21:71,22:73,23:75,24:76,25:76,26:78}};
 const mediaRegistry={
  default:{type:'screenshot',label_ja:'マニュアル画像',label_en:'Manual visual'},
  'VIS':{type:'video',label_ja:'動画推奨',label_en:'Video recommended',reason_ja:'音と画面の変化を同時に確認する機能のため、動画が最も伝わります。'},
  'Instant Activator':{type:'both',label_ja:'画像＋動画候補',label_en:'Visual + video candidate',reason_ja:'操作場所はマニュアル画像、音の変化は動画が適しています。'},
- 'Installation':{type:'screenshot',label_ja:'スクリーンショット',label_en:'Screenshots'},
- 'License Activation':{type:'screenshot',label_ja:'スクリーンショット',label_en:'Screenshots'},
+ 'Installation & Activation':{type:'screenshot',label_ja:'スクリーンショット',label_en:'Screenshots'},
  'Backup & Recovery':{type:'screenshot',label_ja:'スクリーンショット',label_en:'Screenshots'},
- 'Presets & Kit Management':{type:'screenshot',label_ja:'スクリーンショット',label_en:'Screenshots'},
- 'Multi-Output Routing':{type:'screenshot',label_ja:'スクリーンショット',label_en:'Screenshots'}
+ 'Factory Kits & Presets':{type:'screenshot',label_ja:'スクリーンショット',label_en:'Screenshots'},
+ 'Mixer & Outputs':{type:'screenshot',label_ja:'スクリーンショット',label_en:'Screenshots'}
 };
 
 function mediaForFaq(f){
@@ -81,17 +85,18 @@ function closeManualImage(){
  manualImageLarge.removeAttribute('src');
  document.body.style.overflow='';
 }
-function manualGalleryHtml(chapter){
+function manualGalleryHtml(chapter,faqPage){
  const code=lang==='en'?'en':'ja';
  const pages=embeddedChapterPages[code][String(chapter)]||[];
- const page=pages[0]||1;
+ // An answer opens the PDF on the FAQ entry's own page (manual_page_ja / manual_page_en); a chapter view opens on the chapter's first page.
+ const page=Number(faqPage)||pages[0]||1;
  const label=lang==='ja'?'日本語公式マニュアル':'Official English Manual';
  return `<div class="manual-pdf-launch">
    <div>
      <strong>📖 ${label}</strong>
-     <span>${lang==='ja'?`第${chapter}章・${page}ページから開きます`:`Chapter ${chapter}, starting at page ${page}`}</span>
+     <span>${lang==='ja'?`${chLong(chapter)}・${page}ページから開きます`:`${chLong(chapter)}, starting at page ${page}`}</span>
    </div>
-   <button type="button" class="open-fullscreen-pdf" data-lang="${code}" data-page="${page}" data-chapter="${chapter}">
+   <button type="button" class="open-fullscreen-pdf" data-lang="${code}" data-page="${page}" data-chapter="${chapter}" data-chapter-label="${chLong(chapter)}">
      ${lang==='ja'?'全画面で読む':'Read full screen'}
    </button>
  </div>`;
@@ -116,12 +121,12 @@ function answerMediaHtml(f){
  const title=chapters[String(ch)]||'';
  let inline='';
  if(media.type==='screenshot'||media.type==='both'){
-   inline=`<div class="inline-manual-head"><strong>📖 ${lang==='ja'?`公式マニュアル 第${ch}章`:`Official Manual Chapter ${ch}`}</strong><span>${esc(title)}</span></div>${manualGalleryHtml(ch)}`;
+   inline=`<div class="inline-manual-head"><strong>📖 ${lang==='ja'?`公式マニュアル ${chLong(ch)}`:`Official Manual ${chLong(ch)}`}</strong><span>${esc(title)}</span></div>${manualGalleryHtml(ch,lang==='ja'?f.manual_page_ja:f.manual_page_en)}`;
  }
  if(media.type==='video'||media.type==='both'){
    inline+=`<div class="video-candidate"><strong>🎥 ${lang==='ja'?'動画ガイド候補':'Video guide candidate'}</strong><div>${esc(lang==='ja'?(media.reason_ja||'動きや音の変化を示す項目には動画を使用します。'):'Video is used where motion or sound change must be demonstrated.')}</div></div>`;
  }
- return `<div class="answer-media">${inline}<div class="inline-manual-actions"><button class="manual-link" data-manual-chapter="${ch}">${lang==='ja'?`第${ch}章のFAQと詳細を見る`:`View Chapter ${ch} FAQs and details`}</button></div></div>`;
+ return `<div class="answer-media">${inline}<div class="inline-manual-actions"><button class="manual-link" data-manual-chapter="${ch}">${lang==='ja'?`${chLong(ch)}のFAQと詳細を見る`:`View ${chLong(ch)} FAQs and details`}</button></div></div>`;
 }
 const diagnosticFlows={
  sound_no_output:{title_ja:'音が出ない',title_en:'No Sound',start:'env',nodes:{
@@ -211,7 +216,7 @@ function esc(s){return String(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;',
 const smartManualOverlay=document.getElementById('smartManualOverlay');
 const smartManualTitle=document.getElementById('smartManualTitle');
 const smartManualBody=document.getElementById('smartManualBody');
-function chapterLabel(n){return `Ch.${String(n).padStart(2,'0')} ${chapters[String(n)]||''}`.trim()}
+function chapterLabel(n){return `${chShort(n,true)} ${chapters[String(n)]||''}`.trim()}
 function inferChapter(f){
  if(f.chapter)return Number(f.chapter);
  const hay=[f.a_ja,f.a_en,f.source].join(' ');
@@ -222,6 +227,7 @@ function linkManualReferences(text){
  let html=esc(text);
  html=html.replace(/マニュアル第(\d{1,2})章/g,(_,n)=>`<button class="manual-link" data-manual-chapter="${n}">マニュアル第${n}章</button>`);
  html=html.replace(/Chapter\s+(\d{1,2})/gi,(_,n)=>`<button class="manual-link" data-manual-chapter="${n}">Chapter ${n}</button>`);
+ html=html.replace(/(付録|Appendix )([A-E])(?![A-Za-z])/g,(_,w,a)=>`<button class="manual-link" data-manual-chapter="${22+'ABCDE'.indexOf(a)}">${w}${a}</button>`);
  return html;
 }
 function bindManualLinks(root=document){
@@ -231,7 +237,7 @@ function bindManualLinks(root=document){
 }
 function openManualChapter(chapter){
  const entries=faqs.filter(f=>Number(inferChapter(f))===Number(chapter));
- smartManualTitle.textContent=lang==='ja'?`第${chapter}章「${chapters[String(chapter)]||'Manual'}」`:chapterLabel(chapter);
+ smartManualTitle.textContent=lang==='ja'?`${chLong(chapter)}「${chapters[String(chapter)]||'Manual'}」`:chapterLabel(chapter);
  const notice=lang==='ja'
   ?'このSmart Manualでは、現在の公式マニュアルを基に登録された該当章の確認済み項目を表示しています。回答から離れず、その場で関連手順を確認できます。'
   :'Smart Manual shows verified knowledge-base excerpts from this manual chapter, without leaving the support answer.';
@@ -455,8 +461,8 @@ function answer(query){
  }
  const f=r[0][0];const type=f.source_type||'Manual';const cls=type.startsWith('Manual')?'badge manual':'badge';
  const ch=inferChapter(f);
- const chapterBadge=ch?`<button class="manual-link" data-manual-chapter="${ch}">Ch.${ch}</button>`:'Ch.-';
- add(`<span class="${cls}">${esc(type)} · ${esc(f.id)} · ${chapterBadge}</span><br>${linkManualReferences(lang==='ja'?f.a_ja:f.a_en)}${ch?`<br><br><button class="manual-link" data-manual-chapter="${ch}">📖 ${lang==='ja'?`マニュアル第${ch}章を開く`:`Open Manual Chapter ${ch}`}</button>`:''}${answerMediaHtml(f)}`,'bot',f.source);
+ const chapterBadge=ch?`<button class="manual-link" data-manual-chapter="${ch}">${chShort(ch)}</button>`:'Ch.-';
+ add(`<span class="${cls}">${esc(type)} · ${esc(f.id)} · ${chapterBadge}</span><br>${linkManualReferences(lang==='ja'?f.a_ja:f.a_en)}${ch?`<br><br><button class="manual-link" data-manual-chapter="${ch}">📖 ${lang==='ja'?`マニュアル${chLong(ch)}を開く`:`Open Manual ${chLong(ch)}`}</button>`:''}${answerMediaHtml(f)}`,'bot',f.source);
  bindManualLinks(chat);
  addFeedbackControls(query,f);
  if(r[1]&&r[1][1]>=r[0][1]*.55){
@@ -473,7 +479,7 @@ function welcome(){chat.innerHTML='';add(lang==='ja'?`こんにちは。AJITO As
 document.getElementById('send').onclick=()=>{if(q.value.trim()){answer(q.value.trim());q.value=''}};q.onkeydown=e=>{if(e.key==='Enter')document.getElementById('send').click()};
 document.querySelectorAll('.lang').forEach(b=>b.onclick=()=>{lang=b.dataset.lang;document.querySelectorAll('.lang').forEach(x=>x.classList.toggle('active',x===b));q.placeholder=lang==='ja'?'例：Slice Activatorの使い方は？':'Example: How do I use Slice Activator?';welcome()});
 document.getElementById('reset').onclick=welcome;
-document.getElementById('faqList').onclick=()=>{chat.innerHTML='';const pool=cat.value?faqs.filter(f=>f.category===cat.value):faqs;add((lang==='ja'?'登録FAQ：':'FAQ entries: ')+pool.length);pool.forEach(f=>{const b=document.createElement('button');b.className='faqbtn';b.textContent=`${f.id} · Ch.${f.chapter??'-'} · ${lang==='ja'?f.q_ja:f.q_en}`;b.onclick=()=>{chat.innerHTML='';answer(lang==='ja'?f.q_ja:f.q_en)};chat.appendChild(b)})};
+document.getElementById('faqList').onclick=()=>{chat.innerHTML='';const pool=cat.value?faqs.filter(f=>f.category===cat.value):faqs;add((lang==='ja'?'登録FAQ：':'FAQ entries: ')+pool.length);pool.forEach(f=>{const b=document.createElement('button');b.className='faqbtn';b.textContent=`${f.id} · ${f.chapter?chShort(f.chapter):'Ch.-'} · ${lang==='ja'?f.q_ja:f.q_en}`;b.onclick=()=>{chat.innerHTML='';answer(lang==='ja'?f.q_ja:f.q_en)};chat.appendChild(b)})};
 
 cat.onchange=()=>{
   chat.innerHTML='';
@@ -490,7 +496,7 @@ cat.onchange=()=>{
   pool.forEach(f=>{
     const b=document.createElement('button');
     b.className='faqbtn';
-    b.textContent=`${f.id} · Ch.${f.chapter??'-'} · ${lang==='ja'?f.q_ja:f.q_en}`;
+    b.textContent=`${f.id} · ${f.chapter?chShort(f.chapter):'Ch.-'} · ${lang==='ja'?f.q_ja:f.q_en}`;
     b.onclick=()=>{
       chat.innerHTML='';
       answer(lang==='ja'?f.q_ja:f.q_en);
@@ -566,7 +572,7 @@ document.getElementById('exportLearning').onclick=()=>{
  URL.revokeObjectURL(url);
 };
 
-document.getElementById('chapterList').onclick=()=>{chat.innerHTML='';for(const [n,name] of Object.entries(chapters)){const count=faqs.filter(f=>String(inferChapter(f))===String(n)).length;const b=document.createElement('button');b.className='faqbtn';b.textContent=`Ch.${String(n).padStart(2,'0')} ${name} — ${count} FAQ`;b.onclick=()=>{chat.innerHTML='';const arr=faqs.filter(f=>String(inferChapter(f))===String(n));add(`Ch.${n} ${name} — ${arr.length} FAQ`);arr.forEach(f=>{const x=document.createElement('button');x.className='faqbtn';x.textContent=lang==='ja'?f.q_ja:f.q_en;x.onclick=()=>answer(lang==='ja'?f.q_ja:f.q_en);chat.appendChild(x)})};chat.appendChild(b)}};
+document.getElementById('chapterList').onclick=()=>{chat.innerHTML='';for(const [n,name] of Object.entries(chapters)){const count=faqs.filter(f=>String(inferChapter(f))===String(n)).length;const b=document.createElement('button');b.className='faqbtn';b.textContent=`${chShort(n,true)} ${name} — ${count} FAQ`;b.onclick=()=>{chat.innerHTML='';const arr=faqs.filter(f=>String(inferChapter(f))===String(n));add(`${chShort(n)} ${name} — ${arr.length} FAQ`);arr.forEach(f=>{const x=document.createElement('button');x.className='faqbtn';x.textContent=lang==='ja'?f.q_ja:f.q_en;x.onclick=()=>answer(lang==='ja'?f.q_ja:f.q_en);chat.appendChild(x)})};chat.appendChild(b)}};
 updateLearningStatus();
 welcome();
 
