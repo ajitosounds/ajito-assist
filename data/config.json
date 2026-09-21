@@ -1,12 +1,12 @@
 {
   "app_name": "AJITO Assist",
   "product": "Groove Activator",
-  "version": "3.0.0",
-  "manual_version": "v1.2.2 Queen Edition",
+  "version": "3.3.0",
+  "manual_version": "v1.5.0 Queen Edition",
   "default_language": "ja",
   "data_base_url": "./data/",
   "manual_pdf": {
-    "ja": "./manual-pdf/GrooveActivator_UserManual_v1.2.2_QueenEdition_JP.pdf",
-    "en": "./manual-pdf/GrooveActivator_UserManual_v1.2.2_QueenEdition_EN.pdf"
+    "ja": "./manual-pdf/GrooveActivator_UserManual_v1.5.0_QueenEdition_JP.pdf",
+    "en": "./manual-pdf/GrooveActivator_UserManual_v1.5.0_QueenEdition_EN.pdf"
   }
 }
