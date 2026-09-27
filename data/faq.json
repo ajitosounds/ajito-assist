@@ -455,9 +455,9 @@
     "id": "LIC-003",
     "category": "ライセンス",
     "q_ja": "何台のコンピュータで使えますか？",
-    "a_ja": "ライセンスは1本につき2台までのコンピュータで使えます。Macの買い替えや修理で認証し直す場合は、サポート（ajitosounds+info@gmail.com）までご連絡ください。",
+    "a_ja": "ライセンスは1本につき2台まで使えます。Mac と Windows の組み合わせも自由です。買い替えや修理で認証し直す場合は、サポート（ajitosounds+info@gmail.com）までご連絡ください。",
     "q_en": "How many computers can I use?",
-    "a_en": "One license may be used on up to two (2) computers. If you need to re-activate after replacing or repairing your Mac, contact support (ajitosounds+info@gmail.com).",
+    "a_en": "One license may be used on up to two (2) machines — Mac and Windows in any mix. If you need to re-activate after replacing or repairing your computer, contact support (ajitosounds+info@gmail.com).",
     "keywords": [
       "何台",
       "2台",
@@ -477,15 +477,11 @@
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
       "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
-      "anchor_ja": "1本につき2台までのMac",
-      "anchor_en": "up to two (2) Macs"
+      "anchor_ja": "Mac と Windows の組み合わせも自由です",
+      "anchor_en": "Mac and Windows in any mix"
     },
     "platform": "all",
     "win": {
-      "a_ja": "ライセンスは1本につき2台まで使えます。Mac と Windows の組み合わせも自由です。買い替えや修理で認証し直す場合は、サポート（ajitosounds+info@gmail.com）までご連絡ください。",
-      "a_en": "One license may be used on up to two (2) machines — Mac and Windows in any mix. If you need to re-activate after replacing or repairing your computer, contact support (ajitosounds+info@gmail.com).",
-      "anchor_ja": "Mac と Windows の組み合わせも自由です",
-      "anchor_en": "Mac and Windows in any mix",
       "source": "JP Manual (Windows) Ch.03 p.12 / EN Manual (Windows) Ch.03 p.12",
       "manual_page_ja": 12,
       "manual_page_en": 12
