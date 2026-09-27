@@ -360,3 +360,11 @@ input:focus{border-color:rgba(226,173,34,.8);box-shadow:0 0 0 3px rgba(226,173,3
   .controls button,.controls select{flex:0 0 auto}main{padding:23px 15px 112px}.msg{max-width:96%}
   footer{padding:12px 13px 15px}.row{gap:7px}.send{min-width:66px;padding:0 13px}
 }
+
+/* v3.4 Mac / Windows switch */
+.os-switch{display:inline-flex;align-items:center;gap:4px;padding:3px;border:1px solid var(--line);border-radius:999px;background:var(--panel)}
+.os-switch .os-label{font-size:11px;color:var(--muted);padding:0 4px 0 8px;white-space:nowrap}
+.os-switch button.os{padding:5px 13px;border-radius:999px;border:0;background:transparent;color:var(--muted);font-size:12px;font-weight:700;letter-spacing:.03em;cursor:pointer;min-height:28px}
+.os-switch button.os.active{background:var(--gold);color:#16120a}
+.os-switch button.os:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.os-note{display:inline-block;margin-top:8px;font-size:12px;color:var(--muted)}
