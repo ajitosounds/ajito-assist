@@ -446,9 +446,9 @@
     "win": {
       "a_ja": "「シリアル番号が正しくありません」と出る場合は、メールからシリアル番号をコピー＆ペーストするのが確実です。入力は自動補正されます（小文字→大文字、ハイフンは省略可、I／L は 1、O は 0 として読み替え）。PC の修理や Windows の再インストールで Machine ID が変わって認証が外れた場合は、Help メニューの Contact Support を選んでください。宛先と Machine ID が入ったメールが作られますので、そのまま送ってください。",
       "a_en": "If “Invalid serial number.” appears, copy and paste the serial from your email — that is the most reliable way. Input is auto-corrected (lowercase becomes uppercase, hyphens may be left out, I / L are read as 1 and O as 0). If activation was lost because the Machine ID changed after a PC repair or a Windows reinstall, choose Contact Support from the Help menu: an email is created with the address and your Machine ID already in it — just send it.",
-      "source": "JP Manual (Windows) App.B p.74 / EN Manual (Windows) App.B p.75",
+      "source": "JP Manual (Windows) App.B p.74 / EN Manual (Windows) App.B p.74",
       "manual_page_ja": 74,
-      "manual_page_en": 75
+      "manual_page_en": 74
     }
   },
   {
@@ -523,9 +523,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) App.B p.74 / EN Manual (Windows) App.B p.75 + Gota support workflow",
+      "source": "JP Manual (Windows) App.B p.74 / EN Manual (Windows) App.B p.74 + Gota support workflow",
       "manual_page_ja": 74,
-      "manual_page_en": 75
+      "manual_page_en": 74
     }
   },
   {
@@ -558,9 +558,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) App.B p.74 / EN Manual (Windows) App.B p.75 + Gota support workflow",
+      "source": "JP Manual (Windows) App.B p.74 / EN Manual (Windows) App.B p.74 + Gota support workflow",
       "manual_page_ja": 74,
-      "manual_page_en": 75
+      "manual_page_en": 74
     }
   },
   {
@@ -596,9 +596,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.08 p.35 / EN Manual (Windows) Ch.08 p.36 + Gota's Tip",
+      "source": "JP Manual (Windows) Ch.08 p.35 / EN Manual (Windows) Ch.08 p.35 + Gota's Tip",
       "manual_page_ja": 35,
-      "manual_page_en": 36
+      "manual_page_en": 35
     }
   },
   {
@@ -732,9 +732,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.18 p.66 / EN Manual (Windows) Ch.18 p.67 + Gota's verified workflow",
+      "source": "JP Manual (Windows) Ch.18 p.66 / EN Manual (Windows) Ch.18 p.66 + Gota's verified workflow",
       "manual_page_ja": 66,
-      "manual_page_en": 67
+      "manual_page_en": 66
     }
   },
   {
@@ -772,9 +772,9 @@
     "win": {
       "a_ja": "File メニューの Back Up Everything (Full Library Copy)... を選び、保存先を指定してください。ライブラリと設定がフォルダ1つにまとめてコピーされ、戻し方を書いた README.txt と、中身の一覧 MANIFEST.txt も一緒に入ります。ライセンス、マニュアル、自動保存スナップショットは入りません。",
       "a_en": "Choose File → Back Up Everything (Full Library Copy)... and pick a destination. Your library and settings are copied into a single folder, together with README.txt (how to put it back) and MANIFEST.txt (every file inside). The license, the manual and auto-save snapshots are not included.",
-      "source": "JP Manual (Windows) Ch.21 p.69 / EN Manual (Windows) Ch.21 p.70",
+      "source": "JP Manual (Windows) Ch.21 p.69 / EN Manual (Windows) Ch.21 p.69",
       "manual_page_ja": 69,
-      "manual_page_en": 70
+      "manual_page_en": 69
     }
   },
   {
@@ -975,9 +975,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) App.B p.73 / EN Manual (Windows) App.B p.74",
+      "source": "JP Manual (Windows) App.B p.73 / EN Manual (Windows) App.B p.73",
       "manual_page_ja": 73,
-      "manual_page_en": 74
+      "manual_page_en": 73
     }
   },
   {
@@ -1743,9 +1743,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.08 p.29 / EN Manual (Windows) Ch.08 p.30",
+      "source": "JP Manual (Windows) Ch.08 p.29 / EN Manual (Windows) Ch.08 p.29",
       "manual_page_ja": 29,
-      "manual_page_en": 30
+      "manual_page_en": 29
     }
   },
   {
@@ -1776,9 +1776,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.08 p.29 / EN Manual (Windows) Ch.08 p.30",
+      "source": "JP Manual (Windows) Ch.08 p.29 / EN Manual (Windows) Ch.08 p.29",
       "manual_page_ja": 29,
-      "manual_page_en": 30
+      "manual_page_en": 29
     }
   },
   {
@@ -1811,9 +1811,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.08 p.29 / EN Manual (Windows) Ch.08 p.30",
+      "source": "JP Manual (Windows) Ch.08 p.29 / EN Manual (Windows) Ch.08 p.29",
       "manual_page_ja": 29,
-      "manual_page_en": 30
+      "manual_page_en": 29
     }
   },
   {
@@ -1851,9 +1851,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.08 p.29 / EN Manual (Windows) Ch.08 p.30",
+      "source": "JP Manual (Windows) Ch.08 p.29 / EN Manual (Windows) Ch.08 p.29",
       "manual_page_ja": 29,
-      "manual_page_en": 30
+      "manual_page_en": 29
     }
   },
   {
@@ -1885,9 +1885,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.08 p.30 / EN Manual (Windows) Ch.08 p.31",
+      "source": "JP Manual (Windows) Ch.08 p.30 / EN Manual (Windows) Ch.08 p.30",
       "manual_page_ja": 30,
-      "manual_page_en": 31
+      "manual_page_en": 30
     }
   },
   {
@@ -1919,9 +1919,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.08 p.32 / EN Manual (Windows) Ch.08 p.33",
+      "source": "JP Manual (Windows) Ch.08 p.32 / EN Manual (Windows) Ch.08 p.32",
       "manual_page_ja": 32,
-      "manual_page_en": 33
+      "manual_page_en": 32
     }
   },
   {
@@ -1953,9 +1953,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.08 p.35 / EN Manual (Windows) Ch.08 p.36",
+      "source": "JP Manual (Windows) Ch.08 p.35 / EN Manual (Windows) Ch.08 p.35",
       "manual_page_ja": 35,
-      "manual_page_en": 36
+      "manual_page_en": 35
     }
   },
   {
@@ -1988,9 +1988,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.08 p.33 / EN Manual (Windows) Ch.08 p.34",
+      "source": "JP Manual (Windows) Ch.08 p.33 / EN Manual (Windows) Ch.08 p.33",
       "manual_page_ja": 33,
-      "manual_page_en": 34
+      "manual_page_en": 33
     }
   },
   {
@@ -2021,9 +2021,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.08 p.35 / EN Manual (Windows) Ch.08 p.36",
+      "source": "JP Manual (Windows) Ch.08 p.35 / EN Manual (Windows) Ch.08 p.35",
       "manual_page_ja": 35,
-      "manual_page_en": 36
+      "manual_page_en": 35
     }
   },
   {
@@ -2056,9 +2056,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.08 p.35 / EN Manual (Windows) Ch.08 p.36",
+      "source": "JP Manual (Windows) Ch.08 p.35 / EN Manual (Windows) Ch.08 p.35",
       "manual_page_ja": 35,
-      "manual_page_en": 36
+      "manual_page_en": 35
     }
   },
   {
@@ -2125,9 +2125,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.08 p.33 / EN Manual (Windows) Ch.08 p.34",
+      "source": "JP Manual (Windows) Ch.08 p.33 / EN Manual (Windows) Ch.08 p.33",
       "manual_page_ja": 33,
-      "manual_page_en": 34
+      "manual_page_en": 33
     }
   },
   {
@@ -2158,9 +2158,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.13 p.45 / EN Manual (Windows) Ch.13 p.46",
+      "source": "JP Manual (Windows) Ch.13 p.45 / EN Manual (Windows) Ch.13 p.45",
       "manual_page_ja": 45,
-      "manual_page_en": 46
+      "manual_page_en": 45
     }
   },
   {
@@ -2193,9 +2193,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.13 p.45 / EN Manual (Windows) Ch.13 p.46",
+      "source": "JP Manual (Windows) Ch.13 p.45 / EN Manual (Windows) Ch.13 p.45",
       "manual_page_ja": 45,
-      "manual_page_en": 46
+      "manual_page_en": 45
     }
   },
   {
@@ -2259,9 +2259,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.14 p.47 / EN Manual (Windows) Ch.14 p.48",
+      "source": "JP Manual (Windows) Ch.14 p.47 / EN Manual (Windows) Ch.14 p.47",
       "manual_page_ja": 47,
-      "manual_page_en": 48
+      "manual_page_en": 47
     }
   },
   {
@@ -2307,9 +2307,9 @@
       ],
       "anchor_ja": "Ctrl+C でコピーし、対応するドラムマイクチャンネル",
       "anchor_en": "copy the selected slice with Ctrl+C",
-      "source": "JP Manual (Windows) Ch.14 p.47 / EN Manual (Windows) Ch.14 p.48",
+      "source": "JP Manual (Windows) Ch.14 p.47 / EN Manual (Windows) Ch.14 p.47",
       "manual_page_ja": 47,
-      "manual_page_en": 48
+      "manual_page_en": 47
     }
   },
   {
@@ -2341,9 +2341,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.15 p.50 / EN Manual (Windows) Ch.15 p.51",
+      "source": "JP Manual (Windows) Ch.15 p.50 / EN Manual (Windows) Ch.15 p.50",
       "manual_page_ja": 50,
-      "manual_page_en": 51
+      "manual_page_en": 50
     }
   },
   {
@@ -2411,9 +2411,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.09 p.39 / EN Manual (Windows) Ch.09 p.40",
+      "source": "JP Manual (Windows) Ch.09 p.39 / EN Manual (Windows) Ch.09 p.39",
       "manual_page_ja": 39,
-      "manual_page_en": 40
+      "manual_page_en": 39
     }
   },
   {
@@ -2445,9 +2445,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.10 p.40 / EN Manual (Windows) Ch.10 p.41",
+      "source": "JP Manual (Windows) Ch.10 p.40 / EN Manual (Windows) Ch.10 p.40",
       "manual_page_ja": 40,
-      "manual_page_en": 41
+      "manual_page_en": 40
     }
   },
   {
@@ -2516,9 +2516,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.12 p.43 / EN Manual (Windows) Ch.12 p.44",
+      "source": "JP Manual (Windows) Ch.12 p.43 / EN Manual (Windows) Ch.12 p.43",
       "manual_page_ja": 43,
-      "manual_page_en": 44
+      "manual_page_en": 43
     }
   },
   {
@@ -2562,9 +2562,9 @@
       ],
       "anchor_ja": "Ctrl + C / Ctrl + V",
       "anchor_en": "Ctrl + C / Ctrl + V",
-      "source": "JP Manual (Windows) App.A p.72 / EN Manual (Windows) App.A p.73",
+      "source": "JP Manual (Windows) App.A p.72 / EN Manual (Windows) App.A p.72",
       "manual_page_ja": 72,
-      "manual_page_en": 73
+      "manual_page_en": 72
     }
   },
   {
@@ -2595,9 +2595,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) App.A p.71 / EN Manual (Windows) App.A p.72",
+      "source": "JP Manual (Windows) App.A p.71 / EN Manual (Windows) App.A p.71",
       "manual_page_ja": 71,
-      "manual_page_en": 72
+      "manual_page_en": 71
     }
   },
   {
@@ -2630,9 +2630,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.17 p.62 / EN Manual (Windows) Ch.17 p.63",
+      "source": "JP Manual (Windows) Ch.17 p.62 / EN Manual (Windows) Ch.17 p.62",
       "manual_page_ja": 62,
-      "manual_page_en": 63
+      "manual_page_en": 62
     }
   },
   {
@@ -2664,9 +2664,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.18 p.64 / EN Manual (Windows) Ch.18 p.65",
+      "source": "JP Manual (Windows) Ch.18 p.64 / EN Manual (Windows) Ch.18 p.64",
       "manual_page_ja": 64,
-      "manual_page_en": 65
+      "manual_page_en": 64
     }
   },
   {
@@ -2699,9 +2699,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.18 p.63 / EN Manual (Windows) Ch.18 p.64",
+      "source": "JP Manual (Windows) Ch.18 p.63 / EN Manual (Windows) Ch.18 p.63",
       "manual_page_ja": 63,
-      "manual_page_en": 64
+      "manual_page_en": 63
     }
   },
   {
@@ -2733,9 +2733,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.17 p.58 / EN Manual (Windows) Ch.17 p.59",
+      "source": "JP Manual (Windows) Ch.17 p.58 / EN Manual (Windows) Ch.17 p.58",
       "manual_page_ja": 58,
-      "manual_page_en": 59
+      "manual_page_en": 58
     }
   },
   {
@@ -2870,9 +2870,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.20 p.67 / EN Manual (Windows) Ch.20 p.68",
+      "source": "JP Manual (Windows) Ch.20 p.67 / EN Manual (Windows) Ch.20 p.67",
       "manual_page_ja": 67,
-      "manual_page_en": 68
+      "manual_page_en": 67
     }
   },
   {
@@ -2904,9 +2904,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.20 p.69 / EN Manual (Windows) Ch.20 p.70",
+      "source": "JP Manual (Windows) Ch.20 p.69 / EN Manual (Windows) Ch.20 p.69",
       "manual_page_ja": 69,
-      "manual_page_en": 70
+      "manual_page_en": 69
     }
   },
   {
@@ -2945,9 +2945,11 @@
         "appdata",
         "%appdata%"
       ],
-      "source": "JP Manual (Windows) Ch.21 p.69 / EN Manual (Windows) Ch.21 p.70",
+      "source": "JP Manual (Windows) Ch.21 p.69 / EN Manual (Windows) Ch.21 p.69",
       "manual_page_ja": 69,
-      "manual_page_en": 70
+      "manual_page_en": 69,
+      "anchor_ja": "ライブラリと設定が、指定した場所のフォルダ1つにまとめてコピーされます",
+      "anchor_en": "Your library and your settings are copied"
     }
   },
   {
@@ -3083,9 +3085,9 @@
     "win": {
       "a_ja": "Groove Activator、DAW、Windows のバージョン、再現手順、クラッシュログを記録し、サポートへ連絡してください。Help メニューの Contact Support を選ぶと、宛先・版数・Machine ID が入った状態でメール作成画面が開きます。推測で設定を削除せず、必要なキットを先にバックアップしてください。",
       "a_en": "Record the Groove Activator, DAW and Windows versions, the exact reproduction steps and the crash log, then contact support. Help → Contact Support opens an email with the address, version and Machine ID already filled in. Back up your kits before deleting or resetting anything.",
-      "source": "JP Manual (Windows) App.B p.74 / EN Manual (Windows) App.B p.75 + Gota support workflow",
+      "source": "JP Manual (Windows) App.B p.74 / EN Manual (Windows) App.B p.74 + Gota support workflow",
       "manual_page_ja": 74,
-      "manual_page_en": 75
+      "manual_page_en": 74
     }
   },
   {
@@ -3115,9 +3117,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) App.C p.75 / EN Manual (Windows) App.C p.76",
+      "source": "JP Manual (Windows) App.C p.75 / EN Manual (Windows) App.C p.75",
       "manual_page_ja": 75,
-      "manual_page_en": 76
+      "manual_page_en": 75
     }
   },
   {
@@ -3148,9 +3150,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) App.D p.75 / EN Manual (Windows) App.D p.76",
+      "source": "JP Manual (Windows) App.D p.75 / EN Manual (Windows) App.D p.75",
       "manual_page_ja": 75,
-      "manual_page_en": 76
+      "manual_page_en": 75
     }
   },
   {
@@ -3183,9 +3185,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) App.E p.77 / EN Manual (Windows) App.E p.78",
+      "source": "JP Manual (Windows) App.E p.77 / EN Manual (Windows) App.E p.77",
       "manual_page_ja": 77,
-      "manual_page_en": 78
+      "manual_page_en": 77
     }
   },
   {
@@ -3326,9 +3328,9 @@
     "win": {
       "a_ja": "変えられます。窓の右下にある金色のつまみをドラッグしてください。Standalone でも DAW でも同じように使えます。縦横比は固定で、比率を保ったまま拡大縮小します。DAW によってはプラグインの窓枠そのものを動かせないことがありますが、そのときもこの右下のつまみと、画面の上の −／＋・FIT SCREEN、Ctrl + -／Ctrl + +、View メニューは使えます。",
       "a_en": "Yes. Drag the gold grip at the bottom-right corner of the window. It works the same in Standalone and inside a DAW. The aspect ratio is fixed, so the window scales in proportion. Some DAWs do not let you drag the plug-in window frame itself — the grip, the − / + and FIT SCREEN buttons at the top, Ctrl + - / Ctrl + + and the View menu still work there.",
-      "source": "JP Manual (Windows) App.A p.71 / EN Manual (Windows) App.A p.72",
+      "source": "JP Manual (Windows) App.A p.71 / EN Manual (Windows) App.A p.71",
       "manual_page_ja": 71,
-      "manual_page_en": 72
+      "manual_page_en": 71
     }
   },
   {
@@ -3372,9 +3374,9 @@
     "win": {
       "a_ja": "覚えています。次に開いたときも同じ大きさです（DAW ではプロジェクトごとに保存されます）。画面の上には「101%　−　＋　FIT SCREEN」が並び、−／＋ は 5% きざみ、FIT SCREEN は画面に収まる一番大きな寸法です。v1.5 からは SIMPLE・ADVANCED・SLICE・GROOVE のどの面でも同じ位置にあります。Ctrl + -／Ctrl + +／Ctrl + 0（100% に戻す）、Shift + Ctrl + 0（Fit Screen）も使えます。",
       "a_en": "Yes. The next time you open it, the size is the same (inside a DAW it is saved per project). Across the top of the window sits “101%  −  +  FIT SCREEN”: − and + step by 5%, and FIT SCREEN sizes the window to the largest that fits your display. From v1.5 it is in the same place on SIMPLE, ADVANCED, SLICE and GROOVE. Ctrl + -, Ctrl + +, Ctrl + 0 (back to 100%) and Shift + Ctrl + 0 (Fit Screen) work too.",
-      "source": "JP Manual (Windows) App.A p.72 / EN Manual (Windows) App.A p.72",
+      "source": "JP Manual (Windows) App.A p.72 / EN Manual (Windows) App.A p.71",
       "manual_page_ja": 72,
-      "manual_page_en": 72
+      "manual_page_en": 71
     }
   },
   {
@@ -3493,9 +3495,9 @@
     "win": {
       "a_ja": "アプリの Help メニューの Downloads... を選ぶと、配布ページ（追加音源やアップデートの置き場）がブラウザで開きます。DAW によってはプラグインの中からブラウザを開けないことがあり、その場合は URL が表示されるので、コピーしてブラウザに貼ってください。",
       "a_en": "Choose Downloads... from the Help menu in the app: it opens the downloads page (add-on sounds and updates) in your browser. Some DAWs will not let a plug-in open a browser; then the URL is shown instead — copy it and paste it into your browser.",
-      "source": "JP Manual (Windows) App.B p.73 / EN Manual (Windows) App.B p.74",
+      "source": "JP Manual (Windows) App.B p.73 / EN Manual (Windows) App.B p.73",
       "manual_page_ja": 73,
-      "manual_page_en": 74
+      "manual_page_en": 73
     }
   },
   {
@@ -3577,9 +3579,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.13 p.46 / EN Manual (Windows) Ch.13 p.47 + v1.2.2 Release Notes",
+      "source": "JP Manual (Windows) Ch.13 p.46 / EN Manual (Windows) Ch.13 p.46 + v1.2.2 Release Notes",
       "manual_page_ja": 46,
-      "manual_page_en": 47
+      "manual_page_en": 46
     }
   },
   {
@@ -3721,9 +3723,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.17 p.59 / EN Manual (Windows) Ch.17 p.60 + What's New v1.5.0 §32 (JP p.25 / EN p.25)",
+      "source": "JP Manual (Windows) Ch.17 p.59 / EN Manual (Windows) Ch.17 p.59 + What's New v1.5.0 §32 (JP p.25 / EN p.25)",
       "manual_page_ja": 59,
-      "manual_page_en": 60
+      "manual_page_en": 59
     }
   },
   {
@@ -3758,9 +3760,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.16 p.52 / EN Manual (Windows) Ch.16 p.53",
+      "source": "JP Manual (Windows) Ch.16 p.52 / EN Manual (Windows) Ch.16 p.52",
       "manual_page_ja": 52,
-      "manual_page_en": 53
+      "manual_page_en": 52
     }
   },
   {
@@ -3796,9 +3798,9 @@
     "win": {
       "a_ja": "ライブラリの Grooves フォルダに入れます。画面の FOLDER を押すとその場所がエクスプローラーで開きます（無ければ作られます）。エクスプローラーからこの面へ直接ドラッグして入れることもできます。保存先を変えた場合は Grooves も一緒に移ります。",
       "a_en": "In the Grooves folder in the library. FOLDER opens that location in the File Explorer, creating it if needed. You can also drag files onto the page straight from the File Explorer. If you have moved the library, Grooves moves with it.",
-      "source": "JP Manual (Windows) Ch.16 p.52 / EN Manual (Windows) Ch.16 p.53",
+      "source": "JP Manual (Windows) Ch.16 p.52 / EN Manual (Windows) Ch.16 p.52",
       "manual_page_ja": 52,
-      "manual_page_en": 53
+      "manual_page_en": 52
     }
   },
   {
@@ -3833,9 +3835,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.16 p.53 / EN Manual (Windows) Ch.16 p.54",
+      "source": "JP Manual (Windows) Ch.16 p.53 / EN Manual (Windows) Ch.16 p.53",
       "manual_page_ja": 53,
-      "manual_page_en": 54
+      "manual_page_en": 53
     }
   },
   {
@@ -3869,9 +3871,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.16 p.56 / EN Manual (Windows) Ch.16 p.57",
+      "source": "JP Manual (Windows) Ch.16 p.56 / EN Manual (Windows) Ch.16 p.56",
       "manual_page_ja": 56,
-      "manual_page_en": 57
+      "manual_page_en": 56
     }
   },
   {
@@ -3907,9 +3909,9 @@
     "win": {
       "a_ja": "戻せます。DELETE で消した物は Grooves/.UndoCache/ へ移るだけで、UNDO（Ctrl+Z）で戻せます。エクスプローラーからも取り出せます。このフォルダを空にするのはお客さまの手番で、Groove Activator が中身を消すことはありません。",
       "a_en": "Yes. DELETE only moves the file into Grooves/.UndoCache/, and UNDO (Ctrl+Z) brings it back. You can also retrieve it from the File Explorer. Emptying that folder is up to you — Groove Activator never clears it.",
-      "source": "JP Manual (Windows) Ch.16 p.54 / EN Manual (Windows) Ch.16 p.55",
+      "source": "JP Manual (Windows) Ch.16 p.54 / EN Manual (Windows) Ch.16 p.54",
       "manual_page_ja": 54,
-      "manual_page_en": 55
+      "manual_page_en": 54
     }
   },
   {
@@ -3943,9 +3945,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.11 p.41 / EN Manual (Windows) Ch.11 p.42",
+      "source": "JP Manual (Windows) Ch.11 p.41 / EN Manual (Windows) Ch.11 p.41",
       "manual_page_ja": 41,
-      "manual_page_en": 42
+      "manual_page_en": 41
     }
   },
   {
@@ -3979,9 +3981,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.11 p.41 / EN Manual (Windows) Ch.11 p.42",
+      "source": "JP Manual (Windows) Ch.11 p.41 / EN Manual (Windows) Ch.11 p.41",
       "manual_page_ja": 41,
-      "manual_page_en": 42
+      "manual_page_en": 41
     }
   },
   {
@@ -4027,9 +4029,9 @@
         "まとめて",
         "選択"
       ],
-      "source": "JP Manual (Windows) Ch.11 p.42 / EN Manual (Windows) Ch.11 p.43",
+      "source": "JP Manual (Windows) Ch.11 p.42 / EN Manual (Windows) Ch.11 p.42",
       "manual_page_ja": 42,
-      "manual_page_en": 43
+      "manual_page_en": 42
     }
   },
   {
@@ -4063,9 +4065,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.11 p.43 / EN Manual (Windows) Ch.11 p.44",
+      "source": "JP Manual (Windows) Ch.11 p.43 / EN Manual (Windows) Ch.11 p.43",
       "manual_page_ja": 43,
-      "manual_page_en": 44
+      "manual_page_en": 43
     }
   },
   {
@@ -4104,9 +4106,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.16 p.52 / EN Manual (Windows) Ch.16 p.53 + What's New v1.5.0 §28 (JP p.23 / EN p.23)",
+      "source": "JP Manual (Windows) Ch.16 p.52 / EN Manual (Windows) Ch.16 p.52 + What's New v1.5.0 §28 (JP p.23 / EN p.23)",
       "manual_page_ja": 52,
-      "manual_page_en": 53
+      "manual_page_en": 52
     }
   },
   {
@@ -4153,9 +4155,9 @@
         "groove",
         "グルーヴ"
       ],
-      "source": "JP Manual (Windows) Ch.16 p.56 / EN Manual (Windows) Ch.16 p.57",
+      "source": "JP Manual (Windows) Ch.16 p.56 / EN Manual (Windows) Ch.16 p.56",
       "manual_page_ja": 56,
-      "manual_page_en": 57
+      "manual_page_en": 56
     }
   },
   {
@@ -4191,9 +4193,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.16 p.54 / EN Manual (Windows) Ch.16 p.55",
+      "source": "JP Manual (Windows) Ch.16 p.54 / EN Manual (Windows) Ch.16 p.54",
       "manual_page_ja": 54,
-      "manual_page_en": 55
+      "manual_page_en": 54
     }
   },
   {
@@ -4226,9 +4228,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.16 p.54 / EN Manual (Windows) Ch.16 p.55",
+      "source": "JP Manual (Windows) Ch.16 p.54 / EN Manual (Windows) Ch.16 p.54",
       "manual_page_ja": 54,
-      "manual_page_en": 55
+      "manual_page_en": 54
     }
   },
   {
@@ -4264,9 +4266,9 @@
     "win": {
       "a_ja": "行を右クリックして KIT を選ぶと、そのグルーヴに合わせたいキットを覚えさせられます。覚えたキットは一覧の KIT 欄に出て、同じメニューの「LOAD KIT nnn」で読み込めます（GOTA 棚のキットも読めます）。LOAD KIT は、お使いのコンピューターにある同じ名前のキットとぴったり一致するときだけ押せます。覚えるのはキットの名前だけで、.mid ファイルには書き込みません。何も覚えさせていなければ KIT 欄は空のままです。なお、キットを読み込むと再生は止まります。",
       "a_en": "Right-click a row and choose KIT to record which kit belongs with that groove. The kit appears in the KIT column, and the same menu then offers “LOAD KIT nnn” to load it (kits on the GOTA shelf load too). LOAD KIT is only available when a kit with exactly the same name exists on this computer. Only the kit name is remembered, and nothing is written into the .mid; if you record nothing the column stays empty. Note that loading a kit stops playback.",
-      "source": "JP Manual (Windows) Ch.16 p.53 / EN Manual (Windows) Ch.16 p.54",
+      "source": "JP Manual (Windows) Ch.16 p.53 / EN Manual (Windows) Ch.16 p.53",
       "manual_page_ja": 53,
-      "manual_page_en": 54
+      "manual_page_en": 53
     }
   },
   {
@@ -4301,9 +4303,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.16 p.55 / EN Manual (Windows) Ch.16 p.56",
+      "source": "JP Manual (Windows) Ch.16 p.55 / EN Manual (Windows) Ch.16 p.55",
       "manual_page_ja": 55,
-      "manual_page_en": 56
+      "manual_page_en": 55
     }
   },
   {
@@ -4337,9 +4339,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.16 p.54 / EN Manual (Windows) Ch.16 p.55",
+      "source": "JP Manual (Windows) Ch.16 p.54 / EN Manual (Windows) Ch.16 p.54",
       "manual_page_ja": 54,
-      "manual_page_en": 55
+      "manual_page_en": 54
     }
   },
   {
@@ -4376,9 +4378,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.16 p.52 / EN Manual (Windows) Ch.16 p.53 + What's New v1.5.0 §23 (JP p.21 / EN p.21)",
+      "source": "JP Manual (Windows) Ch.16 p.52 / EN Manual (Windows) Ch.16 p.52 + What's New v1.5.0 §23 (JP p.21 / EN p.21)",
       "manual_page_ja": 52,
-      "manual_page_en": 53
+      "manual_page_en": 52
     }
   },
   {
@@ -4414,9 +4416,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.11 p.42 / EN Manual (Windows) Ch.11 p.43",
+      "source": "JP Manual (Windows) Ch.11 p.42 / EN Manual (Windows) Ch.11 p.42",
       "manual_page_ja": 42,
-      "manual_page_en": 43
+      "manual_page_en": 42
     }
   },
   {
@@ -4453,9 +4455,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.11 p.41 / EN Manual (Windows) Ch.11 p.42",
+      "source": "JP Manual (Windows) Ch.11 p.41 / EN Manual (Windows) Ch.11 p.41",
       "manual_page_ja": 41,
-      "manual_page_en": 42
+      "manual_page_en": 41
     }
   },
   {
@@ -4491,9 +4493,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.08 p.35 / EN Manual (Windows) Ch.08 p.36",
+      "source": "JP Manual (Windows) Ch.08 p.35 / EN Manual (Windows) Ch.08 p.35",
       "manual_page_ja": 35,
-      "manual_page_en": 36
+      "manual_page_en": 35
     }
   },
   {
@@ -4530,9 +4532,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.08 p.36 / EN Manual (Windows) Ch.08 p.37",
+      "source": "JP Manual (Windows) Ch.08 p.36 / EN Manual (Windows) Ch.08 p.36",
       "manual_page_ja": 36,
-      "manual_page_en": 37
+      "manual_page_en": 36
     }
   },
   {
@@ -4569,9 +4571,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.08 p.35 / EN Manual (Windows) Ch.08 p.36 + What's New v1.5.0 §22 (JP p.20 / EN p.20)",
+      "source": "JP Manual (Windows) Ch.08 p.35 / EN Manual (Windows) Ch.08 p.35 + What's New v1.5.0 §22 (JP p.20 / EN p.20)",
       "manual_page_ja": 35,
-      "manual_page_en": 36
+      "manual_page_en": 35
     }
   },
   {
@@ -4608,9 +4610,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.08 p.29 / EN Manual (Windows) Ch.08 p.30",
+      "source": "JP Manual (Windows) Ch.08 p.29 / EN Manual (Windows) Ch.08 p.29",
       "manual_page_ja": 29,
-      "manual_page_en": 30
+      "manual_page_en": 29
     }
   },
   {
@@ -4645,9 +4647,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.08 p.30 / EN Manual (Windows) Ch.08 p.31 + What's New v1.5.0 §04 (JP p.5 / EN p.5)",
+      "source": "JP Manual (Windows) Ch.08 p.30 / EN Manual (Windows) Ch.08 p.30 + What's New v1.5.0 §04 (JP p.5 / EN p.5)",
       "manual_page_ja": 30,
-      "manual_page_en": 31
+      "manual_page_en": 30
     }
   },
   {
@@ -4875,9 +4877,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.17 p.59 / EN Manual (Windows) Ch.17 p.60",
+      "source": "JP Manual (Windows) Ch.17 p.59 / EN Manual (Windows) Ch.17 p.59",
       "manual_page_ja": 59,
-      "manual_page_en": 60
+      "manual_page_en": 59
     }
   },
   {
@@ -4913,9 +4915,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.17 p.60 / EN Manual (Windows) Ch.17 p.61",
+      "source": "JP Manual (Windows) Ch.17 p.60 / EN Manual (Windows) Ch.17 p.60",
       "manual_page_ja": 60,
-      "manual_page_en": 61
+      "manual_page_en": 60
     }
   },
   {
@@ -4953,9 +4955,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.17 p.59 / EN Manual (Windows) Ch.17 p.60 + What's New v1.5.0 §32 (JP p.24 / EN p.24)",
+      "source": "JP Manual (Windows) Ch.17 p.59 / EN Manual (Windows) Ch.17 p.59 + What's New v1.5.0 §32 (JP p.24 / EN p.24)",
       "manual_page_ja": 59,
-      "manual_page_en": 60
+      "manual_page_en": 59
     }
   },
   {
@@ -4992,9 +4994,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.17 p.62 / EN Manual (Windows) Ch.17 p.63",
+      "source": "JP Manual (Windows) Ch.17 p.62 / EN Manual (Windows) Ch.17 p.62",
       "manual_page_ja": 62,
-      "manual_page_en": 63
+      "manual_page_en": 62
     }
   },
   {
@@ -5032,9 +5034,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.17 p.63 / EN Manual (Windows) Ch.17 p.64",
+      "source": "JP Manual (Windows) Ch.17 p.63 / EN Manual (Windows) Ch.17 p.63",
       "manual_page_ja": 63,
-      "manual_page_en": 64
+      "manual_page_en": 63
     }
   },
   {
@@ -5072,9 +5074,11 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.17 p.63 / EN Manual (Windows) Ch.17 p.64",
+      "source": "JP Manual (Windows) Ch.17 p.63 / EN Manual (Windows) Ch.17 p.63",
       "manual_page_ja": 63,
-      "manual_page_en": 64
+      "manual_page_en": 63,
+      "a_ja": "以前のキットは削除されず、アップデート時に Kits/_superseded_selfheal_<日付>/ へ退避されています（戻し方を書いた説明文も一緒に置かれます）。BROWSE パネルの EXPLORER ボタンで Kits フォルダを開くと、このフォルダがあります。以前の感触に戻したいときは、退避された .gdakit を BROWSE パネルの IMPORT から読み込んでください。空いているスロットに入るので、何も上書きされず、新旧を並べて聴き比べられます。どちらかを消す必要はありません。",
+      "a_en": "The previous kits were not deleted: on update they move to Kits/_superseded_selfheal_<date>/, together with a note explaining how to bring them back. The EXPLORER button in the BROWSE panel opens the Kits folder where you will find it. To go back to the old feel, load one of those .gdakit files with IMPORT in the BROWSE panel. It goes into a free slot, so nothing is overwritten and you can compare old and new side by side. You can keep both."
     }
   },
   {
@@ -5110,9 +5114,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.17 p.63 / EN Manual (Windows) Ch.17 p.64",
+      "source": "JP Manual (Windows) Ch.17 p.63 / EN Manual (Windows) Ch.17 p.63",
       "manual_page_ja": 63,
-      "manual_page_en": 64
+      "manual_page_en": 63
     }
   },
   {
@@ -5147,9 +5151,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.18 p.66 / EN Manual (Windows) Ch.18 p.67",
+      "source": "JP Manual (Windows) Ch.18 p.66 / EN Manual (Windows) Ch.18 p.66",
       "manual_page_ja": 66,
-      "manual_page_en": 67
+      "manual_page_en": 66
     }
   },
   {
@@ -5187,9 +5191,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.18 p.65 / EN Manual (Windows) Ch.18 p.66",
+      "source": "JP Manual (Windows) Ch.18 p.65 / EN Manual (Windows) Ch.18 p.65",
       "manual_page_ja": 65,
-      "manual_page_en": 66
+      "manual_page_en": 65
     }
   },
   {
@@ -5226,9 +5230,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.19 p.66 / EN Manual (Windows) Ch.19 p.67",
+      "source": "JP Manual (Windows) Ch.19 p.66 / EN Manual (Windows) Ch.19 p.66",
       "manual_page_ja": 66,
-      "manual_page_en": 67
+      "manual_page_en": 66
     }
   },
   {
@@ -5265,9 +5269,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.19 p.67 / EN Manual (Windows) Ch.19 p.68",
+      "source": "JP Manual (Windows) Ch.19 p.67 / EN Manual (Windows) Ch.19 p.67",
       "manual_page_ja": 67,
-      "manual_page_en": 68
+      "manual_page_en": 67
     }
   },
   {
@@ -5341,9 +5345,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.20 p.68 / EN Manual (Windows) Ch.20 p.69 + What's New v1.5.0 §07 (JP p.6 / EN p.7)",
+      "source": "JP Manual (Windows) Ch.20 p.68 / EN Manual (Windows) Ch.20 p.68 + What's New v1.5.0 §07 (JP p.6 / EN p.7)",
       "manual_page_ja": 68,
-      "manual_page_en": 69
+      "manual_page_en": 68
     }
   },
   {
@@ -5379,9 +5383,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.20 p.68 / EN Manual (Windows) Ch.20 p.69",
+      "source": "JP Manual (Windows) Ch.20 p.68 / EN Manual (Windows) Ch.20 p.68",
       "manual_page_ja": 68,
-      "manual_page_en": 69
+      "manual_page_en": 68
     }
   },
   {
@@ -5419,9 +5423,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) App.B p.73 / EN Manual (Windows) App.B p.74 + What's New v1.5.0 §31 (JP p.24 / EN p.24)",
+      "source": "JP Manual (Windows) App.B p.73 / EN Manual (Windows) App.B p.73 + What's New v1.5.0 §31 (JP p.24 / EN p.24)",
       "manual_page_ja": 73,
-      "manual_page_en": 74
+      "manual_page_en": 73
     }
   },
   {
@@ -5459,9 +5463,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.08 p.30 / EN Manual (Windows) Ch.08 p.31 + What's New v1.5.0 §06 (JP p.6 / EN p.6)",
+      "source": "JP Manual (Windows) Ch.08 p.30 / EN Manual (Windows) Ch.08 p.30 + What's New v1.5.0 §06 (JP p.6 / EN p.6)",
       "manual_page_ja": 30,
-      "manual_page_en": 31
+      "manual_page_en": 30
     }
   },
   {
@@ -5498,9 +5502,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.14 p.49 / EN Manual (Windows) Ch.14 p.50",
+      "source": "JP Manual (Windows) Ch.14 p.49 / EN Manual (Windows) Ch.14 p.49",
       "manual_page_ja": 49,
-      "manual_page_en": 50
+      "manual_page_en": 49
     }
   },
   {
@@ -5535,9 +5539,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.14 p.49 / EN Manual (Windows) Ch.14 p.50",
+      "source": "JP Manual (Windows) Ch.14 p.49 / EN Manual (Windows) Ch.14 p.49",
       "manual_page_ja": 49,
-      "manual_page_en": 50
+      "manual_page_en": 49
     }
   },
   {
@@ -5577,9 +5581,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.17 p.60 / EN Manual (Windows) Ch.17 p.61 + What's New v1.5.0 §27 (JP p.22 / EN p.22)",
+      "source": "JP Manual (Windows) Ch.17 p.60 / EN Manual (Windows) Ch.17 p.60 + What's New v1.5.0 §27 (JP p.22 / EN p.22)",
       "manual_page_ja": 60,
-      "manual_page_en": 61
+      "manual_page_en": 60
     }
   },
   {
@@ -5617,9 +5621,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.14 p.48 / EN Manual (Windows) Ch.14 p.49",
+      "source": "JP Manual (Windows) Ch.14 p.48 / EN Manual (Windows) Ch.14 p.48",
       "manual_page_ja": 48,
-      "manual_page_en": 49
+      "manual_page_en": 48
     }
   },
   {
@@ -5655,9 +5659,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.08 p.32 / EN Manual (Windows) Ch.08 p.33",
+      "source": "JP Manual (Windows) Ch.08 p.32 / EN Manual (Windows) Ch.08 p.32",
       "manual_page_ja": 32,
-      "manual_page_en": 33
+      "manual_page_en": 32
     }
   },
   {
@@ -5694,9 +5698,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.09 p.37 / EN Manual (Windows) Ch.09 p.38",
+      "source": "JP Manual (Windows) Ch.09 p.37 / EN Manual (Windows) Ch.09 p.37",
       "manual_page_ja": 37,
-      "manual_page_en": 38
+      "manual_page_en": 37
     }
   },
   {
@@ -5737,9 +5741,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.10 p.40 / EN Manual (Windows) Ch.10 p.41",
+      "source": "JP Manual (Windows) Ch.10 p.40 / EN Manual (Windows) Ch.10 p.40",
       "manual_page_ja": 40,
-      "manual_page_en": 41
+      "manual_page_en": 40
     }
   },
   {
@@ -5776,9 +5780,9 @@
     },
     "platform": "all",
     "win": {
-      "source": "JP Manual (Windows) Ch.10 p.40 / EN Manual (Windows) Ch.10 p.41",
+      "source": "JP Manual (Windows) Ch.10 p.40 / EN Manual (Windows) Ch.10 p.40",
       "manual_page_ja": 40,
-      "manual_page_en": 41
+      "manual_page_en": 40
     }
   },
   {
@@ -5834,11 +5838,11 @@
         "install",
         "インストール"
       ],
-      "source": "JP Manual (Windows) App.B p.74 / EN Manual (Windows) App.B p.75",
+      "source": "JP Manual (Windows) App.B p.74 / EN Manual (Windows) App.B p.74",
       "anchor_ja": "プラグインがDAWに表示されない",
       "anchor_en": "The plugin does not appear in the DAW",
       "manual_page_ja": 74,
-      "manual_page_en": 75
+      "manual_page_en": 74
     }
   },
   {
