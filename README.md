@@ -21,3 +21,16 @@ After GitHub Pages finishes deploying, hard-refresh the public page with Command
   `python3 tools/check_consistency.py --self-test` proves the checks still bite.
 - Publish by merging the branch with git, not by drag-and-drop upload: this update also deletes files
   (old PDFs and page images), which an upload cannot do.
+
+## Mac + Windows, Groove Activator v1.5.1 (site v3.4)
+
+- One site for both OSes. `js/app.js` guesses the OS (`navigator.userAgentData.platform` / `userAgent`; Windows,
+  everything else = Mac), shows a "Mac / Windows" switch in the header and remembers the choice in localStorage
+  (`ga_os_v1`). The plugin keeps opening the same URL on both OSes.
+- Four manuals in `manual-pdf/`: `GrooveActivator_UserManual_v1.5.1_{Mac,Win}_{JP,EN}.pdf`. Page maps and page counts
+  are kept per OS and language (`{mac:{ja,en}, win:{ja,en}}`). `manual-pages/` images were removed: nothing showed them.
+- `data/faq.json`: each entry has `platform` (`all` / `mac` / `win`) and `win` (null for Mac-only; otherwise the
+  fields that differ on Windows, always including the Windows manual pages and source). Windows text comes only
+  from the Windows manual; where it has no fact, the entry is Mac-only.
+- After replacing a PDF: `python3 tools/rebuild_page_maps.py` (all four PDFs), then `python3 tools/check_consistency.py`
+  and `--self-test`.
