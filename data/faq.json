@@ -28,18 +28,41 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "macOS 11（Big Sur）以降",
       "anchor_en": "macOS 11 (Big Sur) or later"
+    },
+    "platform": "all",
+    "win": {
+      "q_ja": "どの PC で使えますか？",
+      "a_ja": "Windows 版は Windows 10（バージョン 1607）以降と Windows 11 に対応しています。プロセッサは 64bit（x64）が必要です。",
+      "q_en": "Which PCs are supported?",
+      "a_en": "The Windows version supports Windows 10 (version 1607) or later and Windows 11, on a 64-bit (x64) processor.",
+      "keywords": [
+        "windows",
+        "windows 10",
+        "windows 11",
+        "pc",
+        "x64",
+        "64bit",
+        "対応",
+        "動作環境",
+        "system requirements"
+      ],
+      "anchor_ja": "Windows 10（バージョン 1607）以降",
+      "anchor_en": "Windows 10 (version 1607) or later",
+      "source": "JP Manual (Windows) Ch.03 p.5 / EN Manual (Windows) Ch.03 p.5",
+      "manual_page_ja": 5,
+      "manual_page_en": 5
     }
   },
   {
     "id": "SYS-002",
     "category": "動作環境",
     "q_ja": "Windowsで使えますか？",
-    "a_ja": "v1.5.0 のマニュアルに記載されている対応環境は macOS 11.0（Big Sur）以降の Mac です。Windows は対応環境の表に含まれていません。",
+    "a_ja": "はい、Windows 版があります。このページ上部の切り替えで「Windows」を選ぶと、Windows 版マニュアルに沿った回答と Windows 版マニュアルの PDF に切り替わります。この Mac 版マニュアルの対応環境の表は、macOS 11.0（Big Sur）以降の Mac を対象にしています。",
     "q_en": "Does it work on Windows?",
-    "a_en": "The supported environment listed in the v1.5.0 manual is a Mac running macOS 11.0 (Big Sur) or later. Windows is not listed in the supported-environment table.",
+    "a_en": "Yes, there is a Windows version. Choose “Windows” with the switch at the top of this page and the answers and the manual PDF switch to the Windows manual. The supported-environment table in this Mac manual covers Macs running macOS 11.0 (Big Sur) or later.",
     "keywords": [
       "windows",
       "win",
@@ -56,9 +79,19 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "対応環境",
       "anchor_en": "Supported environment"
+    },
+    "platform": "all",
+    "win": {
+      "a_ja": "使えます。Windows 版の対応環境は Windows 10（バージョン 1607）以降／Windows 11、64bit（x64）です。形式は VST3・AAX（Pro Tools 2023.6 以降）・単体アプリです。AU（Audio Units）は macOS だけの規格のため、Windows 版にはありません。",
+      "a_en": "Yes. The Windows version runs on Windows 10 (version 1607) or later / Windows 11, 64-bit (x64). It comes as VST3, AAX (Pro Tools 2023.6 or later) and a standalone application. There is no AU (Audio Units) build for Windows — AU is a macOS-only format.",
+      "anchor_ja": "Windows 版に AU（Audio Units）はありません",
+      "anchor_en": "There is no AU (Audio Units) build for Windows",
+      "source": "JP Manual (Windows) Ch.03 p.5 / EN Manual (Windows) Ch.03 p.5",
+      "manual_page_ja": 5,
+      "manual_page_en": 5
     }
   },
   {
@@ -87,9 +120,29 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "AU / VST3 / AAX（Pro Tools 2023.6以降）",
       "anchor_en": "AU / VST3 / AAX (Pro Tools 2023.6 or later)"
+    },
+    "platform": "all",
+    "win": {
+      "a_ja": "VST3、AAX（Pro Tools 2023.6 以降）、単体アプリ（Standalone）に対応しています。AU（Audio Units）は macOS だけの規格のため、Windows 版にはありません。",
+      "a_en": "VST3, AAX (Pro Tools 2023.6 or later) and Standalone are supported. There is no AU (Audio Units) build for Windows — AU is a macOS-only format.",
+      "keywords": [
+        "vst3",
+        "aax",
+        "standalone",
+        "単体アプリ",
+        "形式",
+        "フォーマット",
+        "plugin format",
+        "windows"
+      ],
+      "anchor_ja": "VST3 / AAX（Pro Tools 2023.6以降）/ 単体アプリ",
+      "anchor_en": "VST3 / AAX (Pro Tools 2023.6 or later) / Standalone",
+      "source": "JP Manual (Windows) Ch.03 p.5 / EN Manual (Windows) Ch.03 p.5",
+      "manual_page_ja": 5,
+      "manual_page_en": 5
     }
   },
   {
@@ -119,18 +172,24 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "8GB以上（16GB以上を推奨）",
       "anchor_en": "8GB or more (16GB or more recommended)"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.03 p.5 / EN Manual (Windows) Ch.03 p.5",
+      "manual_page_ja": 5,
+      "manual_page_en": 5
     }
   },
   {
     "id": "INS-001",
     "category": "インストール",
     "q_ja": "どうやってインストールしますか？",
-    "a_ja": "購入後に届くダウンロードリンクから GrooveActivator_QueenEdition_v1.5.0_Installer.pkg をダウンロードし、ダブルクリックして画面の案内に従ってください。リンクの届き先は、お求めになったストアによって異なります。はじめて入れる場合はフル版（..._Installer.pkg）をお使いください。",
+    "a_ja": "購入後に届くダウンロードリンクから GrooveActivator_QueenEdition_v1.5.1_Installer.pkg をダウンロードし、ダブルクリックして画面の案内に従ってください。リンクの届き先は、お求めになったストアによって異なります。はじめて入れる場合はフル版（..._Installer.pkg）をお使いください。",
     "q_en": "How do I install Groove Activator?",
-    "a_en": "Download GrooveActivator_QueenEdition_v1.5.0_Installer.pkg from the download link you receive after purchase, double-click it, and follow the on-screen guide. Where that link arrives depends on the store you bought it from. For a first install, use the full installer (..._Installer.pkg).",
+    "a_en": "Download GrooveActivator_QueenEdition_v1.5.1_Installer.pkg from the download link you receive after purchase, double-click it, and follow the on-screen guide. Where that link arrives depends on the store you bought it from. For a first install, use the full installer (..._Installer.pkg).",
     "keywords": [
       "インストール",
       "install",
@@ -150,9 +209,30 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "購入後に届くダウンロードリンクから",
       "anchor_en": "After purchase, download"
+    },
+    "platform": "all",
+    "win": {
+      "a_ja": "購入後に届くダウンロードリンクから GrooveActivator_v1.5.1_Windows_x64_Setup.exe をダウンロードし、ダブルクリックして画面の案内に従ってください。管理者の確認（ユーザーアカウント制御）が一度出ます。途中で入れるものを選べ、VST3 は必ず入ります。AAX プラグイン（Pro Tools 用）・単体アプリ・音源ライブラリは必要に応じて外せます。先に DAW を終了しておいてください。リンクの届き先は、お求めになったストアによって異なります。",
+      "a_en": "Download GrooveActivator_v1.5.1_Windows_x64_Setup.exe from the download link you receive after purchase, double-click it and follow the on-screen guide. Windows asks for administrator confirmation (User Account Control) once. Part-way through you choose what to install: VST3 is always installed, while the AAX plug-in (for Pro Tools), the standalone application and the sound library can each be left out. Close your DAW first. Where the download link arrives depends on the store you bought from.",
+      "keywords": [
+        "インストール",
+        "install",
+        "exe",
+        "setup",
+        "ダウンロード",
+        "download",
+        "ユーザーアカウント制御",
+        "uac",
+        "shopify",
+        "plugin boutique",
+        "windows"
+      ],
+      "source": "JP Manual (Windows) Ch.03 p.6 / EN Manual (Windows) Ch.03 p.6",
+      "manual_page_ja": 6,
+      "manual_page_en": 6
     }
   },
   {
@@ -182,18 +262,20 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "プラグインがDAWに表示されない",
       "anchor_en": "The plugin does not appear in the DAW"
-    }
+    },
+    "platform": "mac",
+    "win": null
   },
   {
     "id": "INS-003",
     "category": "インストール",
     "q_ja": "プラグインはどこにインストールされますか？",
-    "a_ja": "v1.5.0 のマニュアルの表では次のとおりです。Standalone: /Applications/Groove Activator.app、AU: ~/Library/Audio/Plug-Ins/Components/、VST3: ~/Library/Audio/Plug-Ins/VST3/、AAX: /Library/Application Support/Avid/Audio/Plug-Ins/。",
+    "a_ja": "v1.5.1 のマニュアルの表では次のとおりです。Standalone: /Applications/Groove Activator.app、AU: ~/Library/Audio/Plug-Ins/Components/、VST3: ~/Library/Audio/Plug-Ins/VST3/、AAX: /Library/Application Support/Avid/Audio/Plug-Ins/。",
     "q_en": "Where are the plugin files installed?",
-    "a_en": "According to the table in the v1.5.0 manual: Standalone: /Applications/Groove Activator.app. AU: ~/Library/Audio/Plug-Ins/Components/. VST3: ~/Library/Audio/Plug-Ins/VST3/. AAX: /Library/Application Support/Avid/Audio/Plug-Ins/.",
+    "a_en": "According to the table in the v1.5.1 manual: Standalone: /Applications/Groove Activator.app. AU: ~/Library/Audio/Plug-Ins/Components/. VST3: ~/Library/Audio/Plug-Ins/VST3/. AAX: /Library/Application Support/Avid/Audio/Plug-Ins/.",
     "keywords": [
       "インストール先",
       "場所",
@@ -213,9 +295,27 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "各フォーマットは以下に配置されます",
       "anchor_en": "Each format is installed in the following locations"
+    },
+    "platform": "all",
+    "win": {
+      "a_ja": "Windows 版マニュアルの表では次のとおりです。単体アプリ: C:\\Program Files\\AJITO SOUNDS\\Groove Activator\\、VST3: C:\\Program Files\\Common Files\\VST3\\Groove Activator.vst3、AAX: C:\\Program Files\\Common Files\\Avid\\Audio\\Plug-Ins\\Groove Activator.aaxplugin。",
+      "a_en": "According to the table in the Windows manual: Standalone: C:\\Program Files\\AJITO SOUNDS\\Groove Activator\\. VST3: C:\\Program Files\\Common Files\\VST3\\Groove Activator.vst3. AAX: C:\\Program Files\\Common Files\\Avid\\Audio\\Plug-Ins\\Groove Activator.aaxplugin.",
+      "keywords": [
+        "インストール先",
+        "場所",
+        "program files",
+        "vst3",
+        "aax",
+        "aaxplugin",
+        "install location",
+        "windows"
+      ],
+      "source": "JP Manual (Windows) Ch.03 p.9 / EN Manual (Windows) Ch.03 p.9",
+      "manual_page_ja": 9,
+      "manual_page_en": 9
     }
   },
   {
@@ -245,9 +345,31 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "名前が Uninstaller.pkg で終わるパッケージ",
       "anchor_en": "name ends in Uninstaller.pkg"
+    },
+    "platform": "all",
+    "win": {
+      "a_ja": "消えません。Windows の「設定 → アプリ → インストールされているアプリ」で Groove Activator を選んでアンインストールします（スタートメニューの「Uninstall Groove Activator」からでも同じです）。削除されるのは単体アプリと VST3／AAX だけで、自作キットや設定はユーザーデータフォルダ（%APPDATA%\\GOTARecords\\GrooveActivator\\）にそのまま残ります。",
+      "a_en": "No. Open Settings → Apps → Installed apps, find Groove Activator and uninstall it (“Uninstall Groove Activator” in the Start menu does the same). Only the standalone application and the VST3 / AAX plug-ins are removed; your kits and settings stay in the user-data folder (%APPDATA%\\GOTARecords\\GrooveActivator\\).",
+      "keywords": [
+        "アンインストール",
+        "削除",
+        "自作キット",
+        "消える",
+        "uninstall",
+        "custom kits",
+        "user data",
+        "installed apps",
+        "インストールされているアプリ",
+        "windows"
+      ],
+      "anchor_ja": "インストールされているアプリ",
+      "anchor_en": "Installed apps",
+      "source": "JP Manual (Windows) Ch.03 p.10 / EN Manual (Windows) Ch.03 p.10",
+      "manual_page_ja": 10,
+      "manual_page_en": 10
     }
   },
   {
@@ -276,9 +398,17 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "購入時に発行されるシリアル番号で認証します",
       "anchor_en": "activated with the serial number issued at purchase"
+    },
+    "platform": "all",
+    "win": {
+      "a_ja": "初回起動時に表示される License Activation 画面へ、シリアル番号（XXXXX-XXXXX-XXXXX）を入力して ACTIVATE を押します。認証は初回の一度だけで、以降はオフラインで恒久的に動作します。ライセンスは1本につき2台まで使え、Mac と Windows の組み合わせも自由です。",
+      "a_en": "On first launch, enter your serial number (XXXXX-XXXXX-XXXXX) in the License Activation screen and press ACTIVATE. You activate once — after that it runs offline, permanently. One license may be used on up to two machines, Mac and Windows in any mix.",
+      "source": "JP Manual (Windows) Ch.03 p.10 / EN Manual (Windows) Ch.03 p.10",
+      "manual_page_ja": 10,
+      "manual_page_en": 10
     }
   },
   {
@@ -308,9 +438,17 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "ライセンス認証エラー",
       "anchor_en": "License activation error"
+    },
+    "platform": "all",
+    "win": {
+      "a_ja": "「シリアル番号が正しくありません」と出る場合は、メールからシリアル番号をコピー＆ペーストするのが確実です。入力は自動補正されます（小文字→大文字、ハイフンは省略可、I／L は 1、O は 0 として読み替え）。PC の修理や Windows の再インストールで Machine ID が変わって認証が外れた場合は、Help メニューの Contact Support を選んでください。宛先と Machine ID が入ったメールが作られますので、そのまま送ってください。",
+      "a_en": "If “Invalid serial number.” appears, copy and paste the serial from your email — that is the most reliable way. Input is auto-corrected (lowercase becomes uppercase, hyphens may be left out, I / L are read as 1 and O as 0). If activation was lost because the Machine ID changed after a PC repair or a Windows reinstall, choose Contact Support from the Help menu: an email is created with the address and your Machine ID already in it — just send it.",
+      "source": "JP Manual (Windows) App.B p.74 / EN Manual (Windows) App.B p.75",
+      "manual_page_ja": 74,
+      "manual_page_en": 75
     }
   },
   {
@@ -338,9 +476,19 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "1本につき2台までのMac",
       "anchor_en": "up to two (2) Macs"
+    },
+    "platform": "all",
+    "win": {
+      "a_ja": "ライセンスは1本につき2台まで使えます。Mac と Windows の組み合わせも自由です。買い替えや修理で認証し直す場合は、サポート（ajitosounds+info@gmail.com）までご連絡ください。",
+      "a_en": "One license may be used on up to two (2) machines — Mac and Windows in any mix. If you need to re-activate after replacing or repairing your computer, contact support (ajitosounds+info@gmail.com).",
+      "anchor_ja": "Mac と Windows の組み合わせも自由です",
+      "anchor_en": "Mac and Windows in any mix",
+      "source": "JP Manual (Windows) Ch.03 p.12 / EN Manual (Windows) Ch.03 p.12",
+      "manual_page_ja": 12,
+      "manual_page_en": 12
     }
   },
   {
@@ -369,9 +517,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "Master Mute が ON になっていないか",
       "anchor_en": "is Master Mute ON"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) App.B p.74 / EN Manual (Windows) App.B p.75 + Gota support workflow",
+      "manual_page_ja": 74,
+      "manual_page_en": 75
     }
   },
   {
@@ -398,9 +552,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "音が出ない",
       "anchor_en": "Check, in order: is Master Mute ON, is the Master Volume tur"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) App.B p.74 / EN Manual (Windows) App.B p.75 + Gota support workflow",
+      "manual_page_ja": 74,
+      "manual_page_en": 75
     }
   },
   {
@@ -430,9 +590,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "AUTO ボタン（オレンジのアクセント）を ON にすると",
       "anchor_en": "Turn ON the AUTO button"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.08 p.35 / EN Manual (Windows) Ch.08 p.36 + Gota's Tip",
+      "manual_page_ja": 35,
+      "manual_page_en": 36
     }
   },
   {
@@ -463,9 +629,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "それでも CPU が赤いままなら QUALITY を",
       "anchor_en": "move QUALITY to Studio or Eco"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.05 p.17 / EN Manual (Windows) Ch.05 p.17 + Gota's Tip",
+      "manual_page_ja": 17,
+      "manual_page_en": 17
     }
   },
   {
@@ -493,8 +665,10 @@
       "status": "No manual page (support / release-note entry)",
       "confidence_percent": null,
       "chapter_source": "",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)"
-    }
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)"
+    },
+    "platform": "mac",
+    "win": null
   },
   {
     "id": "MID-001",
@@ -520,10 +694,12 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": ".mid はライブラリの Grooves フォルダに入れます",
       "anchor_en": "the Grooves folder in the library"
-    }
+    },
+    "platform": "mac",
+    "win": null
   },
   {
     "id": "KIT-001",
@@ -550,9 +726,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "KIT SAVE で空いているスロットに保存してください",
       "anchor_en": "there are 100 slots"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.18 p.66 / EN Manual (Windows) Ch.18 p.67 + Gota's verified workflow",
+      "manual_page_ja": 66,
+      "manual_page_en": 67
     }
   },
   {
@@ -580,11 +762,19 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "Back Up Everything (Full Library Copy)",
       "anchor_en": "Back Up Everything (Full Library Copy)",
       "whatsnew_anchor_ja": "BROWSE パネルの BACKUP ボタンから",
       "whatsnew_anchor_en": "The BACKUP button in the BROWSE panel"
+    },
+    "platform": "all",
+    "win": {
+      "a_ja": "File メニューの Back Up Everything (Full Library Copy)... を選び、保存先を指定してください。ライブラリと設定がフォルダ1つにまとめてコピーされ、戻し方を書いた README.txt と、中身の一覧 MANIFEST.txt も一緒に入ります。ライセンス、マニュアル、自動保存スナップショットは入りません。",
+      "a_en": "Choose File → Back Up Everything (Full Library Copy)... and pick a destination. Your library and settings are copied into a single folder, together with README.txt (how to put it back) and MANIFEST.txt (every file inside). The license, the manual and auto-save snapshots are not included.",
+      "source": "JP Manual (Windows) Ch.21 p.69 / EN Manual (Windows) Ch.21 p.70",
+      "manual_page_ja": 69,
+      "manual_page_en": 70
     }
   },
   {
@@ -612,8 +802,10 @@
       "status": "No manual page (support / release-note entry)",
       "confidence_percent": null,
       "chapter_source": "",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)"
-    }
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)"
+    },
+    "platform": "all",
+    "win": {}
   },
   {
     "id": "KIT-003",
@@ -639,8 +831,10 @@
       "status": "No manual page (support / release-note entry)",
       "confidence_percent": null,
       "chapter_source": "",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)"
-    }
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)"
+    },
+    "platform": "all",
+    "win": {}
   },
   {
     "id": "OUT-001",
@@ -667,10 +861,12 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "で「マルチ出力（17xステレオ）」を選択します",
       "anchor_en": "choose “Multi Output (17xStereo)”. Then press"
-    }
+    },
+    "platform": "mac",
+    "win": null
   },
   {
     "id": "OUT-002",
@@ -698,9 +894,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "Out（1–16）に振ると Master Instant Activator は自動的にバイパスされます",
       "anchor_en": "bypasses the Master Instant Activator. The Instant Activator adds look-ahead latency"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.07 p.28 / EN Manual (Windows) Ch.07 p.28",
+      "manual_page_ja": 28,
+      "manual_page_en": 28
     }
   },
   {
@@ -729,9 +931,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "Master Volume、Master Mute、Master Limiter を備えます",
       "anchor_en": "Master Volume, Master Mute and Master Limiter"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.07 p.27 / EN Manual (Windows) Ch.07 p.27 + Gota support workflow",
+      "manual_page_ja": 27,
+      "manual_page_en": 27
     }
   },
   {
@@ -761,9 +969,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "新しい版のお知らせ",
       "anchor_en": "Being told about a new version"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) App.B p.73 / EN Manual (Windows) App.B p.74",
+      "manual_page_ja": 73,
+      "manual_page_en": 74
     }
   },
   {
@@ -791,18 +1005,24 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "サンプリングCD『Groove Activator』",
       "anchor_en": "I released a sampling CD"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.01 p.3 / EN Manual (Windows) Ch.01 p.3",
+      "manual_page_ja": 3,
+      "manual_page_en": 3
     }
   },
   {
     "id": "OVR-001",
     "category": "製品について",
     "q_ja": "Groove Activatorとは何ですか？",
-    "a_ja": "生ドラムの表現、アナログドラムマシンの存在感、オーディオループを使ったビートメイクを、ひとつのプラグインで組み合わせられるMac用ドラムサンプラーです。",
+    "a_ja": "生ドラムの表現、アナログドラムマシンの存在感、オーディオループを使ったビートメイクを、ひとつのプラグインで組み合わせられるドラムサンプラーです。",
     "q_en": "What is Groove Activator?",
-    "a_en": "It is a Mac drum sampler plugin combining expressive acoustic drums, analog drum-machine character, and audio-loop beat making in one environment.",
+    "a_en": "It is a drum sampler plugin combining expressive acoustic drums, analog drum-machine character, and audio-loop beat making in one environment.",
     "keywords": [
       "何",
       "概要",
@@ -820,9 +1040,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "Groove Activatorのコンセプト",
       "anchor_en": "The concept of Groove Activator"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.02 p.4 / EN Manual (Windows) Ch.02 p.4",
+      "manual_page_ja": 4,
+      "manual_page_en": 4
     }
   },
   {
@@ -849,9 +1075,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "3つのコアモジュール",
       "anchor_en": "Three core modules"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.02 p.4 / EN Manual (Windows) Ch.02 p.4",
+      "manual_page_ja": 4,
+      "manual_page_en": 4
     }
   },
   {
@@ -877,9 +1109,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "SIMPLEモードは基本パラメータだけを表示し",
       "anchor_en": "Simple Mode shows only the basic parameters"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.05 p.14 / EN Manual (Windows) Ch.05 p.14",
+      "manual_page_ja": 14,
+      "manual_page_en": 14
     }
   },
   {
@@ -906,9 +1144,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "1440×900以上",
       "anchor_en": "1440 × 900 or higher"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.03 p.5 / EN Manual (Windows) Ch.03 p.5",
+      "manual_page_ja": 5,
+      "manual_page_en": 5
     }
   },
   {
@@ -936,9 +1180,25 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "動作確認済みDAW",
       "anchor_en": "Tested DAWs"
+    },
+    "platform": "all",
+    "win": {
+      "a_ja": "Windows 版では、Pro Tools 2024 以降（AAX）、Ableton Live 12、Cubase 13、Studio One 6 で動作を確認しています。",
+      "a_en": "On Windows: Pro Tools 2024 or later (AAX), Ableton Live 12, Cubase 13 and Studio One 6.",
+      "keywords": [
+        "daw",
+        "pro tools",
+        "ableton",
+        "cubase",
+        "studio one",
+        "windows"
+      ],
+      "source": "JP Manual (Windows) Ch.03 p.5 / EN Manual (Windows) Ch.03 p.5",
+      "manual_page_ja": 5,
+      "manual_page_en": 5
     }
   },
   {
@@ -964,9 +1224,32 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "署名・公証（Apple Notarization）済み",
       "anchor_en": "signed and notarized by Apple"
+    },
+    "platform": "all",
+    "win": {
+      "q_ja": "インストーラーは署名されていますか？「WindowsによってPCが保護されました」と出ます。",
+      "a_ja": "はい。Windows 版はコード署名済みのインストーラー（.exe）で、発行元は「Gota Yashiki」と表示されます。証明書が新しいあいだは、Windows の SmartScreen が「WindowsによってPCが保護されました」と出すことがあります。その場合は「詳細情報」をクリックし、発行元が Gota Yashiki であることを確かめてから「実行」を押してください。ダウンロード数が増えるにつれて出なくなります。",
+      "q_en": "Is the installer signed? Windows says “Windows protected your PC”.",
+      "a_en": "Yes. The Windows version is a code-signed installer (.exe); the publisher shows as “Gota Yashiki”. While the certificate is still new, Windows SmartScreen may say “Windows protected your PC”. Click “More info”, check that the publisher is Gota Yashiki, then press “Run anyway”. This stops happening as the download count builds up.",
+      "keywords": [
+        "署名",
+        "smartscreen",
+        "保護されました",
+        "windows protected your pc",
+        "発行元",
+        "publisher",
+        "code signed",
+        "詳細情報",
+        "run anyway"
+      ],
+      "anchor_ja": "コード署名済みのインストーラー（.exe）",
+      "anchor_en": "code-signed installer (.exe)",
+      "source": "JP Manual (Windows) Ch.03 p.5 / EN Manual (Windows) Ch.03 p.5",
+      "manual_page_ja": 5,
+      "manual_page_en": 5
     }
   },
   {
@@ -991,10 +1274,12 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "標準インストール（約 1.3 GB）",
       "anchor_en": "approx. 1.3 GB"
-    }
+    },
+    "platform": "mac",
+    "win": null
   },
   {
     "id": "INS-007",
@@ -1024,9 +1309,28 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "あなたが作成したキットや設定は、次のユーザーデータフォルダ",
       "anchor_en": "remain intact in the user-data folder"
+    },
+    "platform": "all",
+    "win": {
+      "a_ja": "Windows 版のユーザーデータは %APPDATA%\\GOTARecords\\GrooveActivator\\ に保存されます。中には Kits・Pads・Presets・Sets・Samples・Grooves・Manual があります。Slice Activator／Analog Activator のプリセットと Slicer に読み込んだループも、同じフォルダの中にあります（macOS では別の場所ですが、Windows では 1 か所です）。エクスプローラーのアドレス欄に %APPDATA% と入力すると、その親フォルダが開きます。",
+      "a_en": "On Windows, user data is stored in %APPDATA%\\GOTARecords\\GrooveActivator\\ — Kits, Pads, Presets, Sets, Samples, Grooves and Manual. Slice Activator and Analog Activator presets, and the loops loaded into the Slicer, live in the same folder (on macOS they sit in a separate place; on Windows there is only one). Typing %APPDATA% into the File Explorer address bar takes you to its parent.",
+      "keywords": [
+        "ユーザーデータ",
+        "appdata",
+        "%appdata%",
+        "kits",
+        "grooves",
+        "samples",
+        "フォルダ",
+        "user data",
+        "windows"
+      ],
+      "source": "JP Manual (Windows) Ch.03 p.10 / EN Manual (Windows) Ch.03 p.10",
+      "manual_page_ja": 10,
+      "manual_page_en": 10
     }
   },
   {
@@ -1052,9 +1356,27 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "完全に手動で消したい場合は、この2つのフォルダ",
       "anchor_en": "remove everything by hand, delete both folders"
+    },
+    "platform": "all",
+    "win": {
+      "a_ja": "「設定 → アプリ → インストールされているアプリ」から本体とプラグインをアンインストールした後、ユーザーデータも消したい場合だけ、エクスプローラーで %APPDATA%\\GOTARecords\\GrooveActivator\\ フォルダを削除します（Windows ではユーザーデータはこの 1 か所です）。削除前に、必要なキットを必ずバックアップしてください。",
+      "a_en": "After uninstalling from Settings → Apps → Installed apps, delete the folder %APPDATA%\\GOTARecords\\GrooveActivator\\ in File Explorer only if you also want to remove all user data (on Windows it is this one folder). Back up any kits you need first.",
+      "keywords": [
+        "完全削除",
+        "手動削除",
+        "remove everything",
+        "エクスプローラー",
+        "file explorer",
+        "appdata"
+      ],
+      "anchor_ja": "このフォルダをエクスプローラーで削除してください",
+      "anchor_en": "delete that folder in File Explorer",
+      "source": "JP Manual (Windows) Ch.03 p.10 / EN Manual (Windows) Ch.03 p.10",
+      "manual_page_ja": 10,
+      "manual_page_en": 10
     }
   },
   {
@@ -1080,9 +1402,17 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "以降はオフラインで恒久的に動作します",
       "anchor_en": "after that it runs offline, permanently"
+    },
+    "platform": "all",
+    "win": {
+      "a_ja": "いいえ。認証は初回の一度だけで、以降はオフラインで恒久的に動作します。認証情報はお使いの PC に保存され、再起動しても、アンインストール後に再インストールしても維持されます。",
+      "a_en": "No. You activate once and after that it runs offline, permanently. The activation is stored on your PC and survives restarts — even uninstalling then reinstalling keeps it.",
+      "source": "JP Manual (Windows) Ch.03 p.10 / EN Manual (Windows) Ch.03 p.10",
+      "manual_page_ja": 10,
+      "manual_page_en": 10
     }
   },
   {
@@ -1109,9 +1439,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "メールに記載されたシリアル番号",
       "anchor_en": "Type the serial number from your email"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.03 p.11 / EN Manual (Windows) Ch.03 p.11",
+      "manual_page_ja": 11,
+      "manual_page_en": 11
     }
   },
   {
@@ -1136,10 +1472,12 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "license.json  ライセンスファイル",
       "anchor_en": "license.json License file"
-    }
+    },
+    "platform": "mac",
+    "win": null
   },
   {
     "id": "QST-001",
@@ -1164,9 +1502,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "左上の BROWSE ボタンでブラウザを開き",
       "anchor_en": "Open the browser with the BROWSE button"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.04 p.13 / EN Manual (Windows) Ch.04 p.13",
+      "manual_page_ja": 13,
+      "manual_page_en": 13
     }
   },
   {
@@ -1191,9 +1535,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "画面下部の18パッドをマウスでクリックするか",
       "anchor_en": "Click any of the 18 pads"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.04 p.13 / EN Manual (Windows) Ch.04 p.13",
+      "manual_page_ja": 13,
+      "manual_page_en": 13
     }
   },
   {
@@ -1219,9 +1569,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "メイン画面は5つのエリアで構成されています",
       "anchor_en": "made up of five areas"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.05 p.14 / EN Manual (Windows) Ch.05 p.14",
+      "manual_page_ja": 14,
+      "manual_page_en": 14
     }
   },
   {
@@ -1247,9 +1603,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "TopBar右側の MODE スイッチで切り替えます",
       "anchor_en": "MODE switch on the right of the TopBar"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.05 p.14 / EN Manual (Windows) Ch.05 p.14",
+      "manual_page_ja": 14,
+      "manual_page_en": 14
     }
   },
   {
@@ -1274,9 +1636,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "18のパッドには、それぞれMIDIノートが割り当てられています",
       "anchor_en": "has a MIDI note assigned to it"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.06 p.19 / EN Manual (Windows) Ch.06 p.19",
+      "manual_page_ja": 19,
+      "manual_page_en": 19
     }
   },
   {
@@ -1302,9 +1670,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "クリックで選択",
       "anchor_en": "Click to select"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.05 p.14 / EN Manual (Windows) Ch.05 p.14",
+      "manual_page_ja": 14,
+      "manual_page_en": 14
     }
   },
   {
@@ -1329,9 +1703,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "簡易エディット・ポップアップが開きます",
       "anchor_en": "quick-edit popup"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.06 p.22 / EN Manual (Windows) Ch.06 p.22",
+      "manual_page_ja": 22,
+      "manual_page_en": 22
     }
   },
   {
@@ -1357,9 +1737,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "Start Point / End Point は再生の開始位置と終了位置です",
       "anchor_en": "Start Point / End Point"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.08 p.29 / EN Manual (Windows) Ch.08 p.30",
+      "manual_page_ja": 29,
+      "manual_page_en": 30
     }
   },
   {
@@ -1384,9 +1770,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "Loop を ON にすると",
       "anchor_en": "With Loop ON, playback continues"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.08 p.29 / EN Manual (Windows) Ch.08 p.30",
+      "manual_page_ja": 29,
+      "manual_page_en": 30
     }
   },
   {
@@ -1413,9 +1805,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "Pitch（Tune）は±24セミトーン",
       "anchor_en": "Pitch (Tune) is ±24 semitones"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.08 p.29 / EN Manual (Windows) Ch.08 p.30",
+      "manual_page_ja": 29,
+      "manual_page_en": 30
     }
   },
   {
@@ -1447,9 +1845,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "Envelope は ATK / DCY / SUS / REL の4ノブ（ADSR）",
       "anchor_en": "ATK / DCY / SUS / REL"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.08 p.29 / EN Manual (Windows) Ch.08 p.30",
+      "manual_page_ja": 29,
+      "manual_page_en": 30
     }
   },
   {
@@ -1475,9 +1879,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "波形編集タブの全パラメータは、選択中のパッド／Layer／Mic のみに作用します",
       "anchor_en": "ALL LAYER / ALL CH are not applied"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.08 p.30 / EN Manual (Windows) Ch.08 p.31",
+      "manual_page_ja": 30,
+      "manual_page_en": 31
     }
   },
   {
@@ -1503,9 +1913,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "1つのパッドに、ベロシティで切り替わる複数のサンプルを重ねられます",
       "anchor_en": "multiple samples on a single pad, switched by velocity"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.08 p.32 / EN Manual (Windows) Ch.08 p.33",
+      "manual_page_ja": 32,
+      "manual_page_en": 33
     }
   },
   {
@@ -1531,9 +1947,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "同じベロシティ範囲の中で、複数の音をランダムまたは順番に切り替える機能です",
       "anchor_en": "within the same velocity range"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.08 p.35 / EN Manual (Windows) Ch.08 p.36",
+      "manual_page_ja": 35,
+      "manual_page_en": 36
     }
   },
   {
@@ -1560,9 +1982,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "Edit Window 右上の ALL LAYER / ALL CH トグル",
       "anchor_en": "The ALL LAYER / ALL CH toggles at the top right of the Edit Window"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.08 p.33 / EN Manual (Windows) Ch.08 p.34",
+      "manual_page_ja": 33,
+      "manual_page_en": 34
     }
   },
   {
@@ -1587,9 +2015,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "同じベロシティ範囲の中で、複数の音をランダムまたは順番に切り替える機能です",
       "anchor_en": "within the same velocity range"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.08 p.35 / EN Manual (Windows) Ch.08 p.36",
+      "manual_page_ja": 35,
+      "manual_page_en": 36
     }
   },
   {
@@ -1616,9 +2050,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "Round Robin",
       "anchor_en": "Round Robin"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.08 p.35 / EN Manual (Windows) Ch.08 p.36",
+      "manual_page_ja": 35,
+      "manual_page_en": 36
     }
   },
   {
@@ -1646,9 +2086,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "Pad Mixer を ON にすると",
       "anchor_en": "Turn the Pad Mixer toggle ON"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.07 p.24 / EN Manual (Windows) Ch.07 p.24",
+      "manual_page_ja": 24,
+      "manual_page_en": 24
     }
   },
   {
@@ -1673,9 +2119,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "ALL CH ON なら同じレイヤーの全チャンネル",
       "anchor_en": "ALL CH ON"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.08 p.33 / EN Manual (Windows) Ch.08 p.34",
+      "manual_page_ja": 33,
+      "manual_page_en": 34
     }
   },
   {
@@ -1700,9 +2152,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "ヴィンテージ・アナログ・ドラムマシンの質感",
       "anchor_en": "vintage analog drum machine"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.13 p.45 / EN Manual (Windows) Ch.13 p.46",
+      "manual_page_ja": 45,
+      "manual_page_en": 46
     }
   },
   {
@@ -1729,9 +2187,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "以下の14セクションが並びます",
       "anchor_en": "14 sections"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.13 p.45 / EN Manual (Windows) Ch.13 p.46",
+      "manual_page_ja": 45,
+      "manual_page_en": 46
     }
   },
   {
@@ -1756,9 +2220,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "ボタンひとつで生ドラムへレイヤーできる",
       "anchor_en": "layers onto acoustic drums at the push of a button"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.02 p.4 / EN Manual (Windows) Ch.02 p.4",
+      "manual_page_ja": 4,
+      "manual_page_en": 4
     }
   },
   {
@@ -1783,9 +2253,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "Slice Activator の最大の特徴は",
       "anchor_en": "biggest feature"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.14 p.47 / EN Manual (Windows) Ch.14 p.48",
+      "manual_page_ja": 47,
+      "manual_page_en": 48
     }
   },
   {
@@ -1813,9 +2289,27 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "Cmd+C でコピーし、対応するドラムマイクチャンネルへ Cmd+V で貼り付けます",
       "anchor_en": "Cmd+C"
+    },
+    "platform": "all",
+    "win": {
+      "a_ja": "はい。スライスした音を Ctrl+C／Ctrl+V でドラムマイクチャンネルへコピー＆ペーストし、ループ素材からマルチマイクキットを組み立てられます。",
+      "a_en": "Yes. Use Ctrl+C / Ctrl+V to copy a slice into a drum-mic channel and build a multi-mic kit from loop material.",
+      "keywords": [
+        "ctrl c",
+        "ctrl v",
+        "コピー",
+        "ペースト",
+        "drum mic",
+        "slice"
+      ],
+      "anchor_ja": "Ctrl+C でコピーし、対応するドラムマイクチャンネル",
+      "anchor_en": "copy the selected slice with Ctrl+C",
+      "source": "JP Manual (Windows) Ch.14 p.47 / EN Manual (Windows) Ch.14 p.48",
+      "manual_page_ja": 47,
+      "manual_page_en": 48
     }
   },
   {
@@ -1841,9 +2335,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "Instant Activator は2段構えです",
       "anchor_en": "comes in two stages"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.15 p.50 / EN Manual (Windows) Ch.15 p.51",
+      "manual_page_ja": 50,
+      "manual_page_en": 51
     }
   },
   {
@@ -1872,9 +2372,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "標準は Master です",
       "anchor_en": "Master is the default"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.05 p.16 / EN Manual (Windows) Ch.05 p.16",
+      "manual_page_ja": 16,
+      "manual_page_en": 16
     }
   },
   {
@@ -1899,9 +2405,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "PITCH BEND ── ピッチベンド",
       "anchor_en": "the MIDI pitch-bend wheel"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.09 p.39 / EN Manual (Windows) Ch.09 p.40",
+      "manual_page_ja": 39,
+      "manual_page_en": 40
     }
   },
   {
@@ -1927,9 +2439,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "Hi-Hat の開閉を連続的にコントロールするための専用パラメータ群",
       "anchor_en": "continuously controlling hi-hat open/close"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.10 p.40 / EN Manual (Windows) Ch.10 p.41",
+      "manual_page_ja": 40,
+      "manual_page_en": 41
     }
   },
   {
@@ -1958,9 +2476,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "MIDIノートはパッドごとに自由に変更できます",
       "anchor_en": "MIDI note can be changed freely"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.06 p.20 / EN Manual (Windows) Ch.06 p.20",
+      "manual_page_ja": 20,
+      "manual_page_en": 20
     }
   },
   {
@@ -1986,9 +2510,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "方法A: グローバル学習モード",
       "anchor_en": "Method A: Global learn mode"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.12 p.43 / EN Manual (Windows) Ch.12 p.44",
+      "manual_page_ja": 43,
+      "manual_page_en": 44
     }
   },
   {
@@ -2015,9 +2545,26 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "Cmd + C / Cmd + V",
       "anchor_en": "Cmd + C / Cmd + V"
+    },
+    "platform": "all",
+    "win": {
+      "a_ja": "Ctrl+C でコピー、Ctrl+V でペーストします。付録A では Slice Activator の「選択スライスをコピー／ドラムマイクチャンネルへペースト」として載っています。",
+      "a_en": "Ctrl+C copies and Ctrl+V pastes. Appendix A lists them under Slice Activator: copy the selected slice / paste to a drum-mic channel.",
+      "keywords": [
+        "ctrl c",
+        "ctrl v",
+        "shortcut",
+        "ショートカット",
+        "copy paste"
+      ],
+      "anchor_ja": "Ctrl + C / Ctrl + V",
+      "anchor_en": "Ctrl + C / Ctrl + V",
+      "source": "JP Manual (Windows) App.A p.72 / EN Manual (Windows) App.A p.73",
+      "manual_page_ja": 72,
+      "manual_page_en": 73
     }
   },
   {
@@ -2042,9 +2589,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "頻繁な操作にはキーボードショートカットを用意しています",
       "anchor_en": "keyboard shortcuts for frequent operations"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) App.A p.71 / EN Manual (Windows) App.A p.72",
+      "manual_page_ja": 71,
+      "manual_page_en": 72
     }
   },
   {
@@ -2071,9 +2624,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "Groove Ride 1 / 2 / 3",
       "anchor_en": "Groove Ride 1 / 2 / 3"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.17 p.62 / EN Manual (Windows) Ch.17 p.63",
+      "manual_page_ja": 62,
+      "manual_page_en": 63
     }
   },
   {
@@ -2099,9 +2658,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "キットファイルは .gdapack 拡張子です",
       "anchor_en": ".gdapack extension"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.18 p.64 / EN Manual (Windows) Ch.18 p.65",
+      "manual_page_ja": 64,
+      "manual_page_en": 65
     }
   },
   {
@@ -2128,9 +2693,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "File メニューの Export から",
       "anchor_en": "Export from the File menu"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.18 p.63 / EN Manual (Windows) Ch.18 p.64",
+      "manual_page_ja": 63,
+      "manual_page_en": 64
     }
   },
   {
@@ -2156,9 +2727,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "「完全な状態」を保存する単位です",
       "anchor_en": "complete state"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.17 p.58 / EN Manual (Windows) Ch.17 p.59",
+      "manual_page_ja": 58,
+      "manual_page_en": 59
     }
   },
   {
@@ -2185,9 +2762,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "17バス出力",
       "anchor_en": "17 bus outputs"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.07 p.28 / EN Manual (Windows) Ch.07 p.28",
+      "manual_page_ja": 28,
+      "manual_page_en": 28
     }
   },
   {
@@ -2213,10 +2796,12 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "マルチ出力（16xステレオ）",
       "anchor_en": "Multi Output (16xStereo)"
-    }
+    },
+    "platform": "mac",
+    "win": null
   },
   {
     "id": "OUT-005",
@@ -2242,9 +2827,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "Instant Activator は Main 出力にのみルックアヘッド・レイテンシー（約4ms）を加える",
       "anchor_en": "look-ahead latency (about 4 ms)"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.07 p.28 / EN Manual (Windows) Ch.07 p.28",
+      "manual_page_ja": 28,
+      "manual_page_en": 28
     }
   },
   {
@@ -2273,9 +2864,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "オーディオインターフェイスの入力をパッドのマイクチャンネルへ直接録るものです",
       "anchor_en": "Recording in Groove Activator takes the inputs of your audio interface"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.20 p.67 / EN Manual (Windows) Ch.20 p.68",
+      "manual_page_ja": 67,
+      "manual_page_en": 68
     }
   },
   {
@@ -2301,9 +2898,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "DAWでのバウンス",
       "anchor_en": "Bouncing in a DAW"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.20 p.69 / EN Manual (Windows) Ch.20 p.70",
+      "manual_page_ja": 69,
+      "manual_page_en": 70
     }
   },
   {
@@ -2328,9 +2931,23 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "ライブラリ2か所と設定が、指定した場所のフォルダ1つにまとめてコピーされます",
       "anchor_en": "Both library locations and your settings are copied"
+    },
+    "platform": "all",
+    "win": {
+      "a_ja": "Windows 版では、ユーザーデータは %APPDATA%\\GOTARecords\\GrooveActivator\\ の 1 か所です（Kits・Pads・Samples などに加え、Slice／Analog のプリセットと Slicer のループも同じフォルダに入っています）。File メニューの Back Up Everything (Full Library Copy)... を使えば、ライブラリと設定がフォルダ1つにまとめてコピーされ、戻し方を書いた README.txt も一緒に入ります。",
+      "a_en": "On Windows, user data lives in one place: %APPDATA%\\GOTARecords\\GrooveActivator\\ (Kits, Pads, Samples and so on, plus the Slice / Analog presets and Slicer loops). File → Back Up Everything (Full Library Copy)... copies your library and settings into a single folder together with a README.txt that explains how to restore it.",
+      "keywords": [
+        "backup folder",
+        "バックアップフォルダ",
+        "appdata",
+        "%appdata%"
+      ],
+      "source": "JP Manual (Windows) Ch.21 p.69 / EN Manual (Windows) Ch.21 p.70",
+      "manual_page_ja": 69,
+      "manual_page_en": 70
     }
   },
   {
@@ -2356,9 +2973,17 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "再インストール後も、キットやライセンスはそのまま使えます",
       "anchor_en": "after reinstalling your kits and license are still there"
+    },
+    "platform": "all",
+    "win": {
+      "anchor_ja": "削除されるのはアプリ本体とプラグインのみです",
+      "anchor_en": "Only the application and the plugins are removed",
+      "source": "JP Manual (Windows) Ch.03 p.10 / EN Manual (Windows) Ch.03 p.10",
+      "manual_page_ja": 10,
+      "manual_page_en": 10
     }
   },
   {
@@ -2384,10 +3009,12 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "プラグインがDAWに表示されない",
       "anchor_en": "The plugin does not appear in the DAW"
-    }
+    },
+    "platform": "mac",
+    "win": null
   },
   {
     "id": "TRB-002",
@@ -2413,9 +3040,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "音が途切れるときは、まず DAW のバッファサイズ",
       "anchor_en": "If the sound breaks up, raise the buffer size"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.05 p.17 / EN Manual (Windows) Ch.05 p.17",
+      "manual_page_ja": 17,
+      "manual_page_en": 17
     }
   },
   {
@@ -2442,9 +3075,17 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "Help メニューの Contact Support を選んでください",
       "anchor_en": "choose Contact Support from the Help menu"
+    },
+    "platform": "all",
+    "win": {
+      "a_ja": "Groove Activator、DAW、Windows のバージョン、再現手順、クラッシュログを記録し、サポートへ連絡してください。Help メニューの Contact Support を選ぶと、宛先・版数・Machine ID が入った状態でメール作成画面が開きます。推測で設定を削除せず、必要なキットを先にバックアップしてください。",
+      "a_en": "Record the Groove Activator, DAW and Windows versions, the exact reproduction steps and the crash log, then contact support. Help → Contact Support opens an email with the address, version and Machine ID already filled in. Back up your kits before deleting or resetting anything.",
+      "source": "JP Manual (Windows) App.B p.74 / EN Manual (Windows) App.B p.75 + Gota support workflow",
+      "manual_page_ja": 74,
+      "manual_page_en": 75
     }
   },
   {
@@ -2468,9 +3109,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
-      "anchor_ja": "Groove Activator v1.5.0 Queen Edition の制作にあたり",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
+      "anchor_ja": "Groove Activator v1.5.1 Queen Edition の制作にあたり",
       "anchor_en": "In making Groove Activator"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) App.C p.75 / EN Manual (Windows) App.C p.76",
+      "manual_page_ja": 75,
+      "manual_page_en": 76
     }
   },
   {
@@ -2495,9 +3142,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "AJITO SOUNDS は、京都府綾部市の蔵を改装したスタジオ",
       "anchor_en": "AJITO SOUNDS is"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) App.D p.75 / EN Manual (Windows) App.D p.76",
+      "manual_page_ja": 75,
+      "manual_page_en": 76
     }
   },
   {
@@ -2524,9 +3177,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "法的事項",
       "anchor_en": "Legal"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) App.E p.77 / EN Manual (Windows) App.E p.78",
+      "manual_page_ja": 77,
+      "manual_page_en": 78
     }
   },
   {
@@ -2571,9 +3230,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "音名の表記基準は切り替えられます",
       "anchor_en": "naming convention can be switched"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.06 p.20 / EN Manual (Windows) Ch.06 p.20 + v1.2.2 Release Notes",
+      "manual_page_ja": 20,
+      "manual_page_en": 20
     }
   },
   {
@@ -2608,9 +3273,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "Middle C Is Named",
       "anchor_en": "Middle C Is Named"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.06 p.20 / EN Manual (Windows) Ch.06 p.20 + v1.2.2 Release Notes",
+      "manual_page_ja": 20,
+      "manual_page_en": 20
     }
   },
   {
@@ -2647,9 +3318,17 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "窓の右下には金色のつまみがあります",
       "anchor_en": "gold handle at the bottom-right"
+    },
+    "platform": "all",
+    "win": {
+      "a_ja": "変えられます。窓の右下にある金色のつまみをドラッグしてください。Standalone でも DAW でも同じように使えます。縦横比は固定で、比率を保ったまま拡大縮小します。DAW によってはプラグインの窓枠そのものを動かせないことがありますが、そのときもこの右下のつまみと、画面の上の −／＋・FIT SCREEN、Ctrl + -／Ctrl + +、View メニューは使えます。",
+      "a_en": "Yes. Drag the gold grip at the bottom-right corner of the window. It works the same in Standalone and inside a DAW. The aspect ratio is fixed, so the window scales in proportion. Some DAWs do not let you drag the plug-in window frame itself — the grip, the − / + and FIT SCREEN buttons at the top, Ctrl + - / Ctrl + + and the View menu still work there.",
+      "source": "JP Manual (Windows) App.A p.71 / EN Manual (Windows) App.A p.72",
+      "manual_page_ja": 71,
+      "manual_page_en": 72
     }
   },
   {
@@ -2685,9 +3364,17 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "設定した大きさは保存されます",
       "anchor_en": "The size you choose is remembered"
+    },
+    "platform": "all",
+    "win": {
+      "a_ja": "覚えています。次に開いたときも同じ大きさです（DAW ではプロジェクトごとに保存されます）。画面の上には「101%　−　＋　FIT SCREEN」が並び、−／＋ は 5% きざみ、FIT SCREEN は画面に収まる一番大きな寸法です。v1.5 からは SIMPLE・ADVANCED・SLICE・GROOVE のどの面でも同じ位置にあります。Ctrl + -／Ctrl + +／Ctrl + 0（100% に戻す）、Shift + Ctrl + 0（Fit Screen）も使えます。",
+      "a_en": "Yes. The next time you open it, the size is the same (inside a DAW it is saved per project). Across the top of the window sits “101%  −  +  FIT SCREEN”: − and + step by 5%, and FIT SCREEN sizes the window to the largest that fits your display. From v1.5 it is in the same place on SIMPLE, ADVANCED, SLICE and GROOVE. Ctrl + -, Ctrl + +, Ctrl + 0 (back to 100%) and Shift + Ctrl + 0 (Fit Screen) work too.",
+      "source": "JP Manual (Windows) App.A p.72 / EN Manual (Windows) App.A p.72",
+      "manual_page_ja": 72,
+      "manual_page_en": 72
     }
   },
   {
@@ -2722,10 +3409,12 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "配布物には 2 つのインストーラーが入っていることがあります",
       "anchor_en": "Your download may hold two installers"
-    }
+    },
+    "platform": "mac",
+    "win": null
   },
   {
     "id": "UPD-003",
@@ -2756,10 +3445,12 @@
       "status": "No manual page (support / release-note entry)",
       "confidence_percent": null,
       "chapter_source": "",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "whatsnew_anchor_ja": "シリアルを入れ直す必要はありません",
       "whatsnew_anchor_en": "You do not need to enter the serial again"
-    }
+    },
+    "platform": "mac",
+    "win": null
   },
   {
     "id": "UPD-004",
@@ -2783,7 +3474,7 @@
       "リンクが分からない",
       "where do i download"
     ],
-    "source": "JP Manual App.B p.74 / EN Manual Ch.03 p.74 + v1.2.2 Release Notes",
+    "source": "JP Manual App.B p.74 / EN Manual App.B p.74 + v1.2.2 Release Notes",
     "chapter": 23,
     "source_type": "Manual + Release Notes",
     "manual_page_ja": 74,
@@ -2793,10 +3484,18 @@
       "status": "Mapped — anchor found outside the chapter’s page range in one language (see note)",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "Downloads...",
       "anchor_en": "Downloads...",
       "note": "JP and EN manuals place this passage in different chapters; the page is correct for each language."
+    },
+    "platform": "all",
+    "win": {
+      "a_ja": "アプリの Help メニューの Downloads... を選ぶと、配布ページ（追加音源やアップデートの置き場）がブラウザで開きます。DAW によってはプラグインの中からブラウザを開けないことがあり、その場合は URL が表示されるので、コピーしてブラウザに貼ってください。",
+      "a_en": "Choose Downloads... from the Help menu in the app: it opens the downloads page (add-on sounds and updates) in your browser. Some DAWs will not let a plug-in open a browser; then the URL is shown instead — copy it and paste it into your browser.",
+      "source": "JP Manual (Windows) App.B p.73 / EN Manual (Windows) App.B p.74",
+      "manual_page_ja": 73,
+      "manual_page_en": 74
     }
   },
   {
@@ -2829,9 +3528,17 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "PAN は、そのパッドの音を左右に置きます",
       "anchor_en": "PAN places that pad's sound left or right"
+    },
+    "platform": "all",
+    "win": {
+      "a_ja": "変えられます。Pad Mixer の各ストリップと、SIMPLE モードのポップアップに PAN があります。つまみを回すと、鳴っている音もその場で追随します。センターへ戻すには、つまみをダブルクリックするか、Alt または Ctrl を押しながらクリックします。PAN はサンプル層に効き、AA レイヤーはセンターで鳴ります。",
+      "a_en": "Yes. There is a PAN control on each Pad Mixer strip and in the Simple Mode popup, and it takes effect on notes that are already sounding. To return to center, double-click the knob or click it while holding Alt or Ctrl. PAN acts on the sample layers; the AA layer plays in the center.",
+      "source": "JP Manual (Windows) Ch.07 p.26 / EN Manual (Windows) Ch.07 p.26",
+      "manual_page_ja": 26,
+      "manual_page_en": 26
     }
   },
   {
@@ -2864,9 +3571,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "OFS はすべて 0 ms に戻ります",
       "anchor_en": "returns every OFS to 0 ms"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.13 p.46 / EN Manual (Windows) Ch.13 p.47 + v1.2.2 Release Notes",
+      "manual_page_ja": 46,
+      "manual_page_en": 47
     }
   },
   {
@@ -2900,8 +3613,10 @@
       "status": "No manual page (support / release-note entry)",
       "confidence_percent": null,
       "chapter_source": "",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)"
-    }
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)"
+    },
+    "platform": "all",
+    "win": {}
   },
   {
     "id": "KIT-008",
@@ -2932,9 +3647,33 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "Cmd+Z で戻る範囲",
       "anchor_en": "What Cmd+Z brings back"
+    },
+    "platform": "all",
+    "win": {
+      "q_ja": "Ctrl+Z（元に戻す）はどこまで戻せますか？",
+      "a_ja": "Ctrl+Z は、サンプルとレイヤー構成に加えて、パッド名、マイク入力名、variation の数、パッドの FX（フィルタ／ゲイン／CC 割り当て）、pitch bend（ON/OFF と幅）、Simple マクロ8種（Volume / Attack / Decay / Release / Tune / Pan / Filter / Room）を戻します。Variation は足したときも消したときも戻せ、やり直し（Ctrl+Shift+Z）も効きます。DAW が Ctrl+Z を先に受け取ってしまう場合は、UNDO DELETE / REDO DELETE ボタンも使えます。",
+      "q_en": "How much does Ctrl+Z undo?",
+      "a_en": "Ctrl+Z brings back the samples and layer structure plus pad names, mic input names, the number of variations, per-pad FX (filter / gain / CC assignment), pitch bend (on/off and range) and the eight Simple macros (Volume / Attack / Decay / Release / Tune / Pan / Filter / Room). Adding or removing a variation can be undone, and redo (Ctrl+Shift+Z) works too. If your DAW takes Ctrl+Z first, use the UNDO DELETE / REDO DELETE buttons instead.",
+      "keywords": [
+        "Undo",
+        "元に戻す",
+        "Ctrl+Z",
+        "取り消し",
+        "undo",
+        "revert",
+        "元に戻せない",
+        "undoできない",
+        "どこまで戻せる",
+        "how far can i undo"
+      ],
+      "anchor_ja": "Ctrl+Z で戻る範囲",
+      "anchor_en": "What Ctrl+Z brings back",
+      "source": "JP Manual (Windows) Ch.06 p.21 / EN Manual (Windows) Ch.06 p.21",
+      "manual_page_ja": 21,
+      "manual_page_en": 21
     }
   },
   {
@@ -2974,11 +3713,17 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "GOTA 棚には Simply Tight 4 種",
       "anchor_en": "four Simply Tight pads",
       "whatsnew_anchor_ja": "BROWSE パネルの PAD にも、KIT と同じ棚の切り替え",
       "whatsnew_anchor_en": "The PAD tab of the BROWSE panel now has the same shelf switch"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.17 p.59 / EN Manual (Windows) Ch.17 p.60 + What's New v1.5.0 §32 (JP p.25 / EN p.25)",
+      "manual_page_ja": 59,
+      "manual_page_en": 60
     }
   },
   {
@@ -3007,9 +3752,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "GROOVE は、MIDI ファイル（.mid）を Groove Activator の中でそのまま鳴らす面です",
       "anchor_en": "plays a MIDI file (.mid) directly inside Groove Activator"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.16 p.52 / EN Manual (Windows) Ch.16 p.53",
+      "manual_page_ja": 52,
+      "manual_page_en": 53
     }
   },
   {
@@ -3037,9 +3788,17 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": ".mid はライブラリの Grooves フォルダに入れます",
       "anchor_en": "the Grooves folder in the library"
+    },
+    "platform": "all",
+    "win": {
+      "a_ja": "ライブラリの Grooves フォルダに入れます。画面の FOLDER を押すとその場所がエクスプローラーで開きます（無ければ作られます）。エクスプローラーからこの面へ直接ドラッグして入れることもできます。保存先を変えた場合は Grooves も一緒に移ります。",
+      "a_en": "In the Grooves folder in the library. FOLDER opens that location in the File Explorer, creating it if needed. You can also drag files onto the page straight from the File Explorer. If you have moved the library, Grooves moves with it.",
+      "source": "JP Manual (Windows) Ch.16 p.52 / EN Manual (Windows) Ch.16 p.53",
+      "manual_page_ja": 52,
+      "manual_page_en": 53
     }
   },
   {
@@ -3068,9 +3827,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "区分は .mid の中には書き込みません",
       "anchor_en": "Labels are never written into the .mid"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.16 p.53 / EN Manual (Windows) Ch.16 p.54",
+      "manual_page_ja": 53,
+      "manual_page_en": 54
     }
   },
   {
@@ -3098,9 +3863,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "DAW とは同期しません",
       "anchor_en": "It does not sync to your DAW"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.16 p.56 / EN Manual (Windows) Ch.16 p.57",
+      "manual_page_ja": 56,
+      "manual_page_en": 57
     }
   },
   {
@@ -3128,9 +3899,17 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "DELETE で消したファイルは Grooves/.UndoCache/ へ移るだけです",
       "anchor_en": "only moves the file into Grooves/.UndoCache/"
+    },
+    "platform": "all",
+    "win": {
+      "a_ja": "戻せます。DELETE で消した物は Grooves/.UndoCache/ へ移るだけで、UNDO（Ctrl+Z）で戻せます。エクスプローラーからも取り出せます。このフォルダを空にするのはお客さまの手番で、Groove Activator が中身を消すことはありません。",
+      "a_en": "Yes. DELETE only moves the file into Grooves/.UndoCache/, and UNDO (Ctrl+Z) brings it back. You can also retrieve it from the File Explorer. Emptying that folder is up to you — Groove Activator never clears it.",
+      "source": "JP Manual (Windows) Ch.16 p.54 / EN Manual (Windows) Ch.16 p.55",
+      "manual_page_ja": 54,
+      "manual_page_en": 55
     }
   },
   {
@@ -3158,9 +3937,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "DAMP は、開いて鳴っている Pad を手で押さえたときの音にします",
       "anchor_en": "as though you had put a hand on it"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.11 p.41 / EN Manual (Windows) Ch.11 p.42",
+      "manual_page_ja": 41,
+      "manual_page_en": 42
     }
   },
   {
@@ -3188,9 +3973,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "18 個の Pad すべてに出ます",
       "anchor_en": "Every one of the 18 pads has one"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.11 p.41 / EN Manual (Windows) Ch.11 p.42",
+      "manual_page_ja": 41,
+      "manual_page_en": 42
     }
   },
   {
@@ -3219,9 +4010,26 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "Shift で複数を選ぶと",
       "anchor_en": "With several pads selected by Shift-clicking"
+    },
+    "platform": "all",
+    "win": {
+      "a_ja": "できます。Shift を押しながらつまみをクリックすると複数の Pad を選べて、そのあとのドラッグが選んだ全部に同じだけ効きます。Ctrl を押しながらドラッグすると 4 倍細かく動きます。Alt＋クリック（またはダブルクリック）で 0 に戻ります。選び直すには、選んでいない Pad をクリックするか Esc を押します。",
+      "a_en": "Yes. Shift-click the knobs to select several pads; a drag then moves all of them by the same amount. Hold Ctrl while dragging for four times finer control, and Alt-click (or double-click) to return a pad to 0. Click an unselected pad, or press Esc, to start a new selection.",
+      "keywords": [
+        "damp",
+        "shift",
+        "ctrl",
+        "alt",
+        "複数",
+        "まとめて",
+        "選択"
+      ],
+      "source": "JP Manual (Windows) Ch.11 p.42 / EN Manual (Windows) Ch.11 p.43",
+      "manual_page_ja": 42,
+      "manual_page_en": 43
     }
   },
   {
@@ -3249,9 +4057,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "DAMP を上げると音は短くなります",
       "anchor_en": "shortens the sound"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.11 p.43 / EN Manual (Windows) Ch.11 p.44",
+      "manual_page_ja": 43,
+      "manual_page_en": 44
     }
   },
   {
@@ -3282,11 +4096,17 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "屋敷豪太が叩いたグルーヴが同梱されています",
       "anchor_en": "grooves played by Gota Yashiki",
       "whatsnew_anchor_ja": "屋敷豪太が叩いたグルーヴを 23 本同梱しました",
       "whatsnew_anchor_en": "Twenty-three grooves played by Gota Yashiki"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.16 p.52 / EN Manual (Windows) Ch.16 p.53 + What's New v1.5.0 §28 (JP p.23 / EN p.23)",
+      "manual_page_ja": 52,
+      "manual_page_en": 53
     }
   },
   {
@@ -3316,9 +4136,26 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "♪ DRAG について",
       "anchor_en": "About ♪ DRAG"
+    },
+    "platform": "all",
+    "win": {
+      "a_ja": "一覧でグルーヴを選び、♪ DRAG を DAW のトラック（またはエクスプローラーのフォルダ）へドラッグします。元の .mid は動かず、コピーが渡ります。GROOVE の面は DAW とは同期しない「聴いて確かめるための面」なので、曲に組み込むときはこの方法で DAW へ渡してください。",
+      "a_en": "Select the groove in the list and drag ♪ DRAG onto a DAW track (or a File Explorer folder). The original .mid stays where it is and a copy is passed across. The GROOVE page does not sync to your DAW — it is a page for listening — so this is how you put a groove in the song.",
+      "keywords": [
+        "drag",
+        "ドラッグ",
+        "daw",
+        "mid",
+        "midi",
+        "groove",
+        "グルーヴ"
+      ],
+      "source": "JP Manual (Windows) Ch.16 p.56 / EN Manual (Windows) Ch.16 p.57",
+      "manual_page_ja": 56,
+      "manual_page_en": 57
     }
   },
   {
@@ -3348,9 +4185,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "★ ── 3 段階の目印",
       "anchor_en": "Stars - three levels"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.16 p.54 / EN Manual (Windows) Ch.16 p.55",
+      "manual_page_ja": 54,
+      "manual_page_en": 55
     }
   },
   {
@@ -3377,9 +4220,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "メモを書く",
       "anchor_en": "Writing a memo"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.16 p.54 / EN Manual (Windows) Ch.16 p.55",
+      "manual_page_ja": 54,
+      "manual_page_en": 55
     }
   },
   {
@@ -3407,9 +4256,17 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "KIT ── そのグルーヴに合わせるキット",
       "anchor_en": "the kit that goes with a groove"
+    },
+    "platform": "all",
+    "win": {
+      "a_ja": "行を右クリックして KIT を選ぶと、そのグルーヴに合わせたいキットを覚えさせられます。覚えたキットは一覧の KIT 欄に出て、同じメニューの「LOAD KIT nnn」で読み込めます（GOTA 棚のキットも読めます）。LOAD KIT は、お使いのコンピューターにある同じ名前のキットとぴったり一致するときだけ押せます。覚えるのはキットの名前だけで、.mid ファイルには書き込みません。何も覚えさせていなければ KIT 欄は空のままです。なお、キットを読み込むと再生は止まります。",
+      "a_en": "Right-click a row and choose KIT to record which kit belongs with that groove. The kit appears in the KIT column, and the same menu then offers “LOAD KIT nnn” to load it (kits on the GOTA shelf load too). LOAD KIT is only available when a kit with exactly the same name exists on this computer. Only the kit name is remembered, and nothing is written into the .mid; if you record nothing the column stays empty. Note that loading a kit stops playback.",
+      "source": "JP Manual (Windows) Ch.16 p.53 / EN Manual (Windows) Ch.16 p.54",
+      "manual_page_ja": 53,
+      "manual_page_en": 54
     }
   },
   {
@@ -3438,9 +4295,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "いまの場面を覚えさせる",
       "anchor_en": "Remembering the current scene"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.16 p.55 / EN Manual (Windows) Ch.16 p.56",
+      "manual_page_ja": 55,
+      "manual_page_en": 56
     }
   },
   {
@@ -3468,9 +4331,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "行を上下にドラッグすると",
       "anchor_en": "Drag a row up or down"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.16 p.54 / EN Manual (Windows) Ch.16 p.55",
+      "manual_page_ja": 54,
+      "manual_page_en": 55
     }
   },
   {
@@ -3499,11 +4368,17 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "コントロールチェンジ（CC）もそのまま流れます",
       "anchor_en": "Control changes written in the .mid pass through",
       "whatsnew_anchor_ja": ".mid に書かれた CC もそのまま流れます",
       "whatsnew_anchor_en": "the CC written in the .mid passes through as well"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.16 p.52 / EN Manual (Windows) Ch.16 p.53 + What's New v1.5.0 §23 (JP p.21 / EN p.21)",
+      "manual_page_ja": 52,
+      "manual_page_en": 53
     }
   },
   {
@@ -3533,9 +4408,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "演奏しながら押さえる ── DAMP CC#",
       "anchor_en": "DAMP CC#"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.11 p.42 / EN Manual (Windows) Ch.11 p.43",
+      "manual_page_ja": 42,
+      "manual_page_en": 43
     }
   },
   {
@@ -3566,9 +4447,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "18 個の Pad すべてに出ます",
       "anchor_en": "Every one of the 18 pads has one"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.11 p.41 / EN Manual (Windows) Ch.11 p.42",
+      "manual_page_ja": 41,
+      "manual_page_en": 42
     }
   },
   {
@@ -3598,9 +4485,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "PAD FILTER ── パッドごとのフィルターとタッチワウ",
       "anchor_en": "per-pad filtering and touch wah"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.08 p.35 / EN Manual (Windows) Ch.08 p.36",
+      "manual_page_ja": 35,
+      "manual_page_en": 36
     }
   },
   {
@@ -3631,9 +4524,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "タッチワウ ── 叩く強さで音色が開く",
       "anchor_en": "the tone opens as you hit harder"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.08 p.36 / EN Manual (Windows) Ch.08 p.37",
+      "manual_page_ja": 36,
+      "manual_page_en": 37
     }
   },
   {
@@ -3662,11 +4561,17 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "出荷時はすべてのパッドで OFF になっています",
       "anchor_en": "ships OFF",
       "whatsnew_anchor_ja": "PAD FILTER を OFF として読み込みます",
       "whatsnew_anchor_en": "are loaded with PAD FILTER OFF"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.08 p.35 / EN Manual (Windows) Ch.08 p.36 + What's New v1.5.0 §22 (JP p.20 / EN p.20)",
+      "manual_page_ja": 35,
+      "manual_page_en": 36
     }
   },
   {
@@ -3697,9 +4602,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "SUSTAIN —— 減衰の途中で保つ",
       "anchor_en": "SUSTAIN"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.08 p.29 / EN Manual (Windows) Ch.08 p.30",
+      "manual_page_ja": 29,
+      "manual_page_en": 30
     }
   },
   {
@@ -3726,11 +4637,17 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "SIMPLE 面の ATTACK は、この ATK に掛かります",
       "anchor_en": "multiplies this ATK",
       "whatsnew_anchor_ja": "ATK の不具合を直しました",
       "whatsnew_anchor_en": "ATK is fixed too"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.08 p.30 / EN Manual (Windows) Ch.08 p.31 + What's New v1.5.0 §04 (JP p.5 / EN p.5)",
+      "manual_page_ja": 30,
+      "manual_page_en": 31
     }
   },
   {
@@ -3760,9 +4677,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "ヘルプタグ ── 画面の説明",
       "anchor_en": "Help Tags"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.05 p.19 / EN Manual (Windows) Ch.05 p.19",
+      "manual_page_ja": 19,
+      "manual_page_en": 19
     }
   },
   {
@@ -3792,9 +4715,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "見出しをたたむ ── 必要なところだけ開く",
       "anchor_en": "Folding sections"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.05 p.17 / EN Manual (Windows) Ch.05 p.17",
+      "manual_page_ja": 17,
+      "manual_page_en": 17
     }
   },
   {
@@ -3826,9 +4755,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "ミキサーを一望する ── 「⇔」ボタン",
       "anchor_en": "Seeing the whole mixer"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.05 p.18 / EN Manual (Windows) Ch.05 p.18",
+      "manual_page_ja": 18,
+      "manual_page_en": 18
     }
   },
   {
@@ -3858,9 +4793,17 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "コンソールの明るさ",
       "anchor_en": "Console brightness"
+    },
+    "platform": "all",
+    "win": {
+      "a_ja": "変えられます。View メニューの「コンソールの明るさ...」を選ぶと、ミキサーの脇に小さなつまみが出ます。左へ回すほど暗い卓に、右へ回すほど明るい卓になり、文字・目盛り・刻印は自動で読みやすい色に変わります。「標準に戻す」でいつでも出荷時の明るさへ戻せます。この設定はミキサーの面だけに掛かり、お使いのコンピューターに覚えられます（プロジェクトごとには保存されません）。",
+      "a_en": "Yes. Choose Console brightness... from the View menu and a small slider appears beside the mixer. Left makes the console darker, right makes it brighter, and the labels, scale marks and engraving follow automatically so everything stays legible. Reset to default returns it to the shipping brightness at any time. The setting affects the mixer face only and is remembered on this computer (it is not stored per project).",
+      "source": "JP Manual (Windows) Ch.07 p.27 / EN Manual (Windows) Ch.07 p.27",
+      "manual_page_ja": 27,
+      "manual_page_en": 27
     }
   },
   {
@@ -3891,10 +4834,12 @@
       "status": "No manual page (support / release-note entry)",
       "confidence_percent": null,
       "chapter_source": "",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "whatsnew_anchor_ja": "出力先の欄は「Main」から「MultiOut」という表示に変わりました",
       "whatsnew_anchor_en": "now reads MultiOut instead of Main"
-    }
+    },
+    "platform": "all",
+    "win": {}
   },
   {
     "id": "SHF-001",
@@ -3924,9 +4869,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "GOTA 棚 ── 読むだけのキット集",
       "anchor_en": "a read-only kit collection"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.17 p.59 / EN Manual (Windows) Ch.17 p.60",
+      "manual_page_ja": 59,
+      "manual_page_en": 60
     }
   },
   {
@@ -3956,9 +4907,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "保存先は必ず MY KITS になります",
       "anchor_en": "always saves into MY KITS"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.17 p.60 / EN Manual (Windows) Ch.17 p.61",
+      "manual_page_ja": 60,
+      "manual_page_en": 61
     }
   },
   {
@@ -3988,11 +4945,17 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "011 Super Tight",
       "anchor_en": "011 Super Tight",
       "whatsnew_anchor_ja": "GOTA 棚に 11 本目のキット「011 Super Tight」を足しました",
       "whatsnew_anchor_en": "The GOTA shelf gains an eleventh kit, 011 Super Tight"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.17 p.59 / EN Manual (Windows) Ch.17 p.60 + What's New v1.5.0 §32 (JP p.24 / EN p.24)",
+      "manual_page_ja": 59,
+      "manual_page_en": 60
     }
   },
   {
@@ -4023,9 +4986,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "上書きしてしまったファクトリーキットは、再インストールしても戻りません",
       "anchor_en": "does not come back when you reinstall"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.17 p.62 / EN Manual (Windows) Ch.17 p.63",
+      "manual_page_ja": 62,
+      "manual_page_en": 63
     }
   },
   {
@@ -4057,9 +5026,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "v1.5 での工場キットの入れ替えについて",
       "anchor_en": "factory kit refresh in v1.5"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.17 p.63 / EN Manual (Windows) Ch.17 p.64",
+      "manual_page_ja": 63,
+      "manual_page_en": 64
     }
   },
   {
@@ -4091,9 +5066,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "退避された .gdakit を BROWSE パネルの IMPORT から読み込んでください",
       "anchor_en": "import one of the superseded .gdakit files"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.17 p.63 / EN Manual (Windows) Ch.17 p.64",
+      "manual_page_ja": 63,
+      "manual_page_en": 64
     }
   },
   {
@@ -4123,9 +5104,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "ご自身で編集された工場キットは、中身が違うため一切触られません",
       "anchor_en": "Factory kits you edited"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.17 p.63 / EN Manual (Windows) Ch.17 p.64",
+      "manual_page_ja": 63,
+      "manual_page_en": 64
     }
   },
   {
@@ -4154,9 +5141,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "MY KIT — 自分の設定を残す",
       "anchor_en": "keeping your own version"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.18 p.66 / EN Manual (Windows) Ch.18 p.67",
+      "manual_page_ja": 66,
+      "manual_page_en": 67
     }
   },
   {
@@ -4188,9 +5181,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "音源を入れずに書き出す",
       "anchor_en": "Exporting without the samples"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.18 p.65 / EN Manual (Windows) Ch.18 p.66",
+      "manual_page_ja": 65,
+      "manual_page_en": 66
     }
   },
   {
@@ -4221,9 +5220,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "タグで整理する",
       "anchor_en": "Organising with tags"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.19 p.66 / EN Manual (Windows) Ch.19 p.67",
+      "manual_page_ja": 66,
+      "manual_page_en": 67
     }
   },
   {
@@ -4254,9 +5259,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "ライブラリの置き場所を変える",
       "anchor_en": "Moving your library"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.19 p.67 / EN Manual (Windows) Ch.19 p.68",
+      "manual_page_ja": 67,
+      "manual_page_en": 68
     }
   },
   {
@@ -4286,10 +5297,12 @@
       "status": "No manual page (support / release-note entry)",
       "confidence_percent": null,
       "chapter_source": "",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "whatsnew_anchor_ja": "004 BreakThrough は、Pad 14 と Pad 17 が",
       "whatsnew_anchor_en": "In 004 BreakThrough, Pad 14 and Pad 17"
-    }
+    },
+    "platform": "all",
+    "win": {}
   },
   {
     "id": "REC-003",
@@ -4320,11 +5333,17 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "録音は常に 32bit float です",
       "anchor_en": "always 32-bit float",
       "whatsnew_anchor_ja": "24bit から 32bit float に変えました",
       "whatsnew_anchor_en": "32-bit float instead of 24-bit"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.20 p.68 / EN Manual (Windows) Ch.20 p.69 + What's New v1.5.0 §07 (JP p.6 / EN p.7)",
+      "manual_page_ja": 68,
+      "manual_page_en": 69
     }
   },
   {
@@ -4354,9 +5373,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "サンプリング周波数を選ぶ欄はありません",
       "anchor_en": "no sample-rate selector"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.20 p.68 / EN Manual (Windows) Ch.20 p.69",
+      "manual_page_ja": 68,
+      "manual_page_en": 69
     }
   },
   {
@@ -4386,11 +5411,17 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "Check for Updates on Launch",
       "anchor_en": "Check for Updates on Launch",
       "whatsnew_anchor_ja": "Help メニューへ移しました",
       "whatsnew_anchor_en": "now live in the Help menu"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) App.B p.73 / EN Manual (Windows) App.B p.74 + What's New v1.5.0 §31 (JP p.24 / EN p.24)",
+      "manual_page_ja": 73,
+      "manual_page_en": 74
     }
   },
   {
@@ -4420,11 +5451,17 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "Tune を上げたときに出る折り返し",
       "anchor_en": "tuning a pad up no longer folds",
       "whatsnew_anchor_ja": "設定をひとつも触らなくても効きます",
       "whatsnew_anchor_en": "needs no setting at all"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.08 p.30 / EN Manual (Windows) Ch.08 p.31 + What's New v1.5.0 §06 (JP p.6 / EN p.6)",
+      "manual_page_ja": 30,
+      "manual_page_en": 31
     }
   },
   {
@@ -4455,9 +5492,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "決めた範囲を耳で確かめる",
       "anchor_en": "Checking the range by ear"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.14 p.49 / EN Manual (Windows) Ch.14 p.50",
+      "manual_page_ja": 49,
+      "manual_page_en": 50
     }
   },
   {
@@ -4486,9 +5529,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "プリセットを聴き比べる",
       "anchor_en": "Comparing presets by ear"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.14 p.49 / EN Manual (Windows) Ch.14 p.50",
+      "manual_page_ja": 49,
+      "manual_page_en": 50
     }
   },
   {
@@ -4520,11 +5569,17 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "Slice がついてくるキット",
       "anchor_en": "Kits that bring a Slice with them",
       "whatsnew_anchor_ja": "キットが連れてきたループは、Slice を持たないキットへ移ったときに下ろされます",
       "whatsnew_anchor_en": "a loop a kit brought with it is put away"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.17 p.60 / EN Manual (Windows) Ch.17 p.61 + What's New v1.5.0 §27 (JP p.22 / EN p.22)",
+      "manual_page_ja": 60,
+      "manual_page_en": 61
     }
   },
   {
@@ -4556,9 +5611,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "速さと音程 ―― TIME と TUNE",
       "anchor_en": "TIME and TUNE"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.14 p.48 / EN Manual (Windows) Ch.14 p.49",
+      "manual_page_ja": 48,
+      "manual_page_en": 49
     }
   },
   {
@@ -4588,9 +5649,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "LAYER X-FADE",
       "anchor_en": "LAYER X-FADE"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.08 p.32 / EN Manual (Windows) Ch.08 p.33",
+      "manual_page_ja": 32,
+      "manual_page_en": 33
     }
   },
   {
@@ -4621,9 +5688,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "CHOKE GROUP — シンバルを掴んで止める",
       "anchor_en": "CHOKE GROUP — grab a cymbal to stop it"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.09 p.37 / EN Manual (Windows) Ch.09 p.38",
+      "manual_page_ja": 37,
+      "manual_page_en": 38
     }
   },
   {
@@ -4658,9 +5731,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "ペダルのいまの値を見る",
       "anchor_en": "Seeing the pedal value"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.10 p.40 / EN Manual (Windows) Ch.10 p.41",
+      "manual_page_ja": 40,
+      "manual_page_en": 41
     }
   },
   {
@@ -4691,9 +5770,15 @@
       "status": "Mapped — anchor text found on the page",
       "confidence_percent": 100,
       "chapter_source": "v1.5.0 PDF chapter-heading scan",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)",
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)",
       "anchor_ja": "素材の長さそのまま鳴ります",
       "anchor_en": "whole sample"
+    },
+    "platform": "all",
+    "win": {
+      "source": "JP Manual (Windows) Ch.10 p.40 / EN Manual (Windows) Ch.10 p.41",
+      "manual_page_ja": 40,
+      "manual_page_en": 41
     }
   },
   {
@@ -4729,7 +5814,31 @@
       "status": "No manual page (support / release-note entry)",
       "confidence_percent": null,
       "chapter_source": "",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)"
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)"
+    },
+    "platform": "all",
+    "win": {
+      "chapter": 23,
+      "a_ja": "上から順に試してください（ほとんどの場合は ① か ② で出てきます）。① DAW をいったん完全に終了して、開き直す。インストール中に開いていた DAW には新しいプラグインがまだ見えていません（次の起動は少し時間がかかることがあります）。② DAW の設定から、プラグインの再スキャンを実行する。③ インストール先（3章の表）にファイルがあるか、DAW が VST3 を探す場所の一覧に C:\\Program Files\\Common Files\\VST3 が入っているかを確かめる。古い版の Groove Activator.vst3 を控えとして別の場所に残していると DAW が迷うことがあるので、余分なほうをフォルダの外へ移してから ① をやり直す。④ それでも出てこないときは、PC を再起動してから ① と ② をもう一度試してください。",
+      "a_en": "Try these in order (step 1 or 2 solves it in most cases). 1. Quit the DAW completely and open it again — a DAW that was open during installation cannot see the new plug-in yet, and the next launch may take a little longer. 2. Run a plug-in rescan from your DAW’s settings. 3. Check that the files are in the install locations (the table in Ch.3) and that C:\\Program Files\\Common Files\\VST3 is in the list of folders your DAW scans for VST3 plug-ins. If you kept an older Groove Activator.vst3 somewhere else as a backup, move the spare out of the folder and try step 1 again. 4. If it still does not appear, restart your PC and try steps 1 and 2 once more.",
+      "keywords": [
+        "表示されない",
+        "出てこない",
+        "not appear",
+        "missing",
+        "daw",
+        "rescan",
+        "再スキャン",
+        "vst3",
+        "program files",
+        "install",
+        "インストール"
+      ],
+      "source": "JP Manual (Windows) App.B p.74 / EN Manual (Windows) App.B p.75",
+      "anchor_ja": "プラグインがDAWに表示されない",
+      "anchor_en": "The plugin does not appear in the DAW",
+      "manual_page_ja": 74,
+      "manual_page_en": 75
     }
   },
   {
@@ -4763,8 +5872,10 @@
       "status": "No manual page (support / release-note entry)",
       "confidence_percent": null,
       "chapter_source": "",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)"
-    }
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)"
+    },
+    "platform": "mac",
+    "win": null
   },
   {
     "id": "TRB-006",
@@ -4795,7 +5906,9 @@
       "status": "No manual page (support / release-note entry)",
       "confidence_percent": null,
       "chapter_source": "",
-      "verified_against": "v1.5.0 PDFs, anchor-text match per page (2026-09-24)"
-    }
+      "verified_against": "v1.5.1 Mac + Windows PDFs, anchor-text match per page (2026-09-27)"
+    },
+    "platform": "mac",
+    "win": null
   }
 ]
