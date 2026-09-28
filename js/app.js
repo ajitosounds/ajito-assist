@@ -16,7 +16,11 @@ function detectOS(){
 }
 function loadOS(){try{const v=localStorage.getItem(OS_KEY);if(v==='mac'||v==='win')return v}catch(e){}return detectOS()}
 function saveOS(v){try{localStorage.setItem(OS_KEY,v)}catch(e){}}
-let os=loadOS();
+// ★2026-09-28 —— Windows 版はまだお客さんに出していない。出すまでは Mac に固定して、切り替えを隠す。
+//   Windows を出す日にここを true にするだけで、切り替え（Mac / Windows の答え・PDF）が表に出る。
+const WINDOWS_PUBLIC=false;
+let os=WINDOWS_PUBLIC?loadOS():'mac';
+document.addEventListener('DOMContentLoaded',()=>{if(!WINDOWS_PUBLIC){const sw=document.querySelector('.os-switch');if(sw)sw.style.display='none'}});
 const OS_LABEL={mac:'Mac',win:'Windows'};
 function faqView(f,which){
  const platform=f.platform||'all';
