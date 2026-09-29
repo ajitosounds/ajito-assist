@@ -1376,6 +1376,47 @@
   }
  },
  {
+  "id": "INS-009",
+  "category": "インストール",
+  "q_ja": "Windows 11 で、単体アプリが起動しない／DAW に Groove Activator（VST3・AAX）が出てこない。",
+  "a_ja": "Windows 11 の「スマート アプリ コントロール」が止めている可能性があります。v1.5.1 は外側のインストーラー（.exe）には署名していますが、中の単体アプリと VST3 にはまだ署名が無く、この機能が「オン」の PC では止められることがあります（次の版で中身にも署名します）。確かめ方: スタート → Windows セキュリティ → アプリとブラウザー コントロール → スマート アプリ コントロールの設定。「オン」になっていて、起動や読み込みの時に「スマート アプリ コントロールがブロックした」という通知が出ていれば、これが原因です。この設定を「オフ」にすると使えるようになります。ただし Windows のバージョンによっては、一度オフにすると、オンに戻すのに Windows の入れ直しが要ります。オフにしたくない場合は、次の版をお待ちいただくか、サポートへご連絡ください。「オフ」や「評価」のときは、この原因ではありません（DAW でプラグインの再スキャンをお試しください）。",
+  "q_en": "On Windows 11 the Standalone app won't start, or Groove Activator (VST3 / AAX) doesn't appear in my DAW.",
+  "a_en": "Windows 11 Smart App Control may be blocking it. In v1.5.1 the installer (.exe) is code-signed, but the Standalone app and the VST3 inside it are not signed yet, so a PC with this feature turned On can block them (the next version signs them too). To check: Start > Windows Security > App & browser control > Smart App Control settings. If it is On and Windows showed a notice that Smart App Control blocked something when you started the app or opened your DAW, this is the cause. Turning the setting Off lets Groove Activator run. Note that on some versions of Windows, once it is turned off it can only be turned back on by reinstalling Windows. If you'd rather not turn it off, please wait for the next version or contact support. If the setting is Off or Evaluation, this is not the cause - try rescanning plug-ins in your DAW.",
+  "keywords": [
+   "スマート アプリ コントロール",
+   "Smart App Control",
+   "起動しない",
+   "出てこない",
+   "見つからない",
+   "ブロック",
+   "blocked",
+   "won't start",
+   "not showing",
+   "VST3",
+   "AAX",
+   "Windows 11",
+   "署名",
+   "signed"
+  ],
+  "source": "Support note（2026-09-29・Windows 11 Smart App Control）",
+  "chapter": "",
+  "source_type": "Release Notes",
+  "manual_page_ja": "",
+  "manual_page_en": "",
+  "verification": 100,
+  "page_mapping": {
+   "status": "No manual page (support / release-note entry)",
+   "confidence_percent": null,
+   "chapter_source": "",
+   "verified_against": "Microsoft: What is Smart App Control / SmartScreen reputation (2026-09-29)"
+  },
+  "platform": "win",
+  "win": {
+   "manual_page_ja": "",
+   "manual_page_en": ""
+  }
+ },
+ {
   "id": "LIC-004",
   "category": "ライセンス",
   "q_ja": "認証後もインターネット接続が必要ですか？",
